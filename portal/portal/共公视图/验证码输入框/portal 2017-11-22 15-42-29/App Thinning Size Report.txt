@@ -1,0 +1,50 @@
+
+App Thinning Size Report for All Variants of portal
+
+Variant: portal-iPad (4th generation)-etc.ipa
+Supported devices: iPad (3rd generation) and iPad (4th generation)
+App + On Demand Resources size: 5.3 MB compressed, 8.4 MB uncompressed
+App size: 5.3 MB compressed, 8.4 MB uncompressed
+On Demand Resources size: Zero KB compressed, Zero KB uncompressed
+
+
+Variant: portal-iPad 2-etc.ipa
+Supported devices: iPad 2 and iPad mini
+App + On Demand Resources size: 5.3 MB compressed, 8.4 MB uncompressed
+App size: 5.3 MB compressed, 8.4 MB uncompressed
+On Demand Resources size: Zero KB compressed, Zero KB uncompressed
+
+
+Variant: portal-iPad Pro (12.9-inch)-etc.ipa
+Supported devices: iPad (5th generation), iPad Air, iPad Air 2, iPad Pro (10.5-inch), iPad Pro (12.9-inch), iPad Pro (12.9-inch) (2nd generation), iPad Pro (9.7-inch), iPad mini 2, iPad mini 3, and iPad mini 4
+App + On Demand Resources size: 5.2 MB compressed, 9.1 MB uncompressed
+App size: 5.2 MB compressed, 9.1 MB uncompressed
+On Demand Resources size: Zero KB compressed, Zero KB uncompressed
+
+
+Variant: portal-iPhone 6 Plus-etc.ipa
+Supported devices: iPhone 6 Plus, iPhone 6s Plus, iPhone 7 Plus, iPhone 8 Plus, and iPhone X
+App + On Demand Resources size: 7.3 MB compressed, 12.4 MB uncompressed
+App size: 7.3 MB compressed, 12.4 MB uncompressed
+On Demand Resources size: Zero KB compressed, Zero KB uncompressed
+
+
+Variant: portal-iPhone SE-etc.ipa
+Supported devices: iPhone 5s, iPhone 6, iPhone 6s, iPhone 7, iPhone 8, iPhone SE, and iPod touch (6th generation)
+App + On Demand Resources size: 5.1 MB compressed, 9 MB uncompressed
+App size: 5.1 MB compressed, 9 MB uncompressed
+On Demand Resources size: Zero KB compressed, Zero KB uncompressed
+
+
+Variant: portal-iPod touch-etc.ipa
+Supported devices: iPhone 4S, iPhone 5, iPhone 5c, and iPod touch
+App + On Demand Resources size: 5.3 MB compressed, 8.3 MB uncompressed
+App size: 5.3 MB compressed, 8.3 MB uncompressed
+On Demand Resources size: Zero KB compressed, Zero KB uncompressed
+
+
+Variant: portal.ipa
+Supported devices: Universal
+App + On Demand Resources size: 12 MB compressed, 20 MB uncompressed
+App size: 12 MB compressed, 20 MB uncompressed
+On Demand Resources size: Zero KB compressed, Zero KB uncompressed

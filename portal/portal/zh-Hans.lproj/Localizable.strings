@@ -1,0 +1,42 @@
+///*
+// Localizable.strings
+// portal
+// 
+// Created by Store on 2017/9/1.
+// Copyright © 2017年 qxc122@126.com. All rights reserved.
+// */
+//
+//"headMineCell未登录" = "未登录";
+//"headMineCell已实名" = "已实名";
+//"headMineCell未实名" = "未实名";
+//
+//"SignInVc验证码登录" = "验证码登录";
+//"SignInVc登录" = "登录";
+//"SignInVc请输入手机号码" = "请输入手机号码";
+//"SignInVc请输入验证码" = "请输入验证码";
+//"SignInVc请输入图形验证码" = "请输入图形验证码";
+//"SignInVc发送成功" = "发送成功";
+//"SignInVc发送中" = "发送中...";
+//"SignInVc发送失败" = "发送失败,请重试";
+//"SignInVc请输入正确的手机号" = "请输入正确的手机号";
+//
+//"SignInFoot换一个" = "换一个";
+//"SignInFoot登录即代表您已同意" = "登录即代表您已同意";
+//"SignInFoot《用户协议》" = "《用户协议》";
+//"SignInFoot图形验证码错误，请重新输入" = "图形验证码错误，请重新输入";
+//
+//"SetpaymentpasswordVcsessionKey或者sessionSecret长度有误" = "sessionKey或者sessionSecret长度有误";
+//"SetpaymentpasswordVcSignInVc设置失败" = "设置失败";
+//"SetpaymentpasswordVcSignInVc设置成功" = "设置成功";
+//"SetpaymentpasswordVcSignInVc设置中" = "设置中";
+//"SetpaymentpasswordVc支付密码是您投资、提现等交易操作的重要凭证，请妥善保管。" = "支付密码是您投资、提现等交易操作的重要凭证，请妥善保管。";
+//"SetpaymentpasswordVc您两次输入的密码不一致，请重新设置" = "您两次输入的密码不一致，请重新设置";
+//"SetpaymentpasswordVc温馨提示：此支付密码与理财交易时用到的交易密码为不同的两个密码，请注意区分。" = "温馨提示：此支付密码与理财交易时用到的交易密码为不同的两个密码，请注意区分。";
+//"SetpaymentpasswordVc请设置6位数平台支付密码" = "请设置6位数平台支付密码";
+//"SetpaymentpasswordVc请再次确认平台支付密码" = "请再次确认平台支付密码";
+//"homeTopCell提现" = " 提现";
+//"homeTopCell充值" = " 充值";
+//"homeTopCell消费" = " 收付款";
+//"homeVc扫码付" = " 扫码付";
+//"homeVc付款码" = " 付款码";
+

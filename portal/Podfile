@@ -1,0 +1,54 @@
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '8.0'
+
+target 'portal' do
+pod 'Base64nl'
+pod 'AFNetworking'
+pod 'OpenUDID'
+pod 'MJRefresh'
+pod 'Masonry'
+pod 'DZNEmptyDataSet'
+pod 'SZTextView'                            # 带 placeHolderText 的 UITextView
+pod 'UITableView+FDTemplateLayoutCell'     # UITableViewCell 自动高度计算，缓存
+pod 'FDFullscreenPopGesture'
+pod 'IQKeyboardManager'
+pod 'MJExtension'
+pod 'MWPhotoBrowser'
+pod 'YYText'
+pod 'ActionSheetPicker-3.0'
+pod 'SDCycleScrollView'
+#pod 'SDWebImage'
+#
+#pod 'NSDate-Extensions'
+pod 'DateTools'
+#pod 'UICollectionViewLeftAlignedLayout'
+##图片轮播
+#pod 'SDCycleScrollView'
+## 集成新浪微博
+#pod ‘UMengUShare/Social/Sina'
+## 集成微信
+#pod ‘UMengUShare/Social/WeChat'
+## 集成QQ
+#pod ‘UMengUShare/Social/QQ'
+## U-Share SDK UI模块（分享面板，建议添加）
+##pod ‘UMengUShare/UI’
+#
+pod 'ZYCornerRadius', '~> 1.0.2'
+#
+#
+#pod 'UMengAnalytics-NO-IDFA'#无IDFA版SDK（请根据需要选择其中一个）
+
+pod 'UMCCommon'
+pod 'UMCSecurityPlugins'
+pod 'UMCAnalytics'
+pod 'UMCPush'
+#pod 'UMCShare/Social/WeChat'
+#pod 'UMCShare/Social/QQ'
+
+#集成环信Lite版SDK
+pod 'HyphenateLite'
+#集成环信EaseUI
+pod 'EaseUILite', :git =>'https://github.com/easemob/easeui-ios-hyphenate-cocoapods.git'
+
+#pod 'EaseUILite', :git =>'https://github.com/easemob/easeui-ios-hyphenate-cocoapods.git', :tag => '3.3.2'
+end

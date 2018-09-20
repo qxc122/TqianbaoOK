@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>portal.ipa</key>
+	<array>
+		<dict>
+			<key>architectures</key>
+			<array>
+				<string>armv7</string>
+				<string>arm64</string>
+			</array>
+			<key>certificate</key>
+			<dict>
+				<key>SHA1</key>
+				<string>4693287E61B82D6490C0AA1ECB771FFBD45D87E0</string>
+				<key>dateExpires</key>
+				<string>2018/11/16</string>
+				<key>type</key>
+				<string>iOS Distribution</string>
+			</dict>
+			<key>entitlements</key>
+			<dict>
+				<key>application-identifier</key>
+				<string>UU65B22HRQ.com.tempus.otherone</string>
+				<key>com.apple.developer.team-identifier</key>
+				<string>UU65B22HRQ</string>
+				<key>get-task-allow</key>
+				<false/>
+				<key>keychain-access-groups</key>
+				<array>
+					<string>UU65B22HRQ.com.tempus.otherone</string>
+				</array>
+			</dict>
+			<key>name</key>
+			<string>portal.app</string>
+			<key>profile</key>
+			<dict>
+				<key>UUID</key>
+				<string>9ec65be5-7a2a-459c-b5d3-a48edc7fa584</string>
+				<key>name</key>
+				<string>iOS Team Ad Hoc Provisioning Profile: com.tempus.otherone</string>
+			</dict>
+			<key>team</key>
+			<dict>
+				<key>id</key>
+				<string>UU65B22HRQ</string>
+				<key>name</key>
+				<string>Shengrong Li</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,3056 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D5484C520A3DD12005EB608 /* payTwoVc.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D5484C420A3DD12005EB608 /* payTwoVc.m */; };
+		3D5484C920A3E55F005EB608 /* ConfirmThePayment.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D5484C820A3E55E005EB608 /* ConfirmThePayment.m */; };
+		3D5484CC20A42F31005EB608 /* payTypeSeleTicon.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D5484CB20A42F31005EB608 /* payTypeSeleTicon.m */; };
+		3D5484CF20A44083005EB608 /* paySussessTicon.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D5484CE20A44083005EB608 /* paySussessTicon.m */; };
+		3D5A1B3620FF1EBA008FBD93 /* topCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D5A1B3520FF1EBA008FBD93 /* topCell.m */; };
+		3D5A1B3A20FF260C008FBD93 /* NoticeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D5A1B3920FF260C008FBD93 /* NoticeView.m */; };
+		3DAF987C207DFCF500E93C8B /* noneNetForH5.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DAF987B207DFCF500E93C8B /* noneNetForH5.m */; };
+		3DBD538D2068995E00651051 /* SupportHotel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DBD538C2068995E00651051 /* SupportHotel.m */; };
+		3DD14283205F964600B0AF77 /* windosView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DD14282205F964600B0AF77 /* windosView.m */; };
+		8004B8071FB137D70062A97F /* MOTPopConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 8004B8031FB137D60062A97F /* MOTPopConfig.m */; };
+		8004B8081FB137D70062A97F /* MOTMutablePopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8004B8061FB137D70062A97F /* MOTMutablePopView.m */; };
+		801DADD42015BC260073982A /* BorrowingBill.m in Sources */ = {isa = PBXBuildFile; fileRef = 801DADD32015BC260073982A /* BorrowingBill.m */; };
+		801DADD72015BF6A0073982A /* BorrowingBillNotOut.m in Sources */ = {isa = PBXBuildFile; fileRef = 801DADD62015BF6A0073982A /* BorrowingBillNotOut.m */; };
+		801DADDA2015C23D0073982A /* BorrowingBillPayOff.m in Sources */ = {isa = PBXBuildFile; fileRef = 801DADD92015C23D0073982A /* BorrowingBillPayOff.m */; };
+		801DADDD2015C2800073982A /* BorrowingBillNotOverdue.m in Sources */ = {isa = PBXBuildFile; fileRef = 801DADDC2015C2800073982A /* BorrowingBillNotOverdue.m */; };
+		801DADE02015C28B0073982A /* BorrowingBillOverdue.m in Sources */ = {isa = PBXBuildFile; fileRef = 801DADDF2015C28B0073982A /* BorrowingBillOverdue.m */; };
+		801DADE32015C2C40073982A /* BorrowingBillNot.m in Sources */ = {isa = PBXBuildFile; fileRef = 801DADE22015C2C40073982A /* BorrowingBillNot.m */; };
+		801DADE72015DBC30073982A /* MyBorrowList.m in Sources */ = {isa = PBXBuildFile; fileRef = 801DADE62015DBC30073982A /* MyBorrowList.m */; };
+		801DADEE2015EA810073982A /* CardCouponsVc.m in Sources */ = {isa = PBXBuildFile; fileRef = 801DADED2015EA810073982A /* CardCouponsVc.m */; };
+		801DADF12015EB0A0073982A /* AirListVc.m in Sources */ = {isa = PBXBuildFile; fileRef = 801DADF02015EB0A0073982A /* AirListVc.m */; };
+		801DADF42015EB180073982A /* CouponsVc.m in Sources */ = {isa = PBXBuildFile; fileRef = 801DADF32015EB180073982A /* CouponsVc.m */; };
+		80250BEA1F8B118B00ED4E1C /* myBankCardVc.m in Sources */ = {isa = PBXBuildFile; fileRef = 80250BE91F8B118B00ED4E1C /* myBankCardVc.m */; };
+		80250BED1F8B11A300ED4E1C /* BankCardCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 80250BEC1F8B11A300ED4E1C /* BankCardCell.m */; };
+		80250BF11F8B11E200ED4E1C /* myBankCardFoot.m in Sources */ = {isa = PBXBuildFile; fileRef = 80250BF01F8B11E200ED4E1C /* myBankCardFoot.m */; };
+		8025677C1F9F0E4A00FA4D72 /* KTPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 8025677B1F9F0E4A00FA4D72 /* KTPageControl.m */; };
+		8025677F1F9F2C7D00FA4D72 /* paymentVc.m in Sources */ = {isa = PBXBuildFile; fileRef = 8025677E1F9F2C7D00FA4D72 /* paymentVc.m */; };
+		802600A01F97460B005B9DA1 /* SelectBank.m in Sources */ = {isa = PBXBuildFile; fileRef = 8026009E1F9745F5005B9DA1 /* SelectBank.m */; };
+		802600A41F976A0C005B9DA1 /* HelpandfeedbackVc.m in Sources */ = {isa = PBXBuildFile; fileRef = 802600A31F976A0C005B9DA1 /* HelpandfeedbackVc.m */; };
+		802600A81F976DA9005B9DA1 /* HelpandfeedbackCoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 802600A71F976DA9005B9DA1 /* HelpandfeedbackCoCell.m */; };
+		802AAB511F563FB600139CD7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 802AAB501F563FB600139CD7 /* main.m */; };
+		802AAB541F563FB600139CD7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 802AAB531F563FB600139CD7 /* AppDelegate.m */; };
+		802AAB5A1F563FB600139CD7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 802AAB581F563FB600139CD7 /* Main.storyboard */; };
+		802AAB5C1F563FB600139CD7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 802AAB5B1F563FB600139CD7 /* Assets.xcassets */; };
+		802AAB5F1F563FB600139CD7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 802AAB5D1F563FB600139CD7 /* LaunchScreen.storyboard */; };
+		802AAB6A1F563FB700139CD7 /* portalTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 802AAB691F563FB700139CD7 /* portalTests.m */; };
+		802AAB751F563FB700139CD7 /* portalUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 802AAB741F563FB700139CD7 /* portalUITests.m */; };
+		8034086C1F8E02B400DA64EE /* AuthenticationVc.m in Sources */ = {isa = PBXBuildFile; fileRef = 8034086B1F8E02B400DA64EE /* AuthenticationVc.m */; };
+		803408701F8E043000DA64EE /* AuthenticationCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8034086F1F8E043000DA64EE /* AuthenticationCell.m */; };
+		803408751F8E069200DA64EE /* AuthenticationSmsVc.m in Sources */ = {isa = PBXBuildFile; fileRef = 803408741F8E069200DA64EE /* AuthenticationSmsVc.m */; };
+		803408781F8E06A800DA64EE /* AuthenticationpasswordVc.m in Sources */ = {isa = PBXBuildFile; fileRef = 803408771F8E06A800DA64EE /* AuthenticationpasswordVc.m */; };
+		8034087C1F8E0EC800DA64EE /* PasswordBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 8034087B1F8E0EC800DA64EE /* PasswordBox.m */; };
+		803408801F8E18AA00DA64EE /* SYPasswordView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8034087E1F8E180F00DA64EE /* SYPasswordView.m */; };
+		803408841F8E1B4000DA64EE /* SetpaymentpasswordVc.m in Sources */ = {isa = PBXBuildFile; fileRef = 803408831F8E1B4000DA64EE /* SetpaymentpasswordVc.m */; };
+		8034088D1F8E273300DA64EE /* GesturecipherVc.m in Sources */ = {isa = PBXBuildFile; fileRef = 8034088C1F8E273300DA64EE /* GesturecipherVc.m */; };
+		803408941F8EF75C00DA64EE /* YHGesturePasswordView.m in Sources */ = {isa = PBXBuildFile; fileRef = 803408901F8EF5FC00DA64EE /* YHGesturePasswordView.m */; };
+		803408951F8EF75C00DA64EE /* YHCustomButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 803408911F8EF5FC00DA64EE /* YHCustomButton.m */; };
+		803408991F8F0DB900DA64EE /* GesturecipherCoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 803408981F8F0DB900DA64EE /* GesturecipherCoCell.m */; };
+		8034089D1F8F401000DA64EE /* VenturecapitalRealNameVc.m in Sources */ = {isa = PBXBuildFile; fileRef = 8034089C1F8F401000DA64EE /* VenturecapitalRealNameVc.m */; };
+		803408A31F8F4F7C00DA64EE /* WithdrawCashVc.m in Sources */ = {isa = PBXBuildFile; fileRef = 803408A21F8F4F7C00DA64EE /* WithdrawCashVc.m */; };
+		803408A61F8F4F9F00DA64EE /* RechargeVc.m in Sources */ = {isa = PBXBuildFile; fileRef = 803408A51F8F4F9F00DA64EE /* RechargeVc.m */; };
+		803408A91F8F4FE900DA64EE /* RechargeandcashwithdrawalVc.m in Sources */ = {isa = PBXBuildFile; fileRef = 803408A81F8F4FE900DA64EE /* RechargeandcashwithdrawalVc.m */; };
+		803408AD1F8F5CC600DA64EE /* RechargeandcashwithdrawalBankCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 803408AC1F8F5CC600DA64EE /* RechargeandcashwithdrawalBankCell.m */; };
+		803408B01F8F5CE100DA64EE /* RechargeandcashwithdrawalMoneyCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 803408AF1F8F5CE100DA64EE /* RechargeandcashwithdrawalMoneyCell.m */; };
+		803408B41F8F5DE600DA64EE /* WithdrawCashFoot.m in Sources */ = {isa = PBXBuildFile; fileRef = 803408B31F8F5DE600DA64EE /* WithdrawCashFoot.m */; };
+		803408B81F8F6C0200DA64EE /* homeTopCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 803408B71F8F6C0200DA64EE /* homeTopCell.m */; };
+		803408BB1F8F6C1200DA64EE /* homeBottomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 803408BA1F8F6C1200DA64EE /* homeBottomCell.m */; };
+		803408C01F90533300DA64EE /* BankView.m in Sources */ = {isa = PBXBuildFile; fileRef = 803408BF1F90533300DA64EE /* BankView.m */; };
+		803408C31F90534600DA64EE /* AirTiketView.m in Sources */ = {isa = PBXBuildFile; fileRef = 803408C21F90534600DA64EE /* AirTiketView.m */; };
+		803408C61F9054A300DA64EE /* BankViewShow.m in Sources */ = {isa = PBXBuildFile; fileRef = 803408C51F9054A300DA64EE /* BankViewShow.m */; };
+		803408CF1F90653600DA64EE /* popSelecetView.m in Sources */ = {isa = PBXBuildFile; fileRef = 803408CE1F90653600DA64EE /* popSelecetView.m */; };
+		803408D71F90A48700DA64EE /* consumptionVc.m in Sources */ = {isa = PBXBuildFile; fileRef = 803408D61F90A48700DA64EE /* consumptionVc.m */; };
+		803408DA1F90B27000DA64EE /* PaymentcodeVc.m in Sources */ = {isa = PBXBuildFile; fileRef = 803408D91F90B27000DA64EE /* PaymentcodeVc.m */; };
+		803408DD1F90B2B000DA64EE /* ScancodepaymentVc.m in Sources */ = {isa = PBXBuildFile; fileRef = 803408DC1F90B2B000DA64EE /* ScancodepaymentVc.m */; };
+		803589682020673200A4BD43 /* payTypeSeleLoad.m in Sources */ = {isa = PBXBuildFile; fileRef = 803589672020673200A4BD43 /* payTypeSeleLoad.m */; };
+		8035896B202067E300A4BD43 /* Confirmationofrepayment.m in Sources */ = {isa = PBXBuildFile; fileRef = 8035896A202067E300A4BD43 /* Confirmationofrepayment.m */; };
+		8035896F2021639600A4BD43 /* ConfirmapayTypeSeleBankCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8035896E2021639600A4BD43 /* ConfirmapayTypeSeleBankCell.m */; };
+		80358972202163C800A4BD43 /* ConfirmapayTypeSeleMoneyCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 80358971202163C800A4BD43 /* ConfirmapayTypeSeleMoneyCell.m */; };
+		803921681F56997E00433532 /* XAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 803921671F56997E00433532 /* XAlertView.m */; };
+		8039216B1F56998400433532 /* MBProgressHUD+MJ.m in Sources */ = {isa = PBXBuildFile; fileRef = 8039216A1F56998400433532 /* MBProgressHUD+MJ.m */; };
+		8039216E1F56998C00433532 /* AppTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 8039216D1F56998C00433532 /* AppTools.m */; };
+		8039217F1F569BC800433532 /* ToolRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 8039217C1F569BC800433532 /* ToolRequest.m */; };
+		803921801F569BC800433532 /* ToolRequest+common.m in Sources */ = {isa = PBXBuildFile; fileRef = 8039217E1F569BC800433532 /* ToolRequest+common.m */; };
+		803921831F569BF200433532 /* ToolModeldata.m in Sources */ = {isa = PBXBuildFile; fileRef = 803921821F569BF200433532 /* ToolModeldata.m */; };
+		803921861F569CDB00433532 /* NSUserDefaults+storage.m in Sources */ = {isa = PBXBuildFile; fileRef = 803921851F569CDB00433532 /* NSUserDefaults+storage.m */; };
+		803921891F569D0C00433532 /* NSDictionary+toData.m in Sources */ = {isa = PBXBuildFile; fileRef = 803921881F569D0C00433532 /* NSDictionary+toData.m */; };
+		8039218F1F56A1BE00433532 /* NSString+Add.m in Sources */ = {isa = PBXBuildFile; fileRef = 8039218E1F56A1BE00433532 /* NSString+Add.m */; };
+		803921921F56A7D600433532 /* NSDictionary+Add.m in Sources */ = {isa = PBXBuildFile; fileRef = 803921911F56A7D600433532 /* NSDictionary+Add.m */; };
+		8039219A1F56C0F100433532 /* basicVc.m in Sources */ = {isa = PBXBuildFile; fileRef = 803921971F56C0F100433532 /* basicVc.m */; };
+		8039219B1F56C0F100433532 /* basicUiTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 803921991F56C0F100433532 /* basicUiTableView.m */; };
+		803921AD1F57DD3200433532 /* UIImageView+Add.m in Sources */ = {isa = PBXBuildFile; fileRef = 803921AC1F57DD3200433532 /* UIImageView+Add.m */; };
+		803921B01F57E63500433532 /* PortalHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 803921AF1F57E63500433532 /* PortalHelper.m */; };
+		803921B31F57F46400433532 /* baseWkVc.m in Sources */ = {isa = PBXBuildFile; fileRef = 803921B21F57F46400433532 /* baseWkVc.m */; };
+		803921B61F57F4CC00433532 /* EachWkVc.m in Sources */ = {isa = PBXBuildFile; fileRef = 803921B51F57F4CC00433532 /* EachWkVc.m */; };
+		803921BE1F58EF9000433532 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 803921C01F58EF9000433532 /* Localizable.strings */; };
+		803921C41F58FA6800433532 /* UIColor+Add.m in Sources */ = {isa = PBXBuildFile; fileRef = 803921C31F58FA6800433532 /* UIColor+Add.m */; };
+		803C0D181F78D607002E172C /* mainTableVc.m in Sources */ = {isa = PBXBuildFile; fileRef = 803C0D171F78D607002E172C /* mainTableVc.m */; };
+		803C0D1E1F78D7DD002E172C /* homeVc.m in Sources */ = {isa = PBXBuildFile; fileRef = 803C0D1D1F78D7DD002E172C /* homeVc.m */; };
+		803C0D211F78D857002E172C /* manageMoneyVc.m in Sources */ = {isa = PBXBuildFile; fileRef = 803C0D201F78D857002E172C /* manageMoneyVc.m */; };
+		803C0D241F78D88B002E172C /* mineVc.m in Sources */ = {isa = PBXBuildFile; fileRef = 803C0D231F78D88B002E172C /* mineVc.m */; };
+		803C0D281F78E3F1002E172C /* SetUpVc.m in Sources */ = {isa = PBXBuildFile; fileRef = 803C0D271F78E3F1002E172C /* SetUpVc.m */; };
+		803C0D2D1F78E4E6002E172C /* baseCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 803C0D2C1F78E4E6002E172C /* baseCell.m */; };
+		803C0D301F790273002E172C /* SetUpCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 803C0D2F1F790273002E172C /* SetUpCell.m */; };
+		803C71BC20576B690037A2F1 /* MaldivesPaySuccessVc.m in Sources */ = {isa = PBXBuildFile; fileRef = 803C71BB20576B690037A2F1 /* MaldivesPaySuccessVc.m */; };
+		803C71C020576C9E0037A2F1 /* MaldivesPaySuccessHead.m in Sources */ = {isa = PBXBuildFile; fileRef = 803C71BF20576C9E0037A2F1 /* MaldivesPaySuccessHead.m */; };
+		803C71C4205778910037A2F1 /* typeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 803C71C3205778910037A2F1 /* typeCell.m */; };
+		803C71C7205778AE0037A2F1 /* youhuiCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 803C71C6205778AE0037A2F1 /* youhuiCell.m */; };
+		803C71CB2057B5620037A2F1 /* FindPassWordVc.m in Sources */ = {isa = PBXBuildFile; fileRef = 803C71CA2057B5620037A2F1 /* FindPassWordVc.m */; };
+		803C71CF2057B8640037A2F1 /* FindPassWordFoot.m in Sources */ = {isa = PBXBuildFile; fileRef = 803C71CE2057B8640037A2F1 /* FindPassWordFoot.m */; };
+		803C71D32057BA440037A2F1 /* FindPassWordHEad.m in Sources */ = {isa = PBXBuildFile; fileRef = 803C71D22057BA440037A2F1 /* FindPassWordHEad.m */; };
+		803C71D72057C73A0037A2F1 /* MaldiVerificationCodeBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 803C71D62057C73A0037A2F1 /* MaldiVerificationCodeBox.m */; };
+		80459DD12011CA3600C3ADAE /* Tempusbaohome.m in Sources */ = {isa = PBXBuildFile; fileRef = 80459DD02011CA3600C3ADAE /* Tempusbaohome.m */; };
+		804F04DF2019BA6D00A9CE06 /* turnOutVc.m in Sources */ = {isa = PBXBuildFile; fileRef = 804F04DE2019BA6D00A9CE06 /* turnOutVc.m */; };
+		804F04E22019BA8500A9CE06 /* turnIntoVc.m in Sources */ = {isa = PBXBuildFile; fileRef = 804F04E12019BA8500A9CE06 /* turnIntoVc.m */; };
+		804F04E62019D61400A9CE06 /* SmsVc.m in Sources */ = {isa = PBXBuildFile; fileRef = 804F04E52019D61400A9CE06 /* SmsVc.m */; };
+		804F04EA2019D9F900A9CE06 /* RiskManagementVc.m in Sources */ = {isa = PBXBuildFile; fileRef = 804F04E92019D9F900A9CE06 /* RiskManagementVc.m */; };
+		804F04EE2019DD2E00A9CE06 /* RealNameBaoVc.m in Sources */ = {isa = PBXBuildFile; fileRef = 804F04ED2019DD2E00A9CE06 /* RealNameBaoVc.m */; };
+		80507D771FAC70CA008100E7 /* AppDelegate+EaseMob.m in Sources */ = {isa = PBXBuildFile; fileRef = 80507D751FAC70C9008100E7 /* AppDelegate+EaseMob.m */; };
+		80507D7A1FAC7226008100E7 /* ChatDemoHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 80507D781FAC7226008100E7 /* ChatDemoHelper.m */; };
+		80507D7D1FAC72B1008100E7 /* ChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80507D7C1FAC72B1008100E7 /* ChatViewController.m */; };
+		8052CA921FC55D3B003510FA /* VerificationCodeBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 8052CA911FC55D3B003510FA /* VerificationCodeBox.m */; };
+		80598B9A1F91E98A00968DCB /* Passwordpaymentbox.m in Sources */ = {isa = PBXBuildFile; fileRef = 80598B991F91E98A00968DCB /* Passwordpaymentbox.m */; };
+		80598B9E1F91F0F600968DCB /* payTypeSele.m in Sources */ = {isa = PBXBuildFile; fileRef = 80598B9D1F91F0F600968DCB /* payTypeSele.m */; };
+		80598BA21F91F45600968DCB /* payTypeSeleBankCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 80598BA11F91F45600968DCB /* payTypeSeleBankCell.m */; };
+		80598BA51F91F47400968DCB /* payTypeSeleMoneyCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 80598BA41F91F47400968DCB /* payTypeSeleMoneyCell.m */; };
+		805C10C11F6A12AE005A7099 /* LaunchIntroductionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 805C10C01F6A12AE005A7099 /* LaunchIntroductionView.m */; };
+		80625A361F6FB29500BEF3A5 /* UIImage+Add.m in Sources */ = {isa = PBXBuildFile; fileRef = 80625A351F6FB29500BEF3A5 /* UIImage+Add.m */; };
+		806BC5CA1F5CEF7000B1E7A1 /* WJItemsControlView.m in Sources */ = {isa = PBXBuildFile; fileRef = 806BC5C91F5CEF7000B1E7A1 /* WJItemsControlView.m */; };
+		806BC5FD1F5E36F600B1E7A1 /* datePiker.m in Sources */ = {isa = PBXBuildFile; fileRef = 806BC5FC1F5E36F600B1E7A1 /* datePiker.m */; };
+		806BC6331F5F9A9600B1E7A1 /* SuPhotoManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 806BC6321F5F9A9600B1E7A1 /* SuPhotoManager.m */; };
+		806BC6361F5F9AB900B1E7A1 /* SuAblumInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 806BC6351F5F9AB900B1E7A1 /* SuAblumInfo.m */; };
+		806BC6431F5FCF9600B1E7A1 /* NavigationBarDetais.m in Sources */ = {isa = PBXBuildFile; fileRef = 806BC6421F5FCF9600B1E7A1 /* NavigationBarDetais.m */; };
+		806BC6711F6008F400B1E7A1 /* UIButton+Add.m in Sources */ = {isa = PBXBuildFile; fileRef = 806BC6701F6008F400B1E7A1 /* UIButton+Add.m */; };
+		806D4A362028585C006AEA85 /* LeadMoneyActivities.m in Sources */ = {isa = PBXBuildFile; fileRef = 806D4A352028585C006AEA85 /* LeadMoneyActivities.m */; };
+		806D4A3B202ADE71006AEA85 /* launch1.png in Resources */ = {isa = PBXBuildFile; fileRef = 806D4A37202ADE6C006AEA85 /* launch1.png */; };
+		806D4A3C202ADE71006AEA85 /* launch0.png in Resources */ = {isa = PBXBuildFile; fileRef = 806D4A38202ADE6D006AEA85 /* launch0.png */; };
+		806D4A3D202ADE71006AEA85 /* launch3.png in Resources */ = {isa = PBXBuildFile; fileRef = 806D4A39202ADE6F006AEA85 /* launch3.png */; };
+		806D4A3E202ADE71006AEA85 /* launch2.png in Resources */ = {isa = PBXBuildFile; fileRef = 806D4A3A202ADE71006AEA85 /* launch2.png */; };
+		8074387C1F91B45700F3C273 /* OpenScancodepaymentVc.m in Sources */ = {isa = PBXBuildFile; fileRef = 8074387B1F91B45700F3C273 /* OpenScancodepaymentVc.m */; };
+		807438811F91BBD000F3C273 /* ScansuccessVc.m in Sources */ = {isa = PBXBuildFile; fileRef = 807438801F91BBD000F3C273 /* ScansuccessVc.m */; };
+		807438841F91BBEA00F3C273 /* ScanpaymentsuccessVc.m in Sources */ = {isa = PBXBuildFile; fileRef = 807438831F91BBEA00F3C273 /* ScanpaymentsuccessVc.m */; };
+		80803AB720511AA300EB98B1 /* MaldivesPayVc.m in Sources */ = {isa = PBXBuildFile; fileRef = 80803AB620511AA300EB98B1 /* MaldivesPayVc.m */; };
+		808206531F594D6900AECD7A /* UIView+Add.m in Sources */ = {isa = PBXBuildFile; fileRef = 808206521F594D6900AECD7A /* UIView+Add.m */; };
+		808236B31F95A6A600C1A2D3 /* UITextFieldAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 808236B21F95A6A600C1A2D3 /* UITextFieldAdd.m */; };
+		808236B71F95D60500C1A2D3 /* Cryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 808236B61F95D43400C1A2D3 /* Cryptor.m */; };
+		808236BA1F95DBB300C1A2D3 /* LocalAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 808236B91F95DBB300C1A2D3 /* LocalAuthentication.framework */; };
+		80834BF21FDA6027006E9ECE /* headRechargeandCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 80834BF11FDA6027006E9ECE /* headRechargeandCell.m */; };
+		809C92FD2016D511002897C9 /* AirListVcCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 809C92FC2016D511002897C9 /* AirListVcCell.m */; };
+		809C93002017303F002897C9 /* homeTwoVc.m in Sources */ = {isa = PBXBuildFile; fileRef = 809C92FF2017303F002897C9 /* homeTwoVc.m */; };
+		809C930E201733A3002897C9 /* UIScrollView+YLSpringHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 809C930B201733A2002897C9 /* UIScrollView+YLSpringHeader.m */; };
+		809C930F201733A3002897C9 /* YLSpringHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 809C930D201733A2002897C9 /* YLSpringHeaderView.m */; };
+		809C9312201735B2002897C9 /* homeTwoVcOne.m in Sources */ = {isa = PBXBuildFile; fileRef = 809C9311201735B2002897C9 /* homeTwoVcOne.m */; };
+		809C9315201735CD002897C9 /* homeTwoVcTwo.m in Sources */ = {isa = PBXBuildFile; fileRef = 809C9314201735CD002897C9 /* homeTwoVcTwo.m */; };
+		809C9318201735F8002897C9 /* homeTwoVcThree.m in Sources */ = {isa = PBXBuildFile; fileRef = 809C9317201735F8002897C9 /* homeTwoVcThree.m */; };
+		809C931B20173619002897C9 /* homeTwoVcFour.m in Sources */ = {isa = PBXBuildFile; fileRef = 809C931A20173619002897C9 /* homeTwoVcFour.m */; };
+		809C931E20173625002897C9 /* homeTwoVcFive.m in Sources */ = {isa = PBXBuildFile; fileRef = 809C931D20173625002897C9 /* homeTwoVcFive.m */; };
+		809C93212017362F002897C9 /* homeTwoVcSix.m in Sources */ = {isa = PBXBuildFile; fileRef = 809C93202017362F002897C9 /* homeTwoVcSix.m */; };
+		809C93242017365B002897C9 /* homeTwoVcThreeNew.m in Sources */ = {isa = PBXBuildFile; fileRef = 809C93232017365B002897C9 /* homeTwoVcThreeNew.m */; };
+		809C932920173825002897C9 /* homeTwoVcFourHead.m in Sources */ = {isa = PBXBuildFile; fileRef = 809C932820173825002897C9 /* homeTwoVcFourHead.m */; };
+		809C932C20173831002897C9 /* homeTwoVcFoot.m in Sources */ = {isa = PBXBuildFile; fileRef = 809C932B20173831002897C9 /* homeTwoVcFoot.m */; };
+		809C933020181DDD002897C9 /* applyAuthCodeVc.m in Sources */ = {isa = PBXBuildFile; fileRef = 809C932F20181DDD002897C9 /* applyAuthCodeVc.m */; };
+		809C93382018216E002897C9 /* oneHome.m in Sources */ = {isa = PBXBuildFile; fileRef = 809C93372018216E002897C9 /* oneHome.m */; };
+		809C933C201864F3002897C9 /* homeHead.m in Sources */ = {isa = PBXBuildFile; fileRef = 809C933B201864F3002897C9 /* homeHead.m */; };
+		80C325EB1F6240E500866A2A /* Z_PopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 80C325EA1F6240E400866A2A /* Z_PopView.m */; };
+		80C8B26D1F8DF02F00FB06D4 /* ReaNameaddBankCardsmscell.m in Sources */ = {isa = PBXBuildFile; fileRef = 80C8B26C1F8DF02F00FB06D4 /* ReaNameaddBankCardsmscell.m */; };
+		80C8B2701F8DF04A00FB06D4 /* ReaNameaddBankCardselectBankcell.m in Sources */ = {isa = PBXBuildFile; fileRef = 80C8B26F1F8DF04A00FB06D4 /* ReaNameaddBankCardselectBankcell.m */; };
+		80C8B2731F8DF26000FB06D4 /* SignInVc.m in Sources */ = {isa = PBXBuildFile; fileRef = 80C8B2721F8DF26000FB06D4 /* SignInVc.m */; };
+		80C8B2791F8DF4E300FB06D4 /* SignInFoot.m in Sources */ = {isa = PBXBuildFile; fileRef = 80C8B2781F8DF4E200FB06D4 /* SignInFoot.m */; };
+		80C8B27C1F8DF59E00FB06D4 /* SignINbaseFillCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 80C8B27B1F8DF59E00FB06D4 /* SignINbaseFillCell.m */; };
+		80C8B27F1F8DF5BA00FB06D4 /* SignInaddBankCardsmscell.m in Sources */ = {isa = PBXBuildFile; fileRef = 80C8B27E1F8DF5BA00FB06D4 /* SignInaddBankCardsmscell.m */; };
+		80C8B2821F8DFE6900FB06D4 /* SignPicCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 80C8B2811F8DFE6900FB06D4 /* SignPicCell.m */; };
+		80C939001FB15B2600A6D7F6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80C938FF1FB15B1C00A6D7F6 /* Foundation.framework */; };
+		80CCC5EF1F8B509C00070CB0 /* AddBankCardVc.m in Sources */ = {isa = PBXBuildFile; fileRef = 80CCC5EE1F8B509C00070CB0 /* AddBankCardVc.m */; };
+		80CCC5F31F8B513500070CB0 /* baseFillCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 80CCC5F21F8B513500070CB0 /* baseFillCell.m */; };
+		80CCC5F81F8B5ACF00070CB0 /* addBankCarkHead.m in Sources */ = {isa = PBXBuildFile; fileRef = 80CCC5F71F8B5ACF00070CB0 /* addBankCarkHead.m */; };
+		80CCC5FB1F8B5AD800070CB0 /* addBankCarkFoot.m in Sources */ = {isa = PBXBuildFile; fileRef = 80CCC5FA1F8B5AD800070CB0 /* addBankCarkFoot.m */; };
+		80CCC6031F8B6FDF00070CB0 /* RealNameHead.m in Sources */ = {isa = PBXBuildFile; fileRef = 80CCC6021F8B6FDF00070CB0 /* RealNameHead.m */; };
+		80CCC6061F8B6FEA00070CB0 /* RealNameFoot.m in Sources */ = {isa = PBXBuildFile; fileRef = 80CCC6051F8B6FEA00070CB0 /* RealNameFoot.m */; };
+		80CCC60D1F8B7E2200070CB0 /* ReaNamebaseFillCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 80CCC60C1F8B7E2200070CB0 /* ReaNamebaseFillCell.m */; };
+		80CCC6161F8C9B8700070CB0 /* TicketDisplay.m in Sources */ = {isa = PBXBuildFile; fileRef = 80CCC6151F8C9B8700070CB0 /* TicketDisplay.m */; };
+		80CCC6191F8C9BAA00070CB0 /* BankCardDisplay.m in Sources */ = {isa = PBXBuildFile; fileRef = 80CCC6181F8C9BAA00070CB0 /* BankCardDisplay.m */; };
+		80CCC61D1F8DA0AA00070CB0 /* AirTicketsAndBankCardsShow.m in Sources */ = {isa = PBXBuildFile; fileRef = 80CCC61C1F8DA0AA00070CB0 /* AirTicketsAndBankCardsShow.m */; };
+		80CCC6201F8DE9B900070CB0 /* addBankCardsmscell.m in Sources */ = {isa = PBXBuildFile; fileRef = 80CCC61F1F8DE9B900070CB0 /* addBankCardsmscell.m */; };
+		80CCC6231F8DE9D900070CB0 /* addBankCardselectBankcell.m in Sources */ = {isa = PBXBuildFile; fileRef = 80CCC6221F8DE9D900070CB0 /* addBankCardselectBankcell.m */; };
+		80CD4F841F79E19A00A5F151 /* UILabel+UILabelTpay.m in Sources */ = {isa = PBXBuildFile; fileRef = 80CD4F831F79E19A00A5F151 /* UILabel+UILabelTpay.m */; };
+		80CD4F881F7A298300A5F151 /* safetySetUpVc.m in Sources */ = {isa = PBXBuildFile; fileRef = 80CD4F871F7A298300A5F151 /* safetySetUpVc.m */; };
+		80CD4F8B1F7A33B500A5F151 /* UIView+backgroundColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 80CD4F8A1F7A33B500A5F151 /* UIView+backgroundColor.m */; };
+		80D232941F9B188900576E4F /* ScansuccessCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 80D232931F9B188900576E4F /* ScansuccessCell.m */; };
+		80D232971F9B192800576E4F /* ScansuccessChangeTypeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 80D232961F9B192800576E4F /* ScansuccessChangeTypeCell.m */; };
+		80D2329C1F9B241A00576E4F /* ScanpaymentsuccessCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 80D2329B1F9B241A00576E4F /* ScanpaymentsuccessCell.m */; };
+		80D2329F1F9B242600576E4F /* ScanpaymentsuccessHead.m in Sources */ = {isa = PBXBuildFile; fileRef = 80D2329E1F9B242600576E4F /* ScanpaymentsuccessHead.m */; };
+		80D232A21F9B27B500576E4F /* ScanpaymentsuccessHasIconCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 80D232A11F9B27B500576E4F /* ScanpaymentsuccessHasIconCell.m */; };
+		80D232A71F9B2E5300576E4F /* RechargeSuccessVc.m in Sources */ = {isa = PBXBuildFile; fileRef = 80D232A61F9B2E5300576E4F /* RechargeSuccessVc.m */; };
+		80D232AA1F9B2E6200576E4F /* cashwithdrawalSuccessVc.m in Sources */ = {isa = PBXBuildFile; fileRef = 80D232A91F9B2E6200576E4F /* cashwithdrawalSuccessVc.m */; };
+		80D232AE1F9B2FF700576E4F /* cashwithdrawalSuccessHead.m in Sources */ = {isa = PBXBuildFile; fileRef = 80D232AD1F9B2FF700576E4F /* cashwithdrawalSuccessHead.m */; };
+		80D232B21F9B363F00576E4F /* ThirdpartypaymentindesignVc.m in Sources */ = {isa = PBXBuildFile; fileRef = 80D232B11F9B363F00576E4F /* ThirdpartypaymentindesignVc.m */; };
+		80D232B71F9B366700576E4F /* ThirdpartypaymentindesignDesCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 80D232B61F9B366700576E4F /* ThirdpartypaymentindesignDesCell.m */; };
+		80D232BA1F9B367200576E4F /* ThirdpartypaymentindesignHead.m in Sources */ = {isa = PBXBuildFile; fileRef = 80D232B91F9B367200576E4F /* ThirdpartypaymentindesignHead.m */; };
+		80D232BD1F9B3AC000576E4F /* ThirdpartypaymentindesignTypeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 80D232BC1F9B3AC000576E4F /* ThirdpartypaymentindesignTypeCell.m */; };
+		80D2B4FD1F962351006F6B4D /* LBToAppStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 80D2B4FB1F9622ED006F6B4D /* LBToAppStore.m */; };
+		80D784151F9984DA000A1511 /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80D784141F9984D9000A1511 /* UserNotifications.framework */; };
+		80DBC315201B0862006869C8 /* RechargeandcashwithdrawalBankCellTwo.m in Sources */ = {isa = PBXBuildFile; fileRef = 80DBC314201B0862006869C8 /* RechargeandcashwithdrawalBankCellTwo.m */; };
+		80DBC31A201B1134006869C8 /* turnOutType.m in Sources */ = {isa = PBXBuildFile; fileRef = 80DBC319201B1134006869C8 /* turnOutType.m */; };
+		80DBC31D201B1167006869C8 /* BaoturnIn.m in Sources */ = {isa = PBXBuildFile; fileRef = 80DBC31C201B1167006869C8 /* BaoturnIn.m */; };
+		80DBC321201B226A006869C8 /* turnIntoSuccessVc.m in Sources */ = {isa = PBXBuildFile; fileRef = 80DBC320201B226A006869C8 /* turnIntoSuccessVc.m */; };
+		80DBC324201B2289006869C8 /* turnOutSuccessVc.m in Sources */ = {isa = PBXBuildFile; fileRef = 80DBC323201B2289006869C8 /* turnOutSuccessVc.m */; };
+		80DBC328201B239F006869C8 /* OutcashwithdrawalSuccessHead.m in Sources */ = {isa = PBXBuildFile; fileRef = 80DBC327201B239F006869C8 /* OutcashwithdrawalSuccessHead.m */; };
+		80DBC32B201B23AA006869C8 /* IncashwithdrawalSuccessHead.m in Sources */ = {isa = PBXBuildFile; fileRef = 80DBC32A201B23AA006869C8 /* IncashwithdrawalSuccessHead.m */; };
+		80DBC32E201F1464006869C8 /* EmployeeLoanVc.m in Sources */ = {isa = PBXBuildFile; fileRef = 80DBC32D201F1464006869C8 /* EmployeeLoanVc.m */; };
+		80DBC333201F3FCB006869C8 /* RepaymentSuccess.m in Sources */ = {isa = PBXBuildFile; fileRef = 80DBC332201F3FCB006869C8 /* RepaymentSuccess.m */; };
+		80DBC336201F3FDC006869C8 /* ApplySuccessVc.m in Sources */ = {isa = PBXBuildFile; fileRef = 80DBC335201F3FDC006869C8 /* ApplySuccessVc.m */; };
+		80DBC33A201F42D5006869C8 /* EmployeeLoanHead.m in Sources */ = {isa = PBXBuildFile; fileRef = 80DBC339201F42D5006869C8 /* EmployeeLoanHead.m */; };
+		80E453591FA0239700CE9754 /* Myfinancialmanagement.m in Sources */ = {isa = PBXBuildFile; fileRef = 80E453581FA0239700CE9754 /* Myfinancialmanagement.m */; };
+		80E4535D1FA05D7E00CE9754 /* teachingPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 80E4535C1FA05D7D00CE9754 /* teachingPage.m */; };
+		80F9535E1F98DC5A00F92502 /* RechargeandcashwithdrawalSuccessVc.m in Sources */ = {isa = PBXBuildFile; fileRef = 80F9535D1F98DC5A00F92502 /* RechargeandcashwithdrawalSuccessVc.m */; };
+		80FE8EA41F7B4AC30045C988 /* mineVcCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 80FE8EA31F7B4AC30045C988 /* mineVcCell.m */; };
+		80FE8EA71F7B4BF50045C988 /* headMineCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 80FE8EA61F7B4BF50045C988 /* headMineCell.m */; };
+		80FE8EAC1F7B77B40045C988 /* newsListVc.m in Sources */ = {isa = PBXBuildFile; fileRef = 80FE8EAB1F7B77B40045C988 /* newsListVc.m */; };
+		80FE8EAF1F7B77CB0045C988 /* newsListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 80FE8EAE1F7B77CB0045C988 /* newsListCell.m */; };
+		80FE8EB41F7B85B00045C988 /* BasicInfoVc.m in Sources */ = {isa = PBXBuildFile; fileRef = 80FE8EB31F7B85B00045C988 /* BasicInfoVc.m */; };
+		80FE8EB71F7B86070045C988 /* infoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 80FE8EB61F7B86070045C988 /* infoCell.m */; };
+		80FE8EBB1F7B89F40045C988 /* editNikeNameVc.m in Sources */ = {isa = PBXBuildFile; fileRef = 80FE8EBA1F7B89F40045C988 /* editNikeNameVc.m */; };
+		80FE8EBE1F7B8CD20045C988 /* UITextField+Add.m in Sources */ = {isa = PBXBuildFile; fileRef = 80FE8EBD1F7B8CD20045C988 /* UITextField+Add.m */; };
+		80FE8EC21F7B90760045C988 /* RealNameVc.m in Sources */ = {isa = PBXBuildFile; fileRef = 80FE8EC11F7B90760045C988 /* RealNameVc.m */; };
+		D1FC3AD82BE5C019F0A95F06 /* libPods-portal.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C6E7EAC6E792922722A0D0C /* libPods-portal.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		802AAB661F563FB700139CD7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 802AAB441F563FB600139CD7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 802AAB4B1F563FB600139CD7;
+			remoteInfo = portal;
+		};
+		802AAB711F563FB700139CD7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 802AAB441F563FB600139CD7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 802AAB4B1F563FB600139CD7;
+			remoteInfo = portal;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1DEACF670DA6735801701ED8 /* Pods-portal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-portal.debug.xcconfig"; path = "Pods/Target Support Files/Pods-portal/Pods-portal.debug.xcconfig"; sourceTree = "<group>"; };
+		3D44450C20AA817E00425C6B /* portal.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = portal.entitlements; sourceTree = "<group>"; };
+		3D5484C320A3DD12005EB608 /* payTwoVc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = payTwoVc.h; sourceTree = "<group>"; };
+		3D5484C420A3DD12005EB608 /* payTwoVc.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = payTwoVc.m; sourceTree = "<group>"; };
+		3D5484C720A3E55E005EB608 /* ConfirmThePayment.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConfirmThePayment.h; sourceTree = "<group>"; };
+		3D5484C820A3E55E005EB608 /* ConfirmThePayment.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConfirmThePayment.m; sourceTree = "<group>"; };
+		3D5484CA20A42F31005EB608 /* payTypeSeleTicon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = payTypeSeleTicon.h; sourceTree = "<group>"; };
+		3D5484CB20A42F31005EB608 /* payTypeSeleTicon.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = payTypeSeleTicon.m; sourceTree = "<group>"; };
+		3D5484CD20A44083005EB608 /* paySussessTicon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = paySussessTicon.h; sourceTree = "<group>"; };
+		3D5484CE20A44083005EB608 /* paySussessTicon.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = paySussessTicon.m; sourceTree = "<group>"; };
+		3D5A1B3420FF1EBA008FBD93 /* topCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = topCell.h; sourceTree = "<group>"; };
+		3D5A1B3520FF1EBA008FBD93 /* topCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = topCell.m; sourceTree = "<group>"; };
+		3D5A1B3820FF260C008FBD93 /* NoticeView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NoticeView.h; sourceTree = "<group>"; };
+		3D5A1B3920FF260C008FBD93 /* NoticeView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NoticeView.m; sourceTree = "<group>"; };
+		3DAF987A207DFCF500E93C8B /* noneNetForH5.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = noneNetForH5.h; sourceTree = "<group>"; };
+		3DAF987B207DFCF500E93C8B /* noneNetForH5.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = noneNetForH5.m; sourceTree = "<group>"; };
+		3DBD538B2068995E00651051 /* SupportHotel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SupportHotel.h; sourceTree = "<group>"; };
+		3DBD538C2068995E00651051 /* SupportHotel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SupportHotel.m; sourceTree = "<group>"; };
+		3DD14281205F964600B0AF77 /* windosView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = windosView.h; sourceTree = "<group>"; };
+		3DD14282205F964600B0AF77 /* windosView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = windosView.m; sourceTree = "<group>"; };
+		50AF83B2CC40BD8186610D4B /* Pods-portal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-portal.release.xcconfig"; path = "Pods/Target Support Files/Pods-portal/Pods-portal.release.xcconfig"; sourceTree = "<group>"; };
+		6C6E7EAC6E792922722A0D0C /* libPods-portal.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-portal.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8004B8031FB137D60062A97F /* MOTPopConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MOTPopConfig.m; sourceTree = "<group>"; };
+		8004B8041FB137D60062A97F /* MOTMutablePopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOTMutablePopView.h; sourceTree = "<group>"; };
+		8004B8051FB137D70062A97F /* MOTPopConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOTPopConfig.h; sourceTree = "<group>"; };
+		8004B8061FB137D70062A97F /* MOTMutablePopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MOTMutablePopView.m; sourceTree = "<group>"; };
+		801DADD22015BC260073982A /* BorrowingBill.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BorrowingBill.h; sourceTree = "<group>"; };
+		801DADD32015BC260073982A /* BorrowingBill.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BorrowingBill.m; sourceTree = "<group>"; };
+		801DADD52015BF6A0073982A /* BorrowingBillNotOut.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BorrowingBillNotOut.h; sourceTree = "<group>"; };
+		801DADD62015BF6A0073982A /* BorrowingBillNotOut.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BorrowingBillNotOut.m; sourceTree = "<group>"; };
+		801DADD82015C23D0073982A /* BorrowingBillPayOff.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BorrowingBillPayOff.h; sourceTree = "<group>"; };
+		801DADD92015C23D0073982A /* BorrowingBillPayOff.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BorrowingBillPayOff.m; sourceTree = "<group>"; };
+		801DADDB2015C2800073982A /* BorrowingBillNotOverdue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BorrowingBillNotOverdue.h; sourceTree = "<group>"; };
+		801DADDC2015C2800073982A /* BorrowingBillNotOverdue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BorrowingBillNotOverdue.m; sourceTree = "<group>"; };
+		801DADDE2015C28B0073982A /* BorrowingBillOverdue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BorrowingBillOverdue.h; sourceTree = "<group>"; };
+		801DADDF2015C28B0073982A /* BorrowingBillOverdue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BorrowingBillOverdue.m; sourceTree = "<group>"; };
+		801DADE12015C2C40073982A /* BorrowingBillNot.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BorrowingBillNot.h; sourceTree = "<group>"; };
+		801DADE22015C2C40073982A /* BorrowingBillNot.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BorrowingBillNot.m; sourceTree = "<group>"; };
+		801DADE52015DBC30073982A /* MyBorrowList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyBorrowList.h; sourceTree = "<group>"; };
+		801DADE62015DBC30073982A /* MyBorrowList.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyBorrowList.m; sourceTree = "<group>"; };
+		801DADEC2015EA810073982A /* CardCouponsVc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CardCouponsVc.h; sourceTree = "<group>"; };
+		801DADED2015EA810073982A /* CardCouponsVc.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CardCouponsVc.m; sourceTree = "<group>"; };
+		801DADEF2015EB0A0073982A /* AirListVc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AirListVc.h; sourceTree = "<group>"; };
+		801DADF02015EB0A0073982A /* AirListVc.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AirListVc.m; sourceTree = "<group>"; };
+		801DADF22015EB180073982A /* CouponsVc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CouponsVc.h; sourceTree = "<group>"; };
+		801DADF32015EB180073982A /* CouponsVc.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CouponsVc.m; sourceTree = "<group>"; };
+		80250BE81F8B118B00ED4E1C /* myBankCardVc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = myBankCardVc.h; sourceTree = "<group>"; };
+		80250BE91F8B118B00ED4E1C /* myBankCardVc.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = myBankCardVc.m; sourceTree = "<group>"; };
+		80250BEB1F8B11A300ED4E1C /* BankCardCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BankCardCell.h; sourceTree = "<group>"; };
+		80250BEC1F8B11A300ED4E1C /* BankCardCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BankCardCell.m; sourceTree = "<group>"; };
+		80250BEF1F8B11E200ED4E1C /* myBankCardFoot.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = myBankCardFoot.h; sourceTree = "<group>"; };
+		80250BF01F8B11E200ED4E1C /* myBankCardFoot.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = myBankCardFoot.m; sourceTree = "<group>"; };
+		8025677A1F9F0E4A00FA4D72 /* KTPageControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTPageControl.h; sourceTree = "<group>"; };
+		8025677B1F9F0E4A00FA4D72 /* KTPageControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KTPageControl.m; sourceTree = "<group>"; };
+		8025677D1F9F2C7D00FA4D72 /* paymentVc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = paymentVc.h; sourceTree = "<group>"; };
+		8025677E1F9F2C7D00FA4D72 /* paymentVc.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = paymentVc.m; sourceTree = "<group>"; };
+		8026009E1F9745F5005B9DA1 /* SelectBank.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SelectBank.m; sourceTree = "<group>"; };
+		8026009F1F9745F5005B9DA1 /* SelectBank.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SelectBank.h; sourceTree = "<group>"; };
+		802600A21F976A0C005B9DA1 /* HelpandfeedbackVc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelpandfeedbackVc.h; sourceTree = "<group>"; };
+		802600A31F976A0C005B9DA1 /* HelpandfeedbackVc.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelpandfeedbackVc.m; sourceTree = "<group>"; };
+		802600A61F976DA9005B9DA1 /* HelpandfeedbackCoCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelpandfeedbackCoCell.h; sourceTree = "<group>"; };
+		802600A71F976DA9005B9DA1 /* HelpandfeedbackCoCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelpandfeedbackCoCell.m; sourceTree = "<group>"; };
+		802AAB4C1F563FB600139CD7 /* portal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = portal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		802AAB501F563FB600139CD7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		802AAB521F563FB600139CD7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		802AAB531F563FB600139CD7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		802AAB591F563FB600139CD7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		802AAB5B1F563FB600139CD7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		802AAB5E1F563FB600139CD7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		802AAB601F563FB600139CD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		802AAB651F563FB700139CD7 /* portalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = portalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		802AAB691F563FB700139CD7 /* portalTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = portalTests.m; sourceTree = "<group>"; };
+		802AAB6B1F563FB700139CD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		802AAB701F563FB700139CD7 /* portalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = portalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		802AAB741F563FB700139CD7 /* portalUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = portalUITests.m; sourceTree = "<group>"; };
+		802AAB761F563FB700139CD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8034086A1F8E02B400DA64EE /* AuthenticationVc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AuthenticationVc.h; sourceTree = "<group>"; };
+		8034086B1F8E02B400DA64EE /* AuthenticationVc.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AuthenticationVc.m; sourceTree = "<group>"; };
+		8034086E1F8E043000DA64EE /* AuthenticationCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AuthenticationCell.h; sourceTree = "<group>"; };
+		8034086F1F8E043000DA64EE /* AuthenticationCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AuthenticationCell.m; sourceTree = "<group>"; };
+		803408731F8E069200DA64EE /* AuthenticationSmsVc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AuthenticationSmsVc.h; sourceTree = "<group>"; };
+		803408741F8E069200DA64EE /* AuthenticationSmsVc.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AuthenticationSmsVc.m; sourceTree = "<group>"; };
+		803408761F8E06A800DA64EE /* AuthenticationpasswordVc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AuthenticationpasswordVc.h; sourceTree = "<group>"; };
+		803408771F8E06A800DA64EE /* AuthenticationpasswordVc.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AuthenticationpasswordVc.m; sourceTree = "<group>"; };
+		8034087A1F8E0EC800DA64EE /* PasswordBox.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PasswordBox.h; sourceTree = "<group>"; };
+		8034087B1F8E0EC800DA64EE /* PasswordBox.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PasswordBox.m; sourceTree = "<group>"; };
+		8034087E1F8E180F00DA64EE /* SYPasswordView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SYPasswordView.m; sourceTree = "<group>"; };
+		8034087F1F8E180F00DA64EE /* SYPasswordView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SYPasswordView.h; sourceTree = "<group>"; };
+		803408821F8E1B4000DA64EE /* SetpaymentpasswordVc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SetpaymentpasswordVc.h; sourceTree = "<group>"; };
+		803408831F8E1B4000DA64EE /* SetpaymentpasswordVc.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SetpaymentpasswordVc.m; sourceTree = "<group>"; };
+		8034088B1F8E273300DA64EE /* GesturecipherVc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GesturecipherVc.h; sourceTree = "<group>"; };
+		8034088C1F8E273300DA64EE /* GesturecipherVc.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GesturecipherVc.m; sourceTree = "<group>"; };
+		803408901F8EF5FC00DA64EE /* YHGesturePasswordView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YHGesturePasswordView.m; sourceTree = "<group>"; };
+		803408911F8EF5FC00DA64EE /* YHCustomButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YHCustomButton.m; sourceTree = "<group>"; };
+		803408921F8EF5FC00DA64EE /* YHGesturePasswordView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YHGesturePasswordView.h; sourceTree = "<group>"; };
+		803408931F8EF5FC00DA64EE /* YHCustomButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YHCustomButton.h; sourceTree = "<group>"; };
+		803408971F8F0DB900DA64EE /* GesturecipherCoCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GesturecipherCoCell.h; sourceTree = "<group>"; };
+		803408981F8F0DB900DA64EE /* GesturecipherCoCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GesturecipherCoCell.m; sourceTree = "<group>"; };
+		8034089B1F8F401000DA64EE /* VenturecapitalRealNameVc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VenturecapitalRealNameVc.h; sourceTree = "<group>"; };
+		8034089C1F8F401000DA64EE /* VenturecapitalRealNameVc.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VenturecapitalRealNameVc.m; sourceTree = "<group>"; };
+		803408A11F8F4F7C00DA64EE /* WithdrawCashVc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WithdrawCashVc.h; sourceTree = "<group>"; };
+		803408A21F8F4F7C00DA64EE /* WithdrawCashVc.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WithdrawCashVc.m; sourceTree = "<group>"; };
+		803408A41F8F4F9F00DA64EE /* RechargeVc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RechargeVc.h; sourceTree = "<group>"; };
+		803408A51F8F4F9F00DA64EE /* RechargeVc.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RechargeVc.m; sourceTree = "<group>"; };
+		803408A71F8F4FE900DA64EE /* RechargeandcashwithdrawalVc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RechargeandcashwithdrawalVc.h; sourceTree = "<group>"; };
+		803408A81F8F4FE900DA64EE /* RechargeandcashwithdrawalVc.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RechargeandcashwithdrawalVc.m; sourceTree = "<group>"; };
+		803408AB1F8F5CC600DA64EE /* RechargeandcashwithdrawalBankCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RechargeandcashwithdrawalBankCell.h; sourceTree = "<group>"; };
+		803408AC1F8F5CC600DA64EE /* RechargeandcashwithdrawalBankCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RechargeandcashwithdrawalBankCell.m; sourceTree = "<group>"; };
+		803408AE1F8F5CE100DA64EE /* RechargeandcashwithdrawalMoneyCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RechargeandcashwithdrawalMoneyCell.h; sourceTree = "<group>"; };
+		803408AF1F8F5CE100DA64EE /* RechargeandcashwithdrawalMoneyCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RechargeandcashwithdrawalMoneyCell.m; sourceTree = "<group>"; };
+		803408B21F8F5DE600DA64EE /* WithdrawCashFoot.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WithdrawCashFoot.h; sourceTree = "<group>"; };
+		803408B31F8F5DE600DA64EE /* WithdrawCashFoot.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WithdrawCashFoot.m; sourceTree = "<group>"; };
+		803408B61F8F6C0200DA64EE /* homeTopCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = homeTopCell.h; sourceTree = "<group>"; };
+		803408B71F8F6C0200DA64EE /* homeTopCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = homeTopCell.m; sourceTree = "<group>"; };
+		803408B91F8F6C1200DA64EE /* homeBottomCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = homeBottomCell.h; sourceTree = "<group>"; };
+		803408BA1F8F6C1200DA64EE /* homeBottomCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = homeBottomCell.m; sourceTree = "<group>"; };
+		803408BE1F90533300DA64EE /* BankView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BankView.h; sourceTree = "<group>"; };
+		803408BF1F90533300DA64EE /* BankView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BankView.m; sourceTree = "<group>"; };
+		803408C11F90534600DA64EE /* AirTiketView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AirTiketView.h; sourceTree = "<group>"; };
+		803408C21F90534600DA64EE /* AirTiketView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AirTiketView.m; sourceTree = "<group>"; };
+		803408C41F9054A300DA64EE /* BankViewShow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BankViewShow.h; sourceTree = "<group>"; };
+		803408C51F9054A300DA64EE /* BankViewShow.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BankViewShow.m; sourceTree = "<group>"; };
+		803408CD1F90653600DA64EE /* popSelecetView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = popSelecetView.h; sourceTree = "<group>"; };
+		803408CE1F90653600DA64EE /* popSelecetView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = popSelecetView.m; sourceTree = "<group>"; };
+		803408D51F90A48700DA64EE /* consumptionVc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = consumptionVc.h; sourceTree = "<group>"; };
+		803408D61F90A48700DA64EE /* consumptionVc.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = consumptionVc.m; sourceTree = "<group>"; };
+		803408D81F90B27000DA64EE /* PaymentcodeVc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PaymentcodeVc.h; sourceTree = "<group>"; };
+		803408D91F90B27000DA64EE /* PaymentcodeVc.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PaymentcodeVc.m; sourceTree = "<group>"; };
+		803408DB1F90B2B000DA64EE /* ScancodepaymentVc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScancodepaymentVc.h; sourceTree = "<group>"; };
+		803408DC1F90B2B000DA64EE /* ScancodepaymentVc.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScancodepaymentVc.m; sourceTree = "<group>"; };
+		803589662020673200A4BD43 /* payTypeSeleLoad.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = payTypeSeleLoad.h; sourceTree = "<group>"; };
+		803589672020673200A4BD43 /* payTypeSeleLoad.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = payTypeSeleLoad.m; sourceTree = "<group>"; };
+		80358969202067E300A4BD43 /* Confirmationofrepayment.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Confirmationofrepayment.h; sourceTree = "<group>"; };
+		8035896A202067E300A4BD43 /* Confirmationofrepayment.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Confirmationofrepayment.m; sourceTree = "<group>"; };
+		8035896D2021639600A4BD43 /* ConfirmapayTypeSeleBankCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConfirmapayTypeSeleBankCell.h; sourceTree = "<group>"; };
+		8035896E2021639600A4BD43 /* ConfirmapayTypeSeleBankCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConfirmapayTypeSeleBankCell.m; sourceTree = "<group>"; };
+		80358970202163C800A4BD43 /* ConfirmapayTypeSeleMoneyCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConfirmapayTypeSeleMoneyCell.h; sourceTree = "<group>"; };
+		80358971202163C800A4BD43 /* ConfirmapayTypeSeleMoneyCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConfirmapayTypeSeleMoneyCell.m; sourceTree = "<group>"; };
+		803921661F56997E00433532 /* XAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XAlertView.h; sourceTree = "<group>"; };
+		803921671F56997E00433532 /* XAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XAlertView.m; sourceTree = "<group>"; };
+		803921691F56998400433532 /* MBProgressHUD+MJ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+MJ.h"; sourceTree = "<group>"; };
+		8039216A1F56998400433532 /* MBProgressHUD+MJ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+MJ.m"; sourceTree = "<group>"; };
+		8039216C1F56998C00433532 /* AppTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppTools.h; sourceTree = "<group>"; };
+		8039216D1F56998C00433532 /* AppTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppTools.m; sourceTree = "<group>"; };
+		8039216F1F5699CC00433532 /* MACRO_URL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MACRO_URL.h; sourceTree = "<group>"; };
+		803921701F5699CC00433532 /* THIRD_PARTY.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THIRD_PARTY.h; sourceTree = "<group>"; };
+		803921711F5699CC00433532 /* MACRO_ENUM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MACRO_ENUM.h; sourceTree = "<group>"; };
+		803921741F5699CC00433532 /* MACRO_UI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MACRO_UI.h; sourceTree = "<group>"; };
+		8039217B1F569BC800433532 /* ToolRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToolRequest.h; sourceTree = "<group>"; };
+		8039217C1F569BC800433532 /* ToolRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToolRequest.m; sourceTree = "<group>"; };
+		8039217D1F569BC800433532 /* ToolRequest+common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ToolRequest+common.h"; sourceTree = "<group>"; };
+		8039217E1F569BC800433532 /* ToolRequest+common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ToolRequest+common.m"; sourceTree = "<group>"; };
+		803921811F569BF200433532 /* ToolModeldata.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToolModeldata.h; sourceTree = "<group>"; };
+		803921821F569BF200433532 /* ToolModeldata.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToolModeldata.m; sourceTree = "<group>"; };
+		803921841F569CDB00433532 /* NSUserDefaults+storage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSUserDefaults+storage.h"; sourceTree = "<group>"; };
+		803921851F569CDB00433532 /* NSUserDefaults+storage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSUserDefaults+storage.m"; sourceTree = "<group>"; };
+		803921871F569D0C00433532 /* NSDictionary+toData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+toData.h"; sourceTree = "<group>"; };
+		803921881F569D0C00433532 /* NSDictionary+toData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+toData.m"; sourceTree = "<group>"; };
+		8039218D1F56A1BE00433532 /* NSString+Add.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Add.h"; sourceTree = "<group>"; };
+		8039218E1F56A1BE00433532 /* NSString+Add.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Add.m"; sourceTree = "<group>"; };
+		803921901F56A7D600433532 /* NSDictionary+Add.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Add.h"; sourceTree = "<group>"; };
+		803921911F56A7D600433532 /* NSDictionary+Add.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Add.m"; sourceTree = "<group>"; };
+		803921931F56ACFC00433532 /* MACRO_PIC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MACRO_PIC.h; sourceTree = "<group>"; };
+		803921941F56AD1A00433532 /* MACRO_PORTAL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MACRO_PORTAL.h; sourceTree = "<group>"; };
+		803921951F56AD7900433532 /* HeaderAll.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HeaderAll.h; sourceTree = "<group>"; };
+		803921961F56C0F100433532 /* basicVc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = basicVc.h; sourceTree = "<group>"; };
+		803921971F56C0F100433532 /* basicVc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = basicVc.m; sourceTree = "<group>"; };
+		803921981F56C0F100433532 /* basicUiTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = basicUiTableView.h; sourceTree = "<group>"; };
+		803921991F56C0F100433532 /* basicUiTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = basicUiTableView.m; sourceTree = "<group>"; };
+		8039219C1F5794C300433532 /* MACRO_COLOR.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MACRO_COLOR.h; sourceTree = "<group>"; };
+		8039219D1F5796DA00433532 /* MACRO_NOTICE.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MACRO_NOTICE.h; sourceTree = "<group>"; };
+		8039219E1F57976900433532 /* MACRO_UIFONT.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MACRO_UIFONT.h; sourceTree = "<group>"; };
+		803921AB1F57DD3200433532 /* UIImageView+Add.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+Add.h"; sourceTree = "<group>"; };
+		803921AC1F57DD3200433532 /* UIImageView+Add.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+Add.m"; sourceTree = "<group>"; };
+		803921AE1F57E63500433532 /* PortalHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PortalHelper.h; sourceTree = "<group>"; };
+		803921AF1F57E63500433532 /* PortalHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PortalHelper.m; sourceTree = "<group>"; };
+		803921B11F57F46400433532 /* baseWkVc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = baseWkVc.h; sourceTree = "<group>"; };
+		803921B21F57F46400433532 /* baseWkVc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = baseWkVc.m; sourceTree = "<group>"; };
+		803921B41F57F4CC00433532 /* EachWkVc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EachWkVc.h; sourceTree = "<group>"; };
+		803921B51F57F4CC00433532 /* EachWkVc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EachWkVc.m; sourceTree = "<group>"; };
+		803921BA1F58EE2C00433532 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		803921BB1F58EE2C00433532 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		803921BF1F58EF9000433532 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		803921C11F58EFA600433532 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		803921C21F58FA6800433532 /* UIColor+Add.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Add.h"; sourceTree = "<group>"; };
+		803921C31F58FA6800433532 /* UIColor+Add.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Add.m"; sourceTree = "<group>"; };
+		803C0D161F78D607002E172C /* mainTableVc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mainTableVc.h; sourceTree = "<group>"; };
+		803C0D171F78D607002E172C /* mainTableVc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = mainTableVc.m; sourceTree = "<group>"; };
+		803C0D1C1F78D7DD002E172C /* homeVc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = homeVc.h; sourceTree = "<group>"; };
+		803C0D1D1F78D7DD002E172C /* homeVc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = homeVc.m; sourceTree = "<group>"; };
+		803C0D1F1F78D857002E172C /* manageMoneyVc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = manageMoneyVc.h; sourceTree = "<group>"; };
+		803C0D201F78D857002E172C /* manageMoneyVc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = manageMoneyVc.m; sourceTree = "<group>"; };
+		803C0D221F78D88B002E172C /* mineVc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mineVc.h; sourceTree = "<group>"; };
+		803C0D231F78D88B002E172C /* mineVc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = mineVc.m; sourceTree = "<group>"; };
+		803C0D261F78E3F1002E172C /* SetUpVc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SetUpVc.h; sourceTree = "<group>"; };
+		803C0D271F78E3F1002E172C /* SetUpVc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SetUpVc.m; sourceTree = "<group>"; };
+		803C0D2B1F78E4E6002E172C /* baseCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = baseCell.h; sourceTree = "<group>"; };
+		803C0D2C1F78E4E6002E172C /* baseCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = baseCell.m; sourceTree = "<group>"; };
+		803C0D2E1F790273002E172C /* SetUpCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SetUpCell.h; sourceTree = "<group>"; };
+		803C0D2F1F790273002E172C /* SetUpCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SetUpCell.m; sourceTree = "<group>"; };
+		803C71BA20576B690037A2F1 /* MaldivesPaySuccessVc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MaldivesPaySuccessVc.h; sourceTree = "<group>"; };
+		803C71BB20576B690037A2F1 /* MaldivesPaySuccessVc.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MaldivesPaySuccessVc.m; sourceTree = "<group>"; };
+		803C71BE20576C9E0037A2F1 /* MaldivesPaySuccessHead.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MaldivesPaySuccessHead.h; sourceTree = "<group>"; };
+		803C71BF20576C9E0037A2F1 /* MaldivesPaySuccessHead.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MaldivesPaySuccessHead.m; sourceTree = "<group>"; };
+		803C71C2205778910037A2F1 /* typeCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = typeCell.h; sourceTree = "<group>"; };
+		803C71C3205778910037A2F1 /* typeCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = typeCell.m; sourceTree = "<group>"; };
+		803C71C5205778AE0037A2F1 /* youhuiCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = youhuiCell.h; sourceTree = "<group>"; };
+		803C71C6205778AE0037A2F1 /* youhuiCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = youhuiCell.m; sourceTree = "<group>"; };
+		803C71C92057B5620037A2F1 /* FindPassWordVc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FindPassWordVc.h; sourceTree = "<group>"; };
+		803C71CA2057B5620037A2F1 /* FindPassWordVc.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FindPassWordVc.m; sourceTree = "<group>"; };
+		803C71CD2057B8640037A2F1 /* FindPassWordFoot.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FindPassWordFoot.h; sourceTree = "<group>"; };
+		803C71CE2057B8640037A2F1 /* FindPassWordFoot.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FindPassWordFoot.m; sourceTree = "<group>"; };
+		803C71D12057BA440037A2F1 /* FindPassWordHEad.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FindPassWordHEad.h; sourceTree = "<group>"; };
+		803C71D22057BA440037A2F1 /* FindPassWordHEad.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FindPassWordHEad.m; sourceTree = "<group>"; };
+		803C71D52057C73A0037A2F1 /* MaldiVerificationCodeBox.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MaldiVerificationCodeBox.h; sourceTree = "<group>"; };
+		803C71D62057C73A0037A2F1 /* MaldiVerificationCodeBox.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MaldiVerificationCodeBox.m; sourceTree = "<group>"; };
+		80459DCF2011CA3600C3ADAE /* Tempusbaohome.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Tempusbaohome.h; sourceTree = "<group>"; };
+		80459DD02011CA3600C3ADAE /* Tempusbaohome.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tempusbaohome.m; sourceTree = "<group>"; };
+		804F04DD2019BA6D00A9CE06 /* turnOutVc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = turnOutVc.h; sourceTree = "<group>"; };
+		804F04DE2019BA6D00A9CE06 /* turnOutVc.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = turnOutVc.m; sourceTree = "<group>"; };
+		804F04E02019BA8500A9CE06 /* turnIntoVc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = turnIntoVc.h; sourceTree = "<group>"; };
+		804F04E12019BA8500A9CE06 /* turnIntoVc.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = turnIntoVc.m; sourceTree = "<group>"; };
+		804F04E42019D61400A9CE06 /* SmsVc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SmsVc.h; sourceTree = "<group>"; };
+		804F04E52019D61400A9CE06 /* SmsVc.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SmsVc.m; sourceTree = "<group>"; };
+		804F04E82019D9F900A9CE06 /* RiskManagementVc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RiskManagementVc.h; sourceTree = "<group>"; };
+		804F04E92019D9F900A9CE06 /* RiskManagementVc.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RiskManagementVc.m; sourceTree = "<group>"; };
+		804F04EC2019DD2E00A9CE06 /* RealNameBaoVc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RealNameBaoVc.h; sourceTree = "<group>"; };
+		804F04ED2019DD2E00A9CE06 /* RealNameBaoVc.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RealNameBaoVc.m; sourceTree = "<group>"; };
+		80507D751FAC70C9008100E7 /* AppDelegate+EaseMob.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+EaseMob.m"; sourceTree = "<group>"; };
+		80507D761FAC70C9008100E7 /* AppDelegate+EaseMob.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+EaseMob.h"; sourceTree = "<group>"; };
+		80507D781FAC7226008100E7 /* ChatDemoHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatDemoHelper.m; sourceTree = "<group>"; };
+		80507D791FAC7226008100E7 /* ChatDemoHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatDemoHelper.h; sourceTree = "<group>"; };
+		80507D7B1FAC72B1008100E7 /* ChatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatViewController.h; sourceTree = "<group>"; };
+		80507D7C1FAC72B1008100E7 /* ChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatViewController.m; sourceTree = "<group>"; };
+		8052CA901FC55D3B003510FA /* VerificationCodeBox.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VerificationCodeBox.h; sourceTree = "<group>"; };
+		8052CA911FC55D3B003510FA /* VerificationCodeBox.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VerificationCodeBox.m; sourceTree = "<group>"; };
+		80598B981F91E98A00968DCB /* Passwordpaymentbox.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Passwordpaymentbox.h; sourceTree = "<group>"; };
+		80598B991F91E98A00968DCB /* Passwordpaymentbox.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Passwordpaymentbox.m; sourceTree = "<group>"; };
+		80598B9C1F91F0F600968DCB /* payTypeSele.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = payTypeSele.h; sourceTree = "<group>"; };
+		80598B9D1F91F0F600968DCB /* payTypeSele.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = payTypeSele.m; sourceTree = "<group>"; };
+		80598BA01F91F45600968DCB /* payTypeSeleBankCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = payTypeSeleBankCell.h; sourceTree = "<group>"; };
+		80598BA11F91F45600968DCB /* payTypeSeleBankCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = payTypeSeleBankCell.m; sourceTree = "<group>"; };
+		80598BA31F91F47400968DCB /* payTypeSeleMoneyCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = payTypeSeleMoneyCell.h; sourceTree = "<group>"; };
+		80598BA41F91F47400968DCB /* payTypeSeleMoneyCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = payTypeSeleMoneyCell.m; sourceTree = "<group>"; };
+		805C10BF1F6A12AE005A7099 /* LaunchIntroductionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LaunchIntroductionView.h; sourceTree = "<group>"; };
+		805C10C01F6A12AE005A7099 /* LaunchIntroductionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LaunchIntroductionView.m; sourceTree = "<group>"; };
+		80625A341F6FB29500BEF3A5 /* UIImage+Add.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Add.h"; sourceTree = "<group>"; };
+		80625A351F6FB29500BEF3A5 /* UIImage+Add.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Add.m"; sourceTree = "<group>"; };
+		806BC5C81F5CEF7000B1E7A1 /* WJItemsControlView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJItemsControlView.h; sourceTree = "<group>"; };
+		806BC5C91F5CEF7000B1E7A1 /* WJItemsControlView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJItemsControlView.m; sourceTree = "<group>"; };
+		806BC5FB1F5E36F600B1E7A1 /* datePiker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = datePiker.h; sourceTree = "<group>"; };
+		806BC5FC1F5E36F600B1E7A1 /* datePiker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = datePiker.m; sourceTree = "<group>"; };
+		806BC6311F5F9A9600B1E7A1 /* SuPhotoManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuPhotoManager.h; sourceTree = "<group>"; };
+		806BC6321F5F9A9600B1E7A1 /* SuPhotoManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SuPhotoManager.m; sourceTree = "<group>"; };
+		806BC6341F5F9AB900B1E7A1 /* SuAblumInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuAblumInfo.h; sourceTree = "<group>"; };
+		806BC6351F5F9AB900B1E7A1 /* SuAblumInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SuAblumInfo.m; sourceTree = "<group>"; };
+		806BC6411F5FCF9600B1E7A1 /* NavigationBarDetais.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationBarDetais.h; sourceTree = "<group>"; };
+		806BC6421F5FCF9600B1E7A1 /* NavigationBarDetais.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationBarDetais.m; sourceTree = "<group>"; };
+		806BC66F1F6008F400B1E7A1 /* UIButton+Add.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Add.h"; sourceTree = "<group>"; };
+		806BC6701F6008F400B1E7A1 /* UIButton+Add.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Add.m"; sourceTree = "<group>"; };
+		806D4A342028585C006AEA85 /* LeadMoneyActivities.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LeadMoneyActivities.h; sourceTree = "<group>"; };
+		806D4A352028585C006AEA85 /* LeadMoneyActivities.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LeadMoneyActivities.m; sourceTree = "<group>"; };
+		806D4A37202ADE6C006AEA85 /* launch1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launch1.png; sourceTree = "<group>"; };
+		806D4A38202ADE6D006AEA85 /* launch0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launch0.png; sourceTree = "<group>"; };
+		806D4A39202ADE6F006AEA85 /* launch3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launch3.png; sourceTree = "<group>"; };
+		806D4A3A202ADE71006AEA85 /* launch2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launch2.png; sourceTree = "<group>"; };
+		8074387A1F91B45700F3C273 /* OpenScancodepaymentVc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OpenScancodepaymentVc.h; sourceTree = "<group>"; };
+		8074387B1F91B45700F3C273 /* OpenScancodepaymentVc.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OpenScancodepaymentVc.m; sourceTree = "<group>"; };
+		8074387F1F91BBD000F3C273 /* ScansuccessVc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScansuccessVc.h; sourceTree = "<group>"; };
+		807438801F91BBD000F3C273 /* ScansuccessVc.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScansuccessVc.m; sourceTree = "<group>"; };
+		807438821F91BBEA00F3C273 /* ScanpaymentsuccessVc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScanpaymentsuccessVc.h; sourceTree = "<group>"; };
+		807438831F91BBEA00F3C273 /* ScanpaymentsuccessVc.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScanpaymentsuccessVc.m; sourceTree = "<group>"; };
+		80803AB520511AA300EB98B1 /* MaldivesPayVc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MaldivesPayVc.h; sourceTree = "<group>"; };
+		80803AB620511AA300EB98B1 /* MaldivesPayVc.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MaldivesPayVc.m; sourceTree = "<group>"; };
+		808206511F594D6900AECD7A /* UIView+Add.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Add.h"; sourceTree = "<group>"; };
+		808206521F594D6900AECD7A /* UIView+Add.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Add.m"; sourceTree = "<group>"; };
+		808236B11F95A6A600C1A2D3 /* UITextFieldAdd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UITextFieldAdd.h; sourceTree = "<group>"; };
+		808236B21F95A6A600C1A2D3 /* UITextFieldAdd.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITextFieldAdd.m; sourceTree = "<group>"; };
+		808236B51F95D43400C1A2D3 /* Cryptor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Cryptor.h; sourceTree = "<group>"; };
+		808236B61F95D43400C1A2D3 /* Cryptor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Cryptor.m; sourceTree = "<group>"; };
+		808236B91F95DBB300C1A2D3 /* LocalAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LocalAuthentication.framework; path = System/Library/Frameworks/LocalAuthentication.framework; sourceTree = SDKROOT; };
+		80834BF01FDA6027006E9ECE /* headRechargeandCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = headRechargeandCell.h; sourceTree = "<group>"; };
+		80834BF11FDA6027006E9ECE /* headRechargeandCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = headRechargeandCell.m; sourceTree = "<group>"; };
+		809C92FB2016D511002897C9 /* AirListVcCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AirListVcCell.h; sourceTree = "<group>"; };
+		809C92FC2016D511002897C9 /* AirListVcCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AirListVcCell.m; sourceTree = "<group>"; };
+		809C92FE2017303F002897C9 /* homeTwoVc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = homeTwoVc.h; sourceTree = "<group>"; };
+		809C92FF2017303F002897C9 /* homeTwoVc.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = homeTwoVc.m; sourceTree = "<group>"; };
+		809C930A201733A2002897C9 /* UIScrollView+YLSpringHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+YLSpringHeader.h"; sourceTree = "<group>"; };
+		809C930B201733A2002897C9 /* UIScrollView+YLSpringHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+YLSpringHeader.m"; sourceTree = "<group>"; };
+		809C930C201733A2002897C9 /* YLSpringHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLSpringHeaderView.h; sourceTree = "<group>"; };
+		809C930D201733A2002897C9 /* YLSpringHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLSpringHeaderView.m; sourceTree = "<group>"; };
+		809C9310201735B2002897C9 /* homeTwoVcOne.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = homeTwoVcOne.h; sourceTree = "<group>"; };
+		809C9311201735B2002897C9 /* homeTwoVcOne.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = homeTwoVcOne.m; sourceTree = "<group>"; };
+		809C9313201735CD002897C9 /* homeTwoVcTwo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = homeTwoVcTwo.h; sourceTree = "<group>"; };
+		809C9314201735CD002897C9 /* homeTwoVcTwo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = homeTwoVcTwo.m; sourceTree = "<group>"; };
+		809C9316201735F8002897C9 /* homeTwoVcThree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = homeTwoVcThree.h; sourceTree = "<group>"; };
+		809C9317201735F8002897C9 /* homeTwoVcThree.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = homeTwoVcThree.m; sourceTree = "<group>"; };
+		809C931920173619002897C9 /* homeTwoVcFour.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = homeTwoVcFour.h; sourceTree = "<group>"; };
+		809C931A20173619002897C9 /* homeTwoVcFour.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = homeTwoVcFour.m; sourceTree = "<group>"; };
+		809C931C20173625002897C9 /* homeTwoVcFive.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = homeTwoVcFive.h; sourceTree = "<group>"; };
+		809C931D20173625002897C9 /* homeTwoVcFive.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = homeTwoVcFive.m; sourceTree = "<group>"; };
+		809C931F2017362F002897C9 /* homeTwoVcSix.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = homeTwoVcSix.h; sourceTree = "<group>"; };
+		809C93202017362F002897C9 /* homeTwoVcSix.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = homeTwoVcSix.m; sourceTree = "<group>"; };
+		809C93222017365B002897C9 /* homeTwoVcThreeNew.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = homeTwoVcThreeNew.h; sourceTree = "<group>"; };
+		809C93232017365B002897C9 /* homeTwoVcThreeNew.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = homeTwoVcThreeNew.m; sourceTree = "<group>"; };
+		809C932720173825002897C9 /* homeTwoVcFourHead.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = homeTwoVcFourHead.h; sourceTree = "<group>"; };
+		809C932820173825002897C9 /* homeTwoVcFourHead.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = homeTwoVcFourHead.m; sourceTree = "<group>"; };
+		809C932A20173831002897C9 /* homeTwoVcFoot.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = homeTwoVcFoot.h; sourceTree = "<group>"; };
+		809C932B20173831002897C9 /* homeTwoVcFoot.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = homeTwoVcFoot.m; sourceTree = "<group>"; };
+		809C932E20181DDD002897C9 /* applyAuthCodeVc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = applyAuthCodeVc.h; sourceTree = "<group>"; };
+		809C932F20181DDD002897C9 /* applyAuthCodeVc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = applyAuthCodeVc.m; sourceTree = "<group>"; };
+		809C93362018216E002897C9 /* oneHome.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = oneHome.h; sourceTree = "<group>"; };
+		809C93372018216E002897C9 /* oneHome.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = oneHome.m; sourceTree = "<group>"; };
+		809C933A201864F3002897C9 /* homeHead.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = homeHead.h; sourceTree = "<group>"; };
+		809C933B201864F3002897C9 /* homeHead.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = homeHead.m; sourceTree = "<group>"; };
+		80C325E91F6240E400866A2A /* Z_PopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Z_PopView.h; sourceTree = "<group>"; };
+		80C325EA1F6240E400866A2A /* Z_PopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Z_PopView.m; sourceTree = "<group>"; };
+		80C8B26B1F8DF02F00FB06D4 /* ReaNameaddBankCardsmscell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReaNameaddBankCardsmscell.h; sourceTree = "<group>"; };
+		80C8B26C1F8DF02F00FB06D4 /* ReaNameaddBankCardsmscell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReaNameaddBankCardsmscell.m; sourceTree = "<group>"; };
+		80C8B26E1F8DF04A00FB06D4 /* ReaNameaddBankCardselectBankcell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReaNameaddBankCardselectBankcell.h; sourceTree = "<group>"; };
+		80C8B26F1F8DF04A00FB06D4 /* ReaNameaddBankCardselectBankcell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReaNameaddBankCardselectBankcell.m; sourceTree = "<group>"; };
+		80C8B2711F8DF26000FB06D4 /* SignInVc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SignInVc.h; sourceTree = "<group>"; };
+		80C8B2721F8DF26000FB06D4 /* SignInVc.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SignInVc.m; sourceTree = "<group>"; };
+		80C8B2771F8DF4E200FB06D4 /* SignInFoot.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SignInFoot.h; sourceTree = "<group>"; };
+		80C8B2781F8DF4E200FB06D4 /* SignInFoot.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SignInFoot.m; sourceTree = "<group>"; };
+		80C8B27A1F8DF59D00FB06D4 /* SignINbaseFillCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SignINbaseFillCell.h; sourceTree = "<group>"; };
+		80C8B27B1F8DF59E00FB06D4 /* SignINbaseFillCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SignINbaseFillCell.m; sourceTree = "<group>"; };
+		80C8B27D1F8DF5BA00FB06D4 /* SignInaddBankCardsmscell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SignInaddBankCardsmscell.h; sourceTree = "<group>"; };
+		80C8B27E1F8DF5BA00FB06D4 /* SignInaddBankCardsmscell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SignInaddBankCardsmscell.m; sourceTree = "<group>"; };
+		80C8B2801F8DFE6900FB06D4 /* SignPicCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SignPicCell.h; sourceTree = "<group>"; };
+		80C8B2811F8DFE6900FB06D4 /* SignPicCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SignPicCell.m; sourceTree = "<group>"; };
+		80C938FF1FB15B1C00A6D7F6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		80CCC5ED1F8B509C00070CB0 /* AddBankCardVc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddBankCardVc.h; sourceTree = "<group>"; };
+		80CCC5EE1F8B509C00070CB0 /* AddBankCardVc.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddBankCardVc.m; sourceTree = "<group>"; };
+		80CCC5F11F8B513500070CB0 /* baseFillCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = baseFillCell.h; sourceTree = "<group>"; };
+		80CCC5F21F8B513500070CB0 /* baseFillCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = baseFillCell.m; sourceTree = "<group>"; };
+		80CCC5F61F8B5ACF00070CB0 /* addBankCarkHead.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = addBankCarkHead.h; sourceTree = "<group>"; };
+		80CCC5F71F8B5ACF00070CB0 /* addBankCarkHead.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = addBankCarkHead.m; sourceTree = "<group>"; };
+		80CCC5F91F8B5AD800070CB0 /* addBankCarkFoot.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = addBankCarkFoot.h; sourceTree = "<group>"; };
+		80CCC5FA1F8B5AD800070CB0 /* addBankCarkFoot.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = addBankCarkFoot.m; sourceTree = "<group>"; };
+		80CCC6011F8B6FDF00070CB0 /* RealNameHead.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RealNameHead.h; sourceTree = "<group>"; };
+		80CCC6021F8B6FDF00070CB0 /* RealNameHead.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RealNameHead.m; sourceTree = "<group>"; };
+		80CCC6041F8B6FEA00070CB0 /* RealNameFoot.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RealNameFoot.h; sourceTree = "<group>"; };
+		80CCC6051F8B6FEA00070CB0 /* RealNameFoot.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RealNameFoot.m; sourceTree = "<group>"; };
+		80CCC60B1F8B7E2200070CB0 /* ReaNamebaseFillCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReaNamebaseFillCell.h; sourceTree = "<group>"; };
+		80CCC60C1F8B7E2200070CB0 /* ReaNamebaseFillCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReaNamebaseFillCell.m; sourceTree = "<group>"; };
+		80CCC6141F8C9B8700070CB0 /* TicketDisplay.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TicketDisplay.h; sourceTree = "<group>"; };
+		80CCC6151F8C9B8700070CB0 /* TicketDisplay.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TicketDisplay.m; sourceTree = "<group>"; };
+		80CCC6171F8C9BAA00070CB0 /* BankCardDisplay.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BankCardDisplay.h; sourceTree = "<group>"; };
+		80CCC6181F8C9BAA00070CB0 /* BankCardDisplay.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BankCardDisplay.m; sourceTree = "<group>"; };
+		80CCC61B1F8DA0AA00070CB0 /* AirTicketsAndBankCardsShow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AirTicketsAndBankCardsShow.h; sourceTree = "<group>"; };
+		80CCC61C1F8DA0AA00070CB0 /* AirTicketsAndBankCardsShow.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AirTicketsAndBankCardsShow.m; sourceTree = "<group>"; };
+		80CCC61E1F8DE9B900070CB0 /* addBankCardsmscell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = addBankCardsmscell.h; sourceTree = "<group>"; };
+		80CCC61F1F8DE9B900070CB0 /* addBankCardsmscell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = addBankCardsmscell.m; sourceTree = "<group>"; };
+		80CCC6211F8DE9D900070CB0 /* addBankCardselectBankcell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = addBankCardselectBankcell.h; sourceTree = "<group>"; };
+		80CCC6221F8DE9D900070CB0 /* addBankCardselectBankcell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = addBankCardselectBankcell.m; sourceTree = "<group>"; };
+		80CD4F821F79E19A00A5F151 /* UILabel+UILabelTpay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+UILabelTpay.h"; sourceTree = "<group>"; };
+		80CD4F831F79E19A00A5F151 /* UILabel+UILabelTpay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+UILabelTpay.m"; sourceTree = "<group>"; };
+		80CD4F861F7A298300A5F151 /* safetySetUpVc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = safetySetUpVc.h; sourceTree = "<group>"; };
+		80CD4F871F7A298300A5F151 /* safetySetUpVc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = safetySetUpVc.m; sourceTree = "<group>"; };
+		80CD4F891F7A33B500A5F151 /* UIView+backgroundColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+backgroundColor.h"; sourceTree = "<group>"; };
+		80CD4F8A1F7A33B500A5F151 /* UIView+backgroundColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+backgroundColor.m"; sourceTree = "<group>"; };
+		80D232921F9B188900576E4F /* ScansuccessCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScansuccessCell.h; sourceTree = "<group>"; };
+		80D232931F9B188900576E4F /* ScansuccessCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScansuccessCell.m; sourceTree = "<group>"; };
+		80D232951F9B192800576E4F /* ScansuccessChangeTypeCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScansuccessChangeTypeCell.h; sourceTree = "<group>"; };
+		80D232961F9B192800576E4F /* ScansuccessChangeTypeCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScansuccessChangeTypeCell.m; sourceTree = "<group>"; };
+		80D2329A1F9B241A00576E4F /* ScanpaymentsuccessCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScanpaymentsuccessCell.h; sourceTree = "<group>"; };
+		80D2329B1F9B241A00576E4F /* ScanpaymentsuccessCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScanpaymentsuccessCell.m; sourceTree = "<group>"; };
+		80D2329D1F9B242600576E4F /* ScanpaymentsuccessHead.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScanpaymentsuccessHead.h; sourceTree = "<group>"; };
+		80D2329E1F9B242600576E4F /* ScanpaymentsuccessHead.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScanpaymentsuccessHead.m; sourceTree = "<group>"; };
+		80D232A01F9B27B500576E4F /* ScanpaymentsuccessHasIconCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScanpaymentsuccessHasIconCell.h; sourceTree = "<group>"; };
+		80D232A11F9B27B500576E4F /* ScanpaymentsuccessHasIconCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScanpaymentsuccessHasIconCell.m; sourceTree = "<group>"; };
+		80D232A51F9B2E5300576E4F /* RechargeSuccessVc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RechargeSuccessVc.h; sourceTree = "<group>"; };
+		80D232A61F9B2E5300576E4F /* RechargeSuccessVc.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RechargeSuccessVc.m; sourceTree = "<group>"; };
+		80D232A81F9B2E6200576E4F /* cashwithdrawalSuccessVc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = cashwithdrawalSuccessVc.h; sourceTree = "<group>"; };
+		80D232A91F9B2E6200576E4F /* cashwithdrawalSuccessVc.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = cashwithdrawalSuccessVc.m; sourceTree = "<group>"; };
+		80D232AC1F9B2FF700576E4F /* cashwithdrawalSuccessHead.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = cashwithdrawalSuccessHead.h; sourceTree = "<group>"; };
+		80D232AD1F9B2FF700576E4F /* cashwithdrawalSuccessHead.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = cashwithdrawalSuccessHead.m; sourceTree = "<group>"; };
+		80D232B01F9B363F00576E4F /* ThirdpartypaymentindesignVc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThirdpartypaymentindesignVc.h; sourceTree = "<group>"; };
+		80D232B11F9B363F00576E4F /* ThirdpartypaymentindesignVc.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThirdpartypaymentindesignVc.m; sourceTree = "<group>"; };
+		80D232B51F9B366700576E4F /* ThirdpartypaymentindesignDesCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThirdpartypaymentindesignDesCell.h; sourceTree = "<group>"; };
+		80D232B61F9B366700576E4F /* ThirdpartypaymentindesignDesCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThirdpartypaymentindesignDesCell.m; sourceTree = "<group>"; };
+		80D232B81F9B367200576E4F /* ThirdpartypaymentindesignHead.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThirdpartypaymentindesignHead.h; sourceTree = "<group>"; };
+		80D232B91F9B367200576E4F /* ThirdpartypaymentindesignHead.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThirdpartypaymentindesignHead.m; sourceTree = "<group>"; };
+		80D232BB1F9B3AC000576E4F /* ThirdpartypaymentindesignTypeCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThirdpartypaymentindesignTypeCell.h; sourceTree = "<group>"; };
+		80D232BC1F9B3AC000576E4F /* ThirdpartypaymentindesignTypeCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThirdpartypaymentindesignTypeCell.m; sourceTree = "<group>"; };
+		80D2B4FB1F9622ED006F6B4D /* LBToAppStore.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LBToAppStore.m; sourceTree = "<group>"; };
+		80D2B4FC1F9622ED006F6B4D /* LBToAppStore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LBToAppStore.h; sourceTree = "<group>"; };
+		80D784141F9984D9000A1511 /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
+		80DBC313201B0862006869C8 /* RechargeandcashwithdrawalBankCellTwo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RechargeandcashwithdrawalBankCellTwo.h; sourceTree = "<group>"; };
+		80DBC314201B0862006869C8 /* RechargeandcashwithdrawalBankCellTwo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RechargeandcashwithdrawalBankCellTwo.m; sourceTree = "<group>"; };
+		80DBC318201B1134006869C8 /* turnOutType.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = turnOutType.h; sourceTree = "<group>"; };
+		80DBC319201B1134006869C8 /* turnOutType.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = turnOutType.m; sourceTree = "<group>"; };
+		80DBC31B201B1167006869C8 /* BaoturnIn.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaoturnIn.h; sourceTree = "<group>"; };
+		80DBC31C201B1167006869C8 /* BaoturnIn.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaoturnIn.m; sourceTree = "<group>"; };
+		80DBC31F201B226A006869C8 /* turnIntoSuccessVc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = turnIntoSuccessVc.h; sourceTree = "<group>"; };
+		80DBC320201B226A006869C8 /* turnIntoSuccessVc.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = turnIntoSuccessVc.m; sourceTree = "<group>"; };
+		80DBC322201B2289006869C8 /* turnOutSuccessVc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = turnOutSuccessVc.h; sourceTree = "<group>"; };
+		80DBC323201B2289006869C8 /* turnOutSuccessVc.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = turnOutSuccessVc.m; sourceTree = "<group>"; };
+		80DBC326201B239F006869C8 /* OutcashwithdrawalSuccessHead.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OutcashwithdrawalSuccessHead.h; sourceTree = "<group>"; };
+		80DBC327201B239F006869C8 /* OutcashwithdrawalSuccessHead.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OutcashwithdrawalSuccessHead.m; sourceTree = "<group>"; };
+		80DBC329201B23AA006869C8 /* IncashwithdrawalSuccessHead.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IncashwithdrawalSuccessHead.h; sourceTree = "<group>"; };
+		80DBC32A201B23AA006869C8 /* IncashwithdrawalSuccessHead.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IncashwithdrawalSuccessHead.m; sourceTree = "<group>"; };
+		80DBC32C201F1464006869C8 /* EmployeeLoanVc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EmployeeLoanVc.h; sourceTree = "<group>"; };
+		80DBC32D201F1464006869C8 /* EmployeeLoanVc.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EmployeeLoanVc.m; sourceTree = "<group>"; };
+		80DBC331201F3FCB006869C8 /* RepaymentSuccess.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RepaymentSuccess.h; sourceTree = "<group>"; };
+		80DBC332201F3FCB006869C8 /* RepaymentSuccess.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RepaymentSuccess.m; sourceTree = "<group>"; };
+		80DBC334201F3FDC006869C8 /* ApplySuccessVc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ApplySuccessVc.h; sourceTree = "<group>"; };
+		80DBC335201F3FDC006869C8 /* ApplySuccessVc.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ApplySuccessVc.m; sourceTree = "<group>"; };
+		80DBC338201F42D5006869C8 /* EmployeeLoanHead.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EmployeeLoanHead.h; sourceTree = "<group>"; };
+		80DBC339201F42D5006869C8 /* EmployeeLoanHead.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EmployeeLoanHead.m; sourceTree = "<group>"; };
+		80E453571FA0239700CE9754 /* Myfinancialmanagement.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Myfinancialmanagement.h; sourceTree = "<group>"; };
+		80E453581FA0239700CE9754 /* Myfinancialmanagement.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Myfinancialmanagement.m; sourceTree = "<group>"; };
+		80E4535B1FA05D7D00CE9754 /* teachingPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = teachingPage.h; sourceTree = "<group>"; };
+		80E4535C1FA05D7D00CE9754 /* teachingPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = teachingPage.m; sourceTree = "<group>"; };
+		80F9535C1F98DC5A00F92502 /* RechargeandcashwithdrawalSuccessVc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RechargeandcashwithdrawalSuccessVc.h; sourceTree = "<group>"; };
+		80F9535D1F98DC5A00F92502 /* RechargeandcashwithdrawalSuccessVc.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RechargeandcashwithdrawalSuccessVc.m; sourceTree = "<group>"; };
+		80FE8EA21F7B4AC30045C988 /* mineVcCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mineVcCell.h; sourceTree = "<group>"; };
+		80FE8EA31F7B4AC30045C988 /* mineVcCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = mineVcCell.m; sourceTree = "<group>"; };
+		80FE8EA51F7B4BF50045C988 /* headMineCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = headMineCell.h; sourceTree = "<group>"; };
+		80FE8EA61F7B4BF50045C988 /* headMineCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = headMineCell.m; sourceTree = "<group>"; };
+		80FE8EAA1F7B77B40045C988 /* newsListVc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = newsListVc.h; sourceTree = "<group>"; };
+		80FE8EAB1F7B77B40045C988 /* newsListVc.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = newsListVc.m; sourceTree = "<group>"; };
+		80FE8EAD1F7B77CB0045C988 /* newsListCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = newsListCell.h; sourceTree = "<group>"; };
+		80FE8EAE1F7B77CB0045C988 /* newsListCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = newsListCell.m; sourceTree = "<group>"; };
+		80FE8EB21F7B85B00045C988 /* BasicInfoVc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BasicInfoVc.h; sourceTree = "<group>"; };
+		80FE8EB31F7B85B00045C988 /* BasicInfoVc.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BasicInfoVc.m; sourceTree = "<group>"; };
+		80FE8EB51F7B86070045C988 /* infoCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = infoCell.h; sourceTree = "<group>"; };
+		80FE8EB61F7B86070045C988 /* infoCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = infoCell.m; sourceTree = "<group>"; };
+		80FE8EB91F7B89F40045C988 /* editNikeNameVc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = editNikeNameVc.h; sourceTree = "<group>"; };
+		80FE8EBA1F7B89F40045C988 /* editNikeNameVc.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = editNikeNameVc.m; sourceTree = "<group>"; };
+		80FE8EBC1F7B8CD20045C988 /* UITextField+Add.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITextField+Add.h"; sourceTree = "<group>"; };
+		80FE8EBD1F7B8CD20045C988 /* UITextField+Add.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITextField+Add.m"; sourceTree = "<group>"; };
+		80FE8EC01F7B90760045C988 /* RealNameVc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RealNameVc.h; sourceTree = "<group>"; };
+		80FE8EC11F7B90760045C988 /* RealNameVc.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RealNameVc.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		802AAB491F563FB600139CD7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80C939001FB15B2600A6D7F6 /* Foundation.framework in Frameworks */,
+				80D784151F9984DA000A1511 /* UserNotifications.framework in Frameworks */,
+				808236BA1F95DBB300C1A2D3 /* LocalAuthentication.framework in Frameworks */,
+				D1FC3AD82BE5C019F0A95F06 /* libPods-portal.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		802AAB621F563FB700139CD7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		802AAB6D1F563FB700139CD7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3D5484C220A3DCA7005EB608 /* 第三方支付二期 */ = {
+			isa = PBXGroup;
+			children = (
+				3D5484C320A3DD12005EB608 /* payTwoVc.h */,
+				3D5484C420A3DD12005EB608 /* payTwoVc.m */,
+				3D5484C620A3E543005EB608 /* 确认付款 */,
+			);
+			path = "第三方支付二期";
+			sourceTree = "<group>";
+		};
+		3D5484C620A3E543005EB608 /* 确认付款 */ = {
+			isa = PBXGroup;
+			children = (
+				3D5484C720A3E55E005EB608 /* ConfirmThePayment.h */,
+				3D5484C820A3E55E005EB608 /* ConfirmThePayment.m */,
+				3D5484CA20A42F31005EB608 /* payTypeSeleTicon.h */,
+				3D5484CB20A42F31005EB608 /* payTypeSeleTicon.m */,
+				3D5484CD20A44083005EB608 /* paySussessTicon.h */,
+				3D5484CE20A44083005EB608 /* paySussessTicon.m */,
+			);
+			path = "确认付款";
+			sourceTree = "<group>";
+		};
+		3D5A1B3720FF25CD008FBD93 /* 通知 */ = {
+			isa = PBXGroup;
+			children = (
+				3D5A1B3820FF260C008FBD93 /* NoticeView.h */,
+				3D5A1B3920FF260C008FBD93 /* NoticeView.m */,
+			);
+			path = "通知";
+			sourceTree = "<group>";
+		};
+		3DBD538A206898F100651051 /* 支持酒店 */ = {
+			isa = PBXGroup;
+			children = (
+				3DBD538B2068995E00651051 /* SupportHotel.h */,
+				3DBD538C2068995E00651051 /* SupportHotel.m */,
+			);
+			path = "支持酒店";
+			sourceTree = "<group>";
+		};
+		58E19827D6CCFB1E544D0C1A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				80C938FF1FB15B1C00A6D7F6 /* Foundation.framework */,
+				80D784141F9984D9000A1511 /* UserNotifications.framework */,
+				808236B91F95DBB300C1A2D3 /* LocalAuthentication.framework */,
+				6C6E7EAC6E792922722A0D0C /* libPods-portal.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8004B8021FB136740062A97F /* MOTMutablePopView(超强极简自定义popView) */ = {
+			isa = PBXGroup;
+			children = (
+				8004B8041FB137D60062A97F /* MOTMutablePopView.h */,
+				8004B8061FB137D70062A97F /* MOTMutablePopView.m */,
+				8004B8051FB137D70062A97F /* MOTPopConfig.h */,
+				8004B8031FB137D60062A97F /* MOTPopConfig.m */,
+			);
+			path = "MOTMutablePopView(超强极简自定义popView)";
+			sourceTree = "<group>";
+		};
+		801DADD12015BB5B0073982A /* 借款CELl */ = {
+			isa = PBXGroup;
+			children = (
+				801DADD22015BC260073982A /* BorrowingBill.h */,
+				801DADD32015BC260073982A /* BorrowingBill.m */,
+				801DADD52015BF6A0073982A /* BorrowingBillNotOut.h */,
+				801DADD62015BF6A0073982A /* BorrowingBillNotOut.m */,
+				801DADD82015C23D0073982A /* BorrowingBillPayOff.h */,
+				801DADD92015C23D0073982A /* BorrowingBillPayOff.m */,
+				801DADDB2015C2800073982A /* BorrowingBillNotOverdue.h */,
+				801DADDC2015C2800073982A /* BorrowingBillNotOverdue.m */,
+				801DADDE2015C28B0073982A /* BorrowingBillOverdue.h */,
+				801DADDF2015C28B0073982A /* BorrowingBillOverdue.m */,
+				801DADE12015C2C40073982A /* BorrowingBillNot.h */,
+				801DADE22015C2C40073982A /* BorrowingBillNot.m */,
+			);
+			path = "借款CELl";
+			sourceTree = "<group>";
+		};
+		801DADE42015DB300073982A /* 我的借款 */ = {
+			isa = PBXGroup;
+			children = (
+				801DADE52015DBC30073982A /* MyBorrowList.h */,
+				801DADE62015DBC30073982A /* MyBorrowList.m */,
+			);
+			path = "我的借款";
+			sourceTree = "<group>";
+		};
+		801DADE92015E7AB0073982A /* 我的卡券 */ = {
+			isa = PBXGroup;
+			children = (
+				801DADEC2015EA810073982A /* CardCouponsVc.h */,
+				801DADED2015EA810073982A /* CardCouponsVc.m */,
+				801DADEB2015EA510073982A /* 飞机票 */,
+				801DADEA2015EA510073982A /* 券 */,
+			);
+			path = "我的卡券";
+			sourceTree = "<group>";
+		};
+		801DADEA2015EA510073982A /* 券 */ = {
+			isa = PBXGroup;
+			children = (
+				801DADF22015EB180073982A /* CouponsVc.h */,
+				801DADF32015EB180073982A /* CouponsVc.m */,
+			);
+			path = "券";
+			sourceTree = "<group>";
+		};
+		801DADEB2015EA510073982A /* 飞机票 */ = {
+			isa = PBXGroup;
+			children = (
+				809C92FA2016D501002897C9 /* cell */,
+				801DADEF2015EB0A0073982A /* AirListVc.h */,
+				801DADF02015EB0A0073982A /* AirListVc.m */,
+			);
+			path = "飞机票";
+			sourceTree = "<group>";
+		};
+		80250BE61F8B116300ED4E1C /* 我的银行卡 */ = {
+			isa = PBXGroup;
+			children = (
+				80CCC5EC1F8B507400070CB0 /* 添加银行卡 */,
+				80250BE81F8B118B00ED4E1C /* myBankCardVc.h */,
+				80250BE91F8B118B00ED4E1C /* myBankCardVc.m */,
+				80250BEE1F8B11D400ED4E1C /* foot */,
+				80250BE71F8B117000ED4E1C /* cell */,
+			);
+			path = "我的银行卡";
+			sourceTree = "<group>";
+		};
+		80250BE71F8B117000ED4E1C /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				80250BEB1F8B11A300ED4E1C /* BankCardCell.h */,
+				80250BEC1F8B11A300ED4E1C /* BankCardCell.m */,
+			);
+			path = cell;
+			sourceTree = "<group>";
+		};
+		80250BEE1F8B11D400ED4E1C /* foot */ = {
+			isa = PBXGroup;
+			children = (
+				80250BEF1F8B11E200ED4E1C /* myBankCardFoot.h */,
+				80250BF01F8B11E200ED4E1C /* myBankCardFoot.m */,
+			);
+			path = foot;
+			sourceTree = "<group>";
+		};
+		802567791F9F0E4A00FA4D72 /* KiritoPageControl */ = {
+			isa = PBXGroup;
+			children = (
+				8025677A1F9F0E4A00FA4D72 /* KTPageControl.h */,
+				8025677B1F9F0E4A00FA4D72 /* KTPageControl.m */,
+			);
+			path = KiritoPageControl;
+			sourceTree = "<group>";
+		};
+		8026009D1F9745EE005B9DA1 /* 选择银行卡 */ = {
+			isa = PBXGroup;
+			children = (
+				8026009F1F9745F5005B9DA1 /* SelectBank.h */,
+				8026009E1F9745F5005B9DA1 /* SelectBank.m */,
+			);
+			path = "选择银行卡";
+			sourceTree = "<group>";
+		};
+		802600A11F9769E4005B9DA1 /* 帮助与反馈 */ = {
+			isa = PBXGroup;
+			children = (
+				802600A21F976A0C005B9DA1 /* HelpandfeedbackVc.h */,
+				802600A31F976A0C005B9DA1 /* HelpandfeedbackVc.m */,
+				802600A51F976D97005B9DA1 /* coCell */,
+			);
+			path = "帮助与反馈";
+			sourceTree = "<group>";
+		};
+		802600A51F976D97005B9DA1 /* coCell */ = {
+			isa = PBXGroup;
+			children = (
+				802600A61F976DA9005B9DA1 /* HelpandfeedbackCoCell.h */,
+				802600A71F976DA9005B9DA1 /* HelpandfeedbackCoCell.m */,
+			);
+			path = coCell;
+			sourceTree = "<group>";
+		};
+		802AAB431F563FB600139CD7 = {
+			isa = PBXGroup;
+			children = (
+				802AAB4E1F563FB600139CD7 /* portal */,
+				802AAB681F563FB700139CD7 /* portalTests */,
+				802AAB731F563FB700139CD7 /* portalUITests */,
+				802AAB4D1F563FB600139CD7 /* Products */,
+				DA834C96B0739B14DC7A3981 /* Pods */,
+				58E19827D6CCFB1E544D0C1A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		802AAB4D1F563FB600139CD7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				802AAB4C1F563FB600139CD7 /* portal.app */,
+				802AAB651F563FB700139CD7 /* portalTests.xctest */,
+				802AAB701F563FB700139CD7 /* portalUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		802AAB4E1F563FB600139CD7 /* portal */ = {
+			isa = PBXGroup;
+			children = (
+				3D44450C20AA817E00425C6B /* portal.entitlements */,
+				80803AB420511A1E00EB98B1 /* 马尔代夫 */,
+				806D4A332028582B006AEA85 /* 领钱活动页 */,
+				809C932D20181DDD002897C9 /* 授权页面 */,
+				80459DC92011C97200C3ADAE /* 腾邦宝 */,
+				80459DCA2011C97300C3ADAE /* 员工贷 */,
+				80507D741FAC70AA008100E7 /* chat */,
+				80E453561FA0234400CE9754 /* 我的理财 */,
+				80D232AF1F9B360900576E4F /* 设计的第三方支付 */,
+				808236AC1F95A65B00C1A2D3 /* Subclass */,
+				803408D21F90A46100DA64EE /* 消费-首页 */,
+				8034089E1F8F4EA400DA64EE /* 充值和提现 */,
+				8034089A1F8F3FB900DA64EE /* 创投实名认证 */,
+				8034088A1F8E270A00DA64EE /* 手势密码 */,
+				803408811F8E1B1200DA64EE /* 设置支付密码 */,
+				803408691F8E025300DA64EE /* 身份验证 */,
+				80FE8EBF1F7B90540045C988 /* 实名认证 */,
+				80FE8EB01F7B85600045C988 /* 基本资料 */,
+				80FE8EA81F7B77850045C988 /* 消息 */,
+				80CD4F851F7A294300A5F151 /* 安全设置 */,
+				803C0D251F78DD97002E172C /* 设置 */,
+				803C0D191F78D787002E172C /* 首页 */,
+				803C0D1A1F78D787002E172C /* 理财 */,
+				803C0D1B1F78D787002E172C /* 我的 */,
+				803C0D2A1F78E4D1002E172C /* 基础cell */,
+				8039217A1F569AA900433532 /* PortalHelper */,
+				803921791F569A7B00433532 /* 共公视图 */,
+				803921781F569A6500433532 /* 基础控制类 */,
+				803921751F569A4100433532 /* 登陆注册页面 */,
+				803921761F569A4100433532 /* 网络请求工具类 */,
+				803921771F569A4100433532 /* 数据模型 */,
+				803921621F56991C00433532 /* category */,
+				803921601F5698DF00433532 /* MACRO */,
+				803921611F5698DF00433532 /* 3rd */,
+				802AAB521F563FB600139CD7 /* AppDelegate.h */,
+				802AAB531F563FB600139CD7 /* AppDelegate.m */,
+				80507D761FAC70C9008100E7 /* AppDelegate+EaseMob.h */,
+				80507D751FAC70C9008100E7 /* AppDelegate+EaseMob.m */,
+				803C0D161F78D607002E172C /* mainTableVc.h */,
+				803C0D171F78D607002E172C /* mainTableVc.m */,
+				80507D791FAC7226008100E7 /* ChatDemoHelper.h */,
+				80507D781FAC7226008100E7 /* ChatDemoHelper.m */,
+				802AAB581F563FB600139CD7 /* Main.storyboard */,
+				802AAB5B1F563FB600139CD7 /* Assets.xcassets */,
+				802AAB5D1F563FB600139CD7 /* LaunchScreen.storyboard */,
+				802AAB601F563FB600139CD7 /* Info.plist */,
+				803921C01F58EF9000433532 /* Localizable.strings */,
+				802AAB4F1F563FB600139CD7 /* Supporting Files */,
+			);
+			path = portal;
+			sourceTree = "<group>";
+		};
+		802AAB4F1F563FB600139CD7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				806D4A38202ADE6D006AEA85 /* launch0.png */,
+				806D4A37202ADE6C006AEA85 /* launch1.png */,
+				806D4A3A202ADE71006AEA85 /* launch2.png */,
+				806D4A39202ADE6F006AEA85 /* launch3.png */,
+				802AAB501F563FB600139CD7 /* main.m */,
+				803921951F56AD7900433532 /* HeaderAll.h */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		802AAB681F563FB700139CD7 /* portalTests */ = {
+			isa = PBXGroup;
+			children = (
+				802AAB691F563FB700139CD7 /* portalTests.m */,
+				802AAB6B1F563FB700139CD7 /* Info.plist */,
+			);
+			path = portalTests;
+			sourceTree = "<group>";
+		};
+		802AAB731F563FB700139CD7 /* portalUITests */ = {
+			isa = PBXGroup;
+			children = (
+				802AAB741F563FB700139CD7 /* portalUITests.m */,
+				802AAB761F563FB700139CD7 /* Info.plist */,
+			);
+			path = portalUITests;
+			sourceTree = "<group>";
+		};
+		803408691F8E025300DA64EE /* 身份验证 */ = {
+			isa = PBXGroup;
+			children = (
+				8034086A1F8E02B400DA64EE /* AuthenticationVc.h */,
+				8034086B1F8E02B400DA64EE /* AuthenticationVc.m */,
+				803408711F8E067700DA64EE /* 验证码验证 */,
+				803408721F8E067700DA64EE /* 支付密码验证 */,
+				8034086D1F8E041D00DA64EE /* cell */,
+			);
+			path = "身份验证";
+			sourceTree = "<group>";
+		};
+		8034086D1F8E041D00DA64EE /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				8034086E1F8E043000DA64EE /* AuthenticationCell.h */,
+				8034086F1F8E043000DA64EE /* AuthenticationCell.m */,
+			);
+			path = cell;
+			sourceTree = "<group>";
+		};
+		803408711F8E067700DA64EE /* 验证码验证 */ = {
+			isa = PBXGroup;
+			children = (
+				803408731F8E069200DA64EE /* AuthenticationSmsVc.h */,
+				803408741F8E069200DA64EE /* AuthenticationSmsVc.m */,
+			);
+			path = "验证码验证";
+			sourceTree = "<group>";
+		};
+		803408721F8E067700DA64EE /* 支付密码验证 */ = {
+			isa = PBXGroup;
+			children = (
+				803408761F8E06A800DA64EE /* AuthenticationpasswordVc.h */,
+				803408771F8E06A800DA64EE /* AuthenticationpasswordVc.m */,
+			);
+			path = "支付密码验证";
+			sourceTree = "<group>";
+		};
+		803408791F8E0EBB00DA64EE /* 密码输入框 */ = {
+			isa = PBXGroup;
+			children = (
+				8034087A1F8E0EC800DA64EE /* PasswordBox.h */,
+				8034087B1F8E0EC800DA64EE /* PasswordBox.m */,
+			);
+			path = "密码输入框";
+			sourceTree = "<group>";
+		};
+		8034087D1F8E180000DA64EE /* 密码输入框 */ = {
+			isa = PBXGroup;
+			children = (
+				8034087F1F8E180F00DA64EE /* SYPasswordView.h */,
+				8034087E1F8E180F00DA64EE /* SYPasswordView.m */,
+			);
+			path = "密码输入框";
+			sourceTree = "<group>";
+		};
+		803408811F8E1B1200DA64EE /* 设置支付密码 */ = {
+			isa = PBXGroup;
+			children = (
+				803408821F8E1B4000DA64EE /* SetpaymentpasswordVc.h */,
+				803408831F8E1B4000DA64EE /* SetpaymentpasswordVc.m */,
+			);
+			path = "设置支付密码";
+			sourceTree = "<group>";
+		};
+		803408851F8E26F800DA64EE /* DBGuestureLock */ = {
+			isa = PBXGroup;
+			children = (
+				803408921F8EF5FC00DA64EE /* YHGesturePasswordView.h */,
+				803408901F8EF5FC00DA64EE /* YHGesturePasswordView.m */,
+				803408931F8EF5FC00DA64EE /* YHCustomButton.h */,
+				803408911F8EF5FC00DA64EE /* YHCustomButton.m */,
+			);
+			path = DBGuestureLock;
+			sourceTree = "<group>";
+		};
+		8034088A1F8E270A00DA64EE /* 手势密码 */ = {
+			isa = PBXGroup;
+			children = (
+				8034088B1F8E273300DA64EE /* GesturecipherVc.h */,
+				8034088C1F8E273300DA64EE /* GesturecipherVc.m */,
+				803408961F8F0DA400DA64EE /* Cocell */,
+			);
+			path = "手势密码";
+			sourceTree = "<group>";
+		};
+		803408961F8F0DA400DA64EE /* Cocell */ = {
+			isa = PBXGroup;
+			children = (
+				803408971F8F0DB900DA64EE /* GesturecipherCoCell.h */,
+				803408981F8F0DB900DA64EE /* GesturecipherCoCell.m */,
+			);
+			path = Cocell;
+			sourceTree = "<group>";
+		};
+		8034089A1F8F3FB900DA64EE /* 创投实名认证 */ = {
+			isa = PBXGroup;
+			children = (
+				8034089B1F8F401000DA64EE /* VenturecapitalRealNameVc.h */,
+				8034089C1F8F401000DA64EE /* VenturecapitalRealNameVc.m */,
+			);
+			path = "创投实名认证";
+			sourceTree = "<group>";
+		};
+		8034089E1F8F4EA400DA64EE /* 充值和提现 */ = {
+			isa = PBXGroup;
+			children = (
+				80F9535B1F98DC4000F92502 /* 充值提现成功页面 */,
+				803408A71F8F4FE900DA64EE /* RechargeandcashwithdrawalVc.h */,
+				803408A81F8F4FE900DA64EE /* RechargeandcashwithdrawalVc.m */,
+				803408B11F8F5DCB00DA64EE /* foot */,
+				803408AA1F8F5C3B00DA64EE /* cell */,
+				8034089F1F8F4EC000DA64EE /* 充值 */,
+				803408A01F8F4EC000DA64EE /* 提现 */,
+			);
+			path = "充值和提现";
+			sourceTree = "<group>";
+		};
+		8034089F1F8F4EC000DA64EE /* 充值 */ = {
+			isa = PBXGroup;
+			children = (
+				803408A41F8F4F9F00DA64EE /* RechargeVc.h */,
+				803408A51F8F4F9F00DA64EE /* RechargeVc.m */,
+			);
+			path = "充值";
+			sourceTree = "<group>";
+		};
+		803408A01F8F4EC000DA64EE /* 提现 */ = {
+			isa = PBXGroup;
+			children = (
+				803408A11F8F4F7C00DA64EE /* WithdrawCashVc.h */,
+				803408A21F8F4F7C00DA64EE /* WithdrawCashVc.m */,
+			);
+			path = "提现";
+			sourceTree = "<group>";
+		};
+		803408AA1F8F5C3B00DA64EE /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				80DBC313201B0862006869C8 /* RechargeandcashwithdrawalBankCellTwo.h */,
+				80DBC314201B0862006869C8 /* RechargeandcashwithdrawalBankCellTwo.m */,
+				803408AB1F8F5CC600DA64EE /* RechargeandcashwithdrawalBankCell.h */,
+				803408AC1F8F5CC600DA64EE /* RechargeandcashwithdrawalBankCell.m */,
+				803408AE1F8F5CE100DA64EE /* RechargeandcashwithdrawalMoneyCell.h */,
+				803408AF1F8F5CE100DA64EE /* RechargeandcashwithdrawalMoneyCell.m */,
+				80834BF01FDA6027006E9ECE /* headRechargeandCell.h */,
+				80834BF11FDA6027006E9ECE /* headRechargeandCell.m */,
+			);
+			path = cell;
+			sourceTree = "<group>";
+		};
+		803408B11F8F5DCB00DA64EE /* foot */ = {
+			isa = PBXGroup;
+			children = (
+				803408B21F8F5DE600DA64EE /* WithdrawCashFoot.h */,
+				803408B31F8F5DE600DA64EE /* WithdrawCashFoot.m */,
+			);
+			path = foot;
+			sourceTree = "<group>";
+		};
+		803408B51F8F6BE500DA64EE /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				803408B61F8F6C0200DA64EE /* homeTopCell.h */,
+				803408B71F8F6C0200DA64EE /* homeTopCell.m */,
+				803408B91F8F6C1200DA64EE /* homeBottomCell.h */,
+				803408BA1F8F6C1200DA64EE /* homeBottomCell.m */,
+			);
+			path = cell;
+			sourceTree = "<group>";
+		};
+		803408BC1F90531E00DA64EE /* 银行卡 */ = {
+			isa = PBXGroup;
+			children = (
+				803408BE1F90533300DA64EE /* BankView.h */,
+				803408BF1F90533300DA64EE /* BankView.m */,
+			);
+			path = "银行卡";
+			sourceTree = "<group>";
+		};
+		803408BD1F90531E00DA64EE /* 机票 */ = {
+			isa = PBXGroup;
+			children = (
+				803408C11F90534600DA64EE /* AirTiketView.h */,
+				803408C21F90534600DA64EE /* AirTiketView.m */,
+			);
+			path = "机票";
+			sourceTree = "<group>";
+		};
+		803408CC1F90652000DA64EE /* 弹出框pop */ = {
+			isa = PBXGroup;
+			children = (
+				803408CD1F90653600DA64EE /* popSelecetView.h */,
+				803408CE1F90653600DA64EE /* popSelecetView.m */,
+			);
+			path = "弹出框pop";
+			sourceTree = "<group>";
+		};
+		803408D21F90A46100DA64EE /* 消费-首页 */ = {
+			isa = PBXGroup;
+			children = (
+				803408D51F90A48700DA64EE /* consumptionVc.h */,
+				803408D61F90A48700DA64EE /* consumptionVc.m */,
+				8074387E1F91BBB400F3C273 /* 付款成功 */,
+				8074387D1F91BB6B00F3C273 /* 扫描成功 */,
+				807438791F91B44500F3C273 /* 开通扫码付 */,
+				803408D31F90A46100DA64EE /* 付款码 */,
+				803408D41F90A46100DA64EE /* 扫码付 */,
+			);
+			path = "消费-首页";
+			sourceTree = "<group>";
+		};
+		803408D31F90A46100DA64EE /* 付款码 */ = {
+			isa = PBXGroup;
+			children = (
+				803408D81F90B27000DA64EE /* PaymentcodeVc.h */,
+				803408D91F90B27000DA64EE /* PaymentcodeVc.m */,
+			);
+			path = "付款码";
+			sourceTree = "<group>";
+		};
+		803408D41F90A46100DA64EE /* 扫码付 */ = {
+			isa = PBXGroup;
+			children = (
+				803408DB1F90B2B000DA64EE /* ScancodepaymentVc.h */,
+				803408DC1F90B2B000DA64EE /* ScancodepaymentVc.m */,
+			);
+			path = "扫码付";
+			sourceTree = "<group>";
+		};
+		803589642020668E00A4BD43 /* 确认还款 */ = {
+			isa = PBXGroup;
+			children = (
+				80358969202067E300A4BD43 /* Confirmationofrepayment.h */,
+				8035896A202067E300A4BD43 /* Confirmationofrepayment.m */,
+				8035896C202162FD00A4BD43 /* cell */,
+			);
+			path = "确认还款";
+			sourceTree = "<group>";
+		};
+		80358965202066B800A4BD43 /* 还款方式选择 */ = {
+			isa = PBXGroup;
+			children = (
+				803589662020673200A4BD43 /* payTypeSeleLoad.h */,
+				803589672020673200A4BD43 /* payTypeSeleLoad.m */,
+			);
+			path = "还款方式选择";
+			sourceTree = "<group>";
+		};
+		8035896C202162FD00A4BD43 /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				8035896D2021639600A4BD43 /* ConfirmapayTypeSeleBankCell.h */,
+				8035896E2021639600A4BD43 /* ConfirmapayTypeSeleBankCell.m */,
+				80358970202163C800A4BD43 /* ConfirmapayTypeSeleMoneyCell.h */,
+				80358971202163C800A4BD43 /* ConfirmapayTypeSeleMoneyCell.m */,
+			);
+			path = cell;
+			sourceTree = "<group>";
+		};
+		803921601F5698DF00433532 /* MACRO */ = {
+			isa = PBXGroup;
+			children = (
+				8039216F1F5699CC00433532 /* MACRO_URL.h */,
+				803921931F56ACFC00433532 /* MACRO_PIC.h */,
+				8039219C1F5794C300433532 /* MACRO_COLOR.h */,
+				8039219E1F57976900433532 /* MACRO_UIFONT.h */,
+				8039219D1F5796DA00433532 /* MACRO_NOTICE.h */,
+				803921711F5699CC00433532 /* MACRO_ENUM.h */,
+				803921941F56AD1A00433532 /* MACRO_PORTAL.h */,
+				803921701F5699CC00433532 /* THIRD_PARTY.h */,
+				803921741F5699CC00433532 /* MACRO_UI.h */,
+			);
+			name = MACRO;
+			path = HeaderFiles;
+			sourceTree = "<group>";
+		};
+		803921611F5698DF00433532 /* 3rd */ = {
+			isa = PBXGroup;
+			children = (
+				809C9309201733A2002897C9 /* YLSpringHeader */,
+				8004B8021FB136740062A97F /* MOTMutablePopView(超强极简自定义popView) */,
+				802567791F9F0E4A00FA4D72 /* KiritoPageControl */,
+				80D2B4FA1F9622E8006F6B4D /* 评价app */,
+				808236B41F95D42C00C1A2D3 /* des加解密 */,
+				803408851F8E26F800DA64EE /* DBGuestureLock */,
+				8034087D1F8E180000DA64EE /* 密码输入框 */,
+				805C10BE1F6A12A4005A7099 /* LaunchIntroduction */,
+				80C325E81F6240D900866A2A /* Z_PopView */,
+				806BC6301F5F9A9100B1E7A1 /* 照片管理 */,
+				806BC5C71F5CEF6500B1E7A1 /* WJSegment */,
+				803921631F56997200433532 /* XAlertView */,
+				803921641F56997200433532 /* MBProgressHUD+MJ */,
+				803921651F56997200433532 /* AppTools */,
+			);
+			path = 3rd;
+			sourceTree = "<group>";
+		};
+		803921621F56991C00433532 /* category */ = {
+			isa = PBXGroup;
+			children = (
+				803921871F569D0C00433532 /* NSDictionary+toData.h */,
+				803921881F569D0C00433532 /* NSDictionary+toData.m */,
+				803921841F569CDB00433532 /* NSUserDefaults+storage.h */,
+				803921851F569CDB00433532 /* NSUserDefaults+storage.m */,
+				8039218D1F56A1BE00433532 /* NSString+Add.h */,
+				8039218E1F56A1BE00433532 /* NSString+Add.m */,
+				803921901F56A7D600433532 /* NSDictionary+Add.h */,
+				803921911F56A7D600433532 /* NSDictionary+Add.m */,
+				803921AB1F57DD3200433532 /* UIImageView+Add.h */,
+				803921AC1F57DD3200433532 /* UIImageView+Add.m */,
+				808206511F594D6900AECD7A /* UIView+Add.h */,
+				808206521F594D6900AECD7A /* UIView+Add.m */,
+				803921C21F58FA6800433532 /* UIColor+Add.h */,
+				803921C31F58FA6800433532 /* UIColor+Add.m */,
+				80625A341F6FB29500BEF3A5 /* UIImage+Add.h */,
+				80625A351F6FB29500BEF3A5 /* UIImage+Add.m */,
+				80CD4F821F79E19A00A5F151 /* UILabel+UILabelTpay.h */,
+				80CD4F831F79E19A00A5F151 /* UILabel+UILabelTpay.m */,
+				80CD4F891F7A33B500A5F151 /* UIView+backgroundColor.h */,
+				80CD4F8A1F7A33B500A5F151 /* UIView+backgroundColor.m */,
+				806BC66F1F6008F400B1E7A1 /* UIButton+Add.h */,
+				806BC6701F6008F400B1E7A1 /* UIButton+Add.m */,
+				80FE8EBC1F7B8CD20045C988 /* UITextField+Add.h */,
+				80FE8EBD1F7B8CD20045C988 /* UITextField+Add.m */,
+			);
+			path = category;
+			sourceTree = "<group>";
+		};
+		803921631F56997200433532 /* XAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				803921661F56997E00433532 /* XAlertView.h */,
+				803921671F56997E00433532 /* XAlertView.m */,
+			);
+			path = XAlertView;
+			sourceTree = "<group>";
+		};
+		803921641F56997200433532 /* MBProgressHUD+MJ */ = {
+			isa = PBXGroup;
+			children = (
+				803921691F56998400433532 /* MBProgressHUD+MJ.h */,
+				8039216A1F56998400433532 /* MBProgressHUD+MJ.m */,
+			);
+			path = "MBProgressHUD+MJ";
+			sourceTree = "<group>";
+		};
+		803921651F56997200433532 /* AppTools */ = {
+			isa = PBXGroup;
+			children = (
+				8039216C1F56998C00433532 /* AppTools.h */,
+				8039216D1F56998C00433532 /* AppTools.m */,
+			);
+			path = AppTools;
+			sourceTree = "<group>";
+		};
+		803921751F569A4100433532 /* 登陆注册页面 */ = {
+			isa = PBXGroup;
+			children = (
+				80C8B2711F8DF26000FB06D4 /* SignInVc.h */,
+				80C8B2721F8DF26000FB06D4 /* SignInVc.m */,
+				80C8B2761F8DF30800FB06D4 /* cell */,
+				80C8B2741F8DF30800FB06D4 /* foot */,
+				80C8B2751F8DF30800FB06D4 /* head */,
+			);
+			path = "登陆注册页面";
+			sourceTree = "<group>";
+		};
+		803921761F569A4100433532 /* 网络请求工具类 */ = {
+			isa = PBXGroup;
+			children = (
+				8039217B1F569BC800433532 /* ToolRequest.h */,
+				8039217C1F569BC800433532 /* ToolRequest.m */,
+				8039217D1F569BC800433532 /* ToolRequest+common.h */,
+				8039217E1F569BC800433532 /* ToolRequest+common.m */,
+			);
+			path = "网络请求工具类";
+			sourceTree = "<group>";
+		};
+		803921771F569A4100433532 /* 数据模型 */ = {
+			isa = PBXGroup;
+			children = (
+				803921811F569BF200433532 /* ToolModeldata.h */,
+				803921821F569BF200433532 /* ToolModeldata.m */,
+			);
+			path = "数据模型";
+			sourceTree = "<group>";
+		};
+		803921781F569A6500433532 /* 基础控制类 */ = {
+			isa = PBXGroup;
+			children = (
+				803921961F56C0F100433532 /* basicVc.h */,
+				803921971F56C0F100433532 /* basicVc.m */,
+				803921981F56C0F100433532 /* basicUiTableView.h */,
+				803921991F56C0F100433532 /* basicUiTableView.m */,
+				8025677D1F9F2C7D00FA4D72 /* paymentVc.h */,
+				8025677E1F9F2C7D00FA4D72 /* paymentVc.m */,
+				803921B11F57F46400433532 /* baseWkVc.h */,
+				803921B21F57F46400433532 /* baseWkVc.m */,
+				803921B41F57F4CC00433532 /* EachWkVc.h */,
+				803921B51F57F4CC00433532 /* EachWkVc.m */,
+				3DAF987A207DFCF500E93C8B /* noneNetForH5.h */,
+				3DAF987B207DFCF500E93C8B /* noneNetForH5.m */,
+			);
+			path = "基础控制类";
+			sourceTree = "<group>";
+		};
+		803921791F569A7B00433532 /* 共公视图 */ = {
+			isa = PBXGroup;
+			children = (
+				3DD14281205F964600B0AF77 /* windosView.h */,
+				3DD14282205F964600B0AF77 /* windosView.m */,
+				3D5A1B3720FF25CD008FBD93 /* 通知 */,
+				8052CA8F1FC55C5B003510FA /* 验证码输入框 */,
+				80E4535A1FA05D7D00CE9754 /* 教学页面 */,
+				8026009D1F9745EE005B9DA1 /* 选择银行卡 */,
+				80598B9B1F91F0D200968DCB /* 支付方式选择 */,
+				80598B971F91E96B00968DCB /* 密码支付框 */,
+				803408CC1F90652000DA64EE /* 弹出框pop */,
+				803408791F8E0EBB00DA64EE /* 密码输入框 */,
+				806BC6401F5FCF8E00B1E7A1 /* 自定义导航栏 */,
+				806BC5F91F5E36F000B1E7A1 /* 日期选择 */,
+			);
+			path = "共公视图";
+			sourceTree = "<group>";
+		};
+		8039217A1F569AA900433532 /* PortalHelper */ = {
+			isa = PBXGroup;
+			children = (
+				803921AE1F57E63500433532 /* PortalHelper.h */,
+				803921AF1F57E63500433532 /* PortalHelper.m */,
+			);
+			path = PortalHelper;
+			sourceTree = "<group>";
+		};
+		803C0D191F78D787002E172C /* 首页 */ = {
+			isa = PBXGroup;
+			children = (
+				803C0D1C1F78D7DD002E172C /* homeVc.h */,
+				803C0D1D1F78D7DD002E172C /* homeVc.m */,
+				809C92FE2017303F002897C9 /* homeTwoVc.h */,
+				809C92FF2017303F002897C9 /* homeTwoVc.m */,
+				809C9339201864E5002897C9 /* tabHead */,
+				809C932620173807002897C9 /* CELLHead */,
+				809C932520173806002897C9 /* Foot */,
+				809C930120173082002897C9 /* 新的CELL */,
+				803408BD1F90531E00DA64EE /* 机票 */,
+				803408BC1F90531E00DA64EE /* 银行卡 */,
+				803408B51F8F6BE500DA64EE /* cell */,
+				80CCC61A1F8DA07700070CB0 /* 机票和银行卡展示 */,
+			);
+			path = "首页";
+			sourceTree = "<group>";
+		};
+		803C0D1A1F78D787002E172C /* 理财 */ = {
+			isa = PBXGroup;
+			children = (
+				803C0D1F1F78D857002E172C /* manageMoneyVc.h */,
+				803C0D201F78D857002E172C /* manageMoneyVc.m */,
+			);
+			path = "理财";
+			sourceTree = "<group>";
+		};
+		803C0D1B1F78D787002E172C /* 我的 */ = {
+			isa = PBXGroup;
+			children = (
+				801DADE92015E7AB0073982A /* 我的卡券 */,
+				801DADE42015DB300073982A /* 我的借款 */,
+				80250BE61F8B116300ED4E1C /* 我的银行卡 */,
+				803C0D221F78D88B002E172C /* mineVc.h */,
+				803C0D231F78D88B002E172C /* mineVc.m */,
+				80FE8EA11F7B4AA80045C988 /* cell */,
+			);
+			path = "我的";
+			sourceTree = "<group>";
+		};
+		803C0D251F78DD97002E172C /* 设置 */ = {
+			isa = PBXGroup;
+			children = (
+				802600A11F9769E4005B9DA1 /* 帮助与反馈 */,
+				803C0D261F78E3F1002E172C /* SetUpVc.h */,
+				803C0D271F78E3F1002E172C /* SetUpVc.m */,
+				803C0D291F78E4B5002E172C /* cell */,
+			);
+			path = "设置";
+			sourceTree = "<group>";
+		};
+		803C0D291F78E4B5002E172C /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				803C0D2E1F790273002E172C /* SetUpCell.h */,
+				803C0D2F1F790273002E172C /* SetUpCell.m */,
+			);
+			path = cell;
+			sourceTree = "<group>";
+		};
+		803C0D2A1F78E4D1002E172C /* 基础cell */ = {
+			isa = PBXGroup;
+			children = (
+				803C0D2B1F78E4E6002E172C /* baseCell.h */,
+				803C0D2C1F78E4E6002E172C /* baseCell.m */,
+				80CCC5F11F8B513500070CB0 /* baseFillCell.h */,
+				80CCC5F21F8B513500070CB0 /* baseFillCell.m */,
+			);
+			path = "基础cell";
+			sourceTree = "<group>";
+		};
+		803C71B920576B070037A2F1 /* 付款完成 */ = {
+			isa = PBXGroup;
+			children = (
+				803C71C12057787B0037A2F1 /* cell */,
+				803C71BD20576C600037A2F1 /* Head */,
+				803C71BA20576B690037A2F1 /* MaldivesPaySuccessVc.h */,
+				803C71BB20576B690037A2F1 /* MaldivesPaySuccessVc.m */,
+			);
+			path = "付款完成";
+			sourceTree = "<group>";
+		};
+		803C71BD20576C600037A2F1 /* Head */ = {
+			isa = PBXGroup;
+			children = (
+				803C71BE20576C9E0037A2F1 /* MaldivesPaySuccessHead.h */,
+				803C71BF20576C9E0037A2F1 /* MaldivesPaySuccessHead.m */,
+			);
+			path = Head;
+			sourceTree = "<group>";
+		};
+		803C71C12057787B0037A2F1 /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				803C71C2205778910037A2F1 /* typeCell.h */,
+				803C71C3205778910037A2F1 /* typeCell.m */,
+				803C71C5205778AE0037A2F1 /* youhuiCell.h */,
+				803C71C6205778AE0037A2F1 /* youhuiCell.m */,
+			);
+			path = cell;
+			sourceTree = "<group>";
+		};
+		803C71C82057B5460037A2F1 /* 找回密码 */ = {
+			isa = PBXGroup;
+			children = (
+				803C71D02057BA350037A2F1 /* head */,
+				803C71CC2057B84F0037A2F1 /* foot */,
+				803C71C92057B5620037A2F1 /* FindPassWordVc.h */,
+				803C71CA2057B5620037A2F1 /* FindPassWordVc.m */,
+			);
+			path = "找回密码";
+			sourceTree = "<group>";
+		};
+		803C71CC2057B84F0037A2F1 /* foot */ = {
+			isa = PBXGroup;
+			children = (
+				803C71CD2057B8640037A2F1 /* FindPassWordFoot.h */,
+				803C71CE2057B8640037A2F1 /* FindPassWordFoot.m */,
+			);
+			path = foot;
+			sourceTree = "<group>";
+		};
+		803C71D02057BA350037A2F1 /* head */ = {
+			isa = PBXGroup;
+			children = (
+				803C71D12057BA440037A2F1 /* FindPassWordHEad.h */,
+				803C71D22057BA440037A2F1 /* FindPassWordHEad.m */,
+			);
+			path = head;
+			sourceTree = "<group>";
+		};
+		803C71D42057C72C0037A2F1 /* 短信验证码弹框 */ = {
+			isa = PBXGroup;
+			children = (
+				803C71D52057C73A0037A2F1 /* MaldiVerificationCodeBox.h */,
+				803C71D62057C73A0037A2F1 /* MaldiVerificationCodeBox.m */,
+			);
+			path = "短信验证码弹框";
+			sourceTree = "<group>";
+		};
+		80459DC92011C97200C3ADAE /* 腾邦宝 */ = {
+			isa = PBXGroup;
+			children = (
+				80DBC31E201B2232006869C8 /* 转入转出成功 */,
+				804F04EB2019DD1E00A9CE06 /* 腾邦宝的实名 */,
+				804F04E72019D9B500A9CE06 /* 分测页面 */,
+				804F04E32019D43500A9CE06 /* 安全验证 */,
+				804F04DB2019B9F000A9CE06 /* 转出 */,
+				804F04DC2019B9F100A9CE06 /* 转入 */,
+				80459DCB2011C98700C3ADAE /* 腾邦宝首页 */,
+			);
+			path = "腾邦宝";
+			sourceTree = "<group>";
+		};
+		80459DCA2011C97300C3ADAE /* 员工贷 */ = {
+			isa = PBXGroup;
+			children = (
+				80358965202066B800A4BD43 /* 还款方式选择 */,
+				803589642020668E00A4BD43 /* 确认还款 */,
+				80DBC337201F42C5006869C8 /* tabviewHead */,
+				80DBC330201F3F61006869C8 /* 还款成功 */,
+				80DBC32F201F3F60006869C8 /* 借款成功 */,
+				80DBC32C201F1464006869C8 /* EmployeeLoanVc.h */,
+				80DBC32D201F1464006869C8 /* EmployeeLoanVc.m */,
+			);
+			path = "员工贷";
+			sourceTree = "<group>";
+		};
+		80459DCB2011C98700C3ADAE /* 腾邦宝首页 */ = {
+			isa = PBXGroup;
+			children = (
+				80459DCF2011CA3600C3ADAE /* Tempusbaohome.h */,
+				80459DD02011CA3600C3ADAE /* Tempusbaohome.m */,
+			);
+			path = "腾邦宝首页";
+			sourceTree = "<group>";
+		};
+		804F04DB2019B9F000A9CE06 /* 转出 */ = {
+			isa = PBXGroup;
+			children = (
+				804F04DD2019BA6D00A9CE06 /* turnOutVc.h */,
+				804F04DE2019BA6D00A9CE06 /* turnOutVc.m */,
+				80DBC317201B1109006869C8 /* cell */,
+			);
+			path = "转出";
+			sourceTree = "<group>";
+		};
+		804F04DC2019B9F100A9CE06 /* 转入 */ = {
+			isa = PBXGroup;
+			children = (
+				804F04E02019BA8500A9CE06 /* turnIntoVc.h */,
+				804F04E12019BA8500A9CE06 /* turnIntoVc.m */,
+				80DBC316201B10DD006869C8 /* cell */,
+			);
+			path = "转入";
+			sourceTree = "<group>";
+		};
+		804F04E32019D43500A9CE06 /* 安全验证 */ = {
+			isa = PBXGroup;
+			children = (
+				804F04E42019D61400A9CE06 /* SmsVc.h */,
+				804F04E52019D61400A9CE06 /* SmsVc.m */,
+			);
+			path = "安全验证";
+			sourceTree = "<group>";
+		};
+		804F04E72019D9B500A9CE06 /* 分测页面 */ = {
+			isa = PBXGroup;
+			children = (
+				804F04E82019D9F900A9CE06 /* RiskManagementVc.h */,
+				804F04E92019D9F900A9CE06 /* RiskManagementVc.m */,
+			);
+			path = "分测页面";
+			sourceTree = "<group>";
+		};
+		804F04EB2019DD1E00A9CE06 /* 腾邦宝的实名 */ = {
+			isa = PBXGroup;
+			children = (
+				804F04EC2019DD2E00A9CE06 /* RealNameBaoVc.h */,
+				804F04ED2019DD2E00A9CE06 /* RealNameBaoVc.m */,
+			);
+			path = "腾邦宝的实名";
+			sourceTree = "<group>";
+		};
+		80507D741FAC70AA008100E7 /* chat */ = {
+			isa = PBXGroup;
+			children = (
+				80507D7B1FAC72B1008100E7 /* ChatViewController.h */,
+				80507D7C1FAC72B1008100E7 /* ChatViewController.m */,
+			);
+			path = chat;
+			sourceTree = "<group>";
+		};
+		8052CA8F1FC55C5B003510FA /* 验证码输入框 */ = {
+			isa = PBXGroup;
+			children = (
+				8052CA901FC55D3B003510FA /* VerificationCodeBox.h */,
+				8052CA911FC55D3B003510FA /* VerificationCodeBox.m */,
+			);
+			path = "验证码输入框";
+			sourceTree = "<group>";
+		};
+		80598B971F91E96B00968DCB /* 密码支付框 */ = {
+			isa = PBXGroup;
+			children = (
+				80598B981F91E98A00968DCB /* Passwordpaymentbox.h */,
+				80598B991F91E98A00968DCB /* Passwordpaymentbox.m */,
+			);
+			path = "密码支付框";
+			sourceTree = "<group>";
+		};
+		80598B9B1F91F0D200968DCB /* 支付方式选择 */ = {
+			isa = PBXGroup;
+			children = (
+				80598B9F1F91F43D00968DCB /* cell */,
+				80598B9C1F91F0F600968DCB /* payTypeSele.h */,
+				80598B9D1F91F0F600968DCB /* payTypeSele.m */,
+			);
+			path = "支付方式选择";
+			sourceTree = "<group>";
+		};
+		80598B9F1F91F43D00968DCB /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				80598BA01F91F45600968DCB /* payTypeSeleBankCell.h */,
+				80598BA11F91F45600968DCB /* payTypeSeleBankCell.m */,
+				80598BA31F91F47400968DCB /* payTypeSeleMoneyCell.h */,
+				80598BA41F91F47400968DCB /* payTypeSeleMoneyCell.m */,
+			);
+			path = cell;
+			sourceTree = "<group>";
+		};
+		805C10BE1F6A12A4005A7099 /* LaunchIntroduction */ = {
+			isa = PBXGroup;
+			children = (
+				805C10BF1F6A12AE005A7099 /* LaunchIntroductionView.h */,
+				805C10C01F6A12AE005A7099 /* LaunchIntroductionView.m */,
+			);
+			path = LaunchIntroduction;
+			sourceTree = "<group>";
+		};
+		806BC5C71F5CEF6500B1E7A1 /* WJSegment */ = {
+			isa = PBXGroup;
+			children = (
+				806BC5C81F5CEF7000B1E7A1 /* WJItemsControlView.h */,
+				806BC5C91F5CEF7000B1E7A1 /* WJItemsControlView.m */,
+			);
+			path = WJSegment;
+			sourceTree = "<group>";
+		};
+		806BC5F91F5E36F000B1E7A1 /* 日期选择 */ = {
+			isa = PBXGroup;
+			children = (
+				806BC5FB1F5E36F600B1E7A1 /* datePiker.h */,
+				806BC5FC1F5E36F600B1E7A1 /* datePiker.m */,
+			);
+			path = "日期选择";
+			sourceTree = "<group>";
+		};
+		806BC6301F5F9A9100B1E7A1 /* 照片管理 */ = {
+			isa = PBXGroup;
+			children = (
+				806BC6341F5F9AB900B1E7A1 /* SuAblumInfo.h */,
+				806BC6351F5F9AB900B1E7A1 /* SuAblumInfo.m */,
+				806BC6311F5F9A9600B1E7A1 /* SuPhotoManager.h */,
+				806BC6321F5F9A9600B1E7A1 /* SuPhotoManager.m */,
+			);
+			path = "照片管理";
+			sourceTree = "<group>";
+		};
+		806BC6401F5FCF8E00B1E7A1 /* 自定义导航栏 */ = {
+			isa = PBXGroup;
+			children = (
+				806BC6411F5FCF9600B1E7A1 /* NavigationBarDetais.h */,
+				806BC6421F5FCF9600B1E7A1 /* NavigationBarDetais.m */,
+			);
+			path = "自定义导航栏";
+			sourceTree = "<group>";
+		};
+		806D4A332028582B006AEA85 /* 领钱活动页 */ = {
+			isa = PBXGroup;
+			children = (
+				806D4A342028585C006AEA85 /* LeadMoneyActivities.h */,
+				806D4A352028585C006AEA85 /* LeadMoneyActivities.m */,
+			);
+			path = "领钱活动页";
+			sourceTree = "<group>";
+		};
+		807438791F91B44500F3C273 /* 开通扫码付 */ = {
+			isa = PBXGroup;
+			children = (
+				8074387A1F91B45700F3C273 /* OpenScancodepaymentVc.h */,
+				8074387B1F91B45700F3C273 /* OpenScancodepaymentVc.m */,
+			);
+			path = "开通扫码付";
+			sourceTree = "<group>";
+		};
+		8074387D1F91BB6B00F3C273 /* 扫描成功 */ = {
+			isa = PBXGroup;
+			children = (
+				80D232911F9B187600576E4F /* cell */,
+				8074387F1F91BBD000F3C273 /* ScansuccessVc.h */,
+				807438801F91BBD000F3C273 /* ScansuccessVc.m */,
+			);
+			path = "扫描成功";
+			sourceTree = "<group>";
+		};
+		8074387E1F91BBB400F3C273 /* 付款成功 */ = {
+			isa = PBXGroup;
+			children = (
+				80D232991F9B240800576E4F /* head */,
+				80D232981F9B23FF00576E4F /* cell */,
+				807438821F91BBEA00F3C273 /* ScanpaymentsuccessVc.h */,
+				807438831F91BBEA00F3C273 /* ScanpaymentsuccessVc.m */,
+			);
+			path = "付款成功";
+			sourceTree = "<group>";
+		};
+		80803AB420511A1E00EB98B1 /* 马尔代夫 */ = {
+			isa = PBXGroup;
+			children = (
+				80803AB520511AA300EB98B1 /* MaldivesPayVc.h */,
+				80803AB620511AA300EB98B1 /* MaldivesPayVc.m */,
+				3DBD538A206898F100651051 /* 支持酒店 */,
+				803C71D42057C72C0037A2F1 /* 短信验证码弹框 */,
+				803C71C82057B5460037A2F1 /* 找回密码 */,
+				803C71B920576B070037A2F1 /* 付款完成 */,
+			);
+			path = "马尔代夫";
+			sourceTree = "<group>";
+		};
+		808236AC1F95A65B00C1A2D3 /* Subclass */ = {
+			isa = PBXGroup;
+			children = (
+				808236B11F95A6A600C1A2D3 /* UITextFieldAdd.h */,
+				808236B21F95A6A600C1A2D3 /* UITextFieldAdd.m */,
+			);
+			path = Subclass;
+			sourceTree = "<group>";
+		};
+		808236B41F95D42C00C1A2D3 /* des加解密 */ = {
+			isa = PBXGroup;
+			children = (
+				808236B51F95D43400C1A2D3 /* Cryptor.h */,
+				808236B61F95D43400C1A2D3 /* Cryptor.m */,
+			);
+			path = "des加解密";
+			sourceTree = "<group>";
+		};
+		809C92FA2016D501002897C9 /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				809C92FB2016D511002897C9 /* AirListVcCell.h */,
+				809C92FC2016D511002897C9 /* AirListVcCell.m */,
+			);
+			name = cell;
+			path = "portal/我的/我的卡券/cell";
+			sourceTree = SOURCE_ROOT;
+		};
+		809C930120173082002897C9 /* 新的CELL */ = {
+			isa = PBXGroup;
+			children = (
+				809C9310201735B2002897C9 /* homeTwoVcOne.h */,
+				809C9311201735B2002897C9 /* homeTwoVcOne.m */,
+				809C93352018213C002897C9 /* ONE */,
+				809C9313201735CD002897C9 /* homeTwoVcTwo.h */,
+				809C9314201735CD002897C9 /* homeTwoVcTwo.m */,
+				809C9316201735F8002897C9 /* homeTwoVcThree.h */,
+				809C9317201735F8002897C9 /* homeTwoVcThree.m */,
+				809C93222017365B002897C9 /* homeTwoVcThreeNew.h */,
+				809C93232017365B002897C9 /* homeTwoVcThreeNew.m */,
+				809C931920173619002897C9 /* homeTwoVcFour.h */,
+				809C931A20173619002897C9 /* homeTwoVcFour.m */,
+				809C931C20173625002897C9 /* homeTwoVcFive.h */,
+				809C931D20173625002897C9 /* homeTwoVcFive.m */,
+				809C931F2017362F002897C9 /* homeTwoVcSix.h */,
+				809C93202017362F002897C9 /* homeTwoVcSix.m */,
+			);
+			path = "新的CELL";
+			sourceTree = "<group>";
+		};
+		809C9309201733A2002897C9 /* YLSpringHeader */ = {
+			isa = PBXGroup;
+			children = (
+				809C930A201733A2002897C9 /* UIScrollView+YLSpringHeader.h */,
+				809C930B201733A2002897C9 /* UIScrollView+YLSpringHeader.m */,
+				809C930C201733A2002897C9 /* YLSpringHeaderView.h */,
+				809C930D201733A2002897C9 /* YLSpringHeaderView.m */,
+			);
+			path = YLSpringHeader;
+			sourceTree = "<group>";
+		};
+		809C932520173806002897C9 /* Foot */ = {
+			isa = PBXGroup;
+			children = (
+				809C932A20173831002897C9 /* homeTwoVcFoot.h */,
+				809C932B20173831002897C9 /* homeTwoVcFoot.m */,
+			);
+			path = Foot;
+			sourceTree = "<group>";
+		};
+		809C932620173807002897C9 /* CELLHead */ = {
+			isa = PBXGroup;
+			children = (
+				809C932720173825002897C9 /* homeTwoVcFourHead.h */,
+				809C932820173825002897C9 /* homeTwoVcFourHead.m */,
+			);
+			path = CELLHead;
+			sourceTree = "<group>";
+		};
+		809C932D20181DDD002897C9 /* 授权页面 */ = {
+			isa = PBXGroup;
+			children = (
+				809C932E20181DDD002897C9 /* applyAuthCodeVc.h */,
+				809C932F20181DDD002897C9 /* applyAuthCodeVc.m */,
+			);
+			path = "授权页面";
+			sourceTree = "<group>";
+		};
+		809C93352018213C002897C9 /* ONE */ = {
+			isa = PBXGroup;
+			children = (
+				809C93362018216E002897C9 /* oneHome.h */,
+				809C93372018216E002897C9 /* oneHome.m */,
+			);
+			path = ONE;
+			sourceTree = "<group>";
+		};
+		809C9339201864E5002897C9 /* tabHead */ = {
+			isa = PBXGroup;
+			children = (
+				809C933A201864F3002897C9 /* homeHead.h */,
+				809C933B201864F3002897C9 /* homeHead.m */,
+			);
+			path = tabHead;
+			sourceTree = "<group>";
+		};
+		80C325E81F6240D900866A2A /* Z_PopView */ = {
+			isa = PBXGroup;
+			children = (
+				80C325E91F6240E400866A2A /* Z_PopView.h */,
+				80C325EA1F6240E400866A2A /* Z_PopView.m */,
+			);
+			path = Z_PopView;
+			sourceTree = "<group>";
+		};
+		80C8B2741F8DF30800FB06D4 /* foot */ = {
+			isa = PBXGroup;
+			children = (
+				80C8B2771F8DF4E200FB06D4 /* SignInFoot.h */,
+				80C8B2781F8DF4E200FB06D4 /* SignInFoot.m */,
+			);
+			path = foot;
+			sourceTree = "<group>";
+		};
+		80C8B2751F8DF30800FB06D4 /* head */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = head;
+			sourceTree = "<group>";
+		};
+		80C8B2761F8DF30800FB06D4 /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				80C8B27A1F8DF59D00FB06D4 /* SignINbaseFillCell.h */,
+				80C8B27B1F8DF59E00FB06D4 /* SignINbaseFillCell.m */,
+				80C8B27D1F8DF5BA00FB06D4 /* SignInaddBankCardsmscell.h */,
+				80C8B27E1F8DF5BA00FB06D4 /* SignInaddBankCardsmscell.m */,
+				80C8B2801F8DFE6900FB06D4 /* SignPicCell.h */,
+				80C8B2811F8DFE6900FB06D4 /* SignPicCell.m */,
+			);
+			path = cell;
+			sourceTree = "<group>";
+		};
+		80CCC5EC1F8B507400070CB0 /* 添加银行卡 */ = {
+			isa = PBXGroup;
+			children = (
+				80CCC5F51F8B5ABA00070CB0 /* foot */,
+				80CCC5F41F8B5ABA00070CB0 /* head */,
+				80CCC5F01F8B50A800070CB0 /* cell */,
+				80CCC5ED1F8B509C00070CB0 /* AddBankCardVc.h */,
+				80CCC5EE1F8B509C00070CB0 /* AddBankCardVc.m */,
+			);
+			path = "添加银行卡";
+			sourceTree = "<group>";
+		};
+		80CCC5F01F8B50A800070CB0 /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				80CCC61E1F8DE9B900070CB0 /* addBankCardsmscell.h */,
+				80CCC61F1F8DE9B900070CB0 /* addBankCardsmscell.m */,
+				80CCC6211F8DE9D900070CB0 /* addBankCardselectBankcell.h */,
+				80CCC6221F8DE9D900070CB0 /* addBankCardselectBankcell.m */,
+			);
+			path = cell;
+			sourceTree = "<group>";
+		};
+		80CCC5F41F8B5ABA00070CB0 /* head */ = {
+			isa = PBXGroup;
+			children = (
+				80CCC5F61F8B5ACF00070CB0 /* addBankCarkHead.h */,
+				80CCC5F71F8B5ACF00070CB0 /* addBankCarkHead.m */,
+			);
+			path = head;
+			sourceTree = "<group>";
+		};
+		80CCC5F51F8B5ABA00070CB0 /* foot */ = {
+			isa = PBXGroup;
+			children = (
+				80CCC5F91F8B5AD800070CB0 /* addBankCarkFoot.h */,
+				80CCC5FA1F8B5AD800070CB0 /* addBankCarkFoot.m */,
+			);
+			path = foot;
+			sourceTree = "<group>";
+		};
+		80CCC5FF1F8B6FC900070CB0 /* head */ = {
+			isa = PBXGroup;
+			children = (
+				80CCC6011F8B6FDF00070CB0 /* RealNameHead.h */,
+				80CCC6021F8B6FDF00070CB0 /* RealNameHead.m */,
+			);
+			path = head;
+			sourceTree = "<group>";
+		};
+		80CCC6001F8B6FC900070CB0 /* foot */ = {
+			isa = PBXGroup;
+			children = (
+				80CCC6041F8B6FEA00070CB0 /* RealNameFoot.h */,
+				80CCC6051F8B6FEA00070CB0 /* RealNameFoot.m */,
+			);
+			path = foot;
+			sourceTree = "<group>";
+		};
+		80CCC6071F8B7D8500070CB0 /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				80C8B26B1F8DF02F00FB06D4 /* ReaNameaddBankCardsmscell.h */,
+				80C8B26C1F8DF02F00FB06D4 /* ReaNameaddBankCardsmscell.m */,
+				80C8B26E1F8DF04A00FB06D4 /* ReaNameaddBankCardselectBankcell.h */,
+				80C8B26F1F8DF04A00FB06D4 /* ReaNameaddBankCardselectBankcell.m */,
+				80CCC60B1F8B7E2200070CB0 /* ReaNamebaseFillCell.h */,
+				80CCC60C1F8B7E2200070CB0 /* ReaNamebaseFillCell.m */,
+			);
+			path = cell;
+			sourceTree = "<group>";
+		};
+		80CCC6121F8C9B6100070CB0 /* 机票展示 */ = {
+			isa = PBXGroup;
+			children = (
+				80CCC6141F8C9B8700070CB0 /* TicketDisplay.h */,
+				80CCC6151F8C9B8700070CB0 /* TicketDisplay.m */,
+			);
+			path = "机票展示";
+			sourceTree = "<group>";
+		};
+		80CCC6131F8C9B6100070CB0 /* 银行卡展示 */ = {
+			isa = PBXGroup;
+			children = (
+				80CCC6171F8C9BAA00070CB0 /* BankCardDisplay.h */,
+				80CCC6181F8C9BAA00070CB0 /* BankCardDisplay.m */,
+				803408C41F9054A300DA64EE /* BankViewShow.h */,
+				803408C51F9054A300DA64EE /* BankViewShow.m */,
+			);
+			path = "银行卡展示";
+			sourceTree = "<group>";
+		};
+		80CCC61A1F8DA07700070CB0 /* 机票和银行卡展示 */ = {
+			isa = PBXGroup;
+			children = (
+				80CCC61B1F8DA0AA00070CB0 /* AirTicketsAndBankCardsShow.h */,
+				80CCC61C1F8DA0AA00070CB0 /* AirTicketsAndBankCardsShow.m */,
+				80CCC6121F8C9B6100070CB0 /* 机票展示 */,
+				80CCC6131F8C9B6100070CB0 /* 银行卡展示 */,
+			);
+			path = "机票和银行卡展示";
+			sourceTree = "<group>";
+		};
+		80CD4F851F7A294300A5F151 /* 安全设置 */ = {
+			isa = PBXGroup;
+			children = (
+				80CD4F861F7A298300A5F151 /* safetySetUpVc.h */,
+				80CD4F871F7A298300A5F151 /* safetySetUpVc.m */,
+			);
+			path = "安全设置";
+			sourceTree = "<group>";
+		};
+		80D232911F9B187600576E4F /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				80D232921F9B188900576E4F /* ScansuccessCell.h */,
+				80D232931F9B188900576E4F /* ScansuccessCell.m */,
+				80D232951F9B192800576E4F /* ScansuccessChangeTypeCell.h */,
+				80D232961F9B192800576E4F /* ScansuccessChangeTypeCell.m */,
+			);
+			path = cell;
+			sourceTree = "<group>";
+		};
+		80D232981F9B23FF00576E4F /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				80D2329A1F9B241A00576E4F /* ScanpaymentsuccessCell.h */,
+				80D2329B1F9B241A00576E4F /* ScanpaymentsuccessCell.m */,
+				80D232A01F9B27B500576E4F /* ScanpaymentsuccessHasIconCell.h */,
+				80D232A11F9B27B500576E4F /* ScanpaymentsuccessHasIconCell.m */,
+			);
+			path = cell;
+			sourceTree = "<group>";
+		};
+		80D232991F9B240800576E4F /* head */ = {
+			isa = PBXGroup;
+			children = (
+				80D2329D1F9B242600576E4F /* ScanpaymentsuccessHead.h */,
+				80D2329E1F9B242600576E4F /* ScanpaymentsuccessHead.m */,
+			);
+			path = head;
+			sourceTree = "<group>";
+		};
+		80D232A31F9B2E0100576E4F /* 充值成功 */ = {
+			isa = PBXGroup;
+			children = (
+				80D232A51F9B2E5300576E4F /* RechargeSuccessVc.h */,
+				80D232A61F9B2E5300576E4F /* RechargeSuccessVc.m */,
+			);
+			path = "充值成功";
+			sourceTree = "<group>";
+		};
+		80D232A41F9B2E0100576E4F /* 提现成功 */ = {
+			isa = PBXGroup;
+			children = (
+				80D232AB1F9B2EFD00576E4F /* head */,
+				80D232A81F9B2E6200576E4F /* cashwithdrawalSuccessVc.h */,
+				80D232A91F9B2E6200576E4F /* cashwithdrawalSuccessVc.m */,
+			);
+			path = "提现成功";
+			sourceTree = "<group>";
+		};
+		80D232AB1F9B2EFD00576E4F /* head */ = {
+			isa = PBXGroup;
+			children = (
+				80D232AC1F9B2FF700576E4F /* cashwithdrawalSuccessHead.h */,
+				80D232AD1F9B2FF700576E4F /* cashwithdrawalSuccessHead.m */,
+			);
+			path = head;
+			sourceTree = "<group>";
+		};
+		80D232AF1F9B360900576E4F /* 设计的第三方支付 */ = {
+			isa = PBXGroup;
+			children = (
+				3D5484C220A3DCA7005EB608 /* 第三方支付二期 */,
+				80D232B41F9B365500576E4F /* cell */,
+				80D232B31F9B364A00576E4F /* head */,
+				80D232B01F9B363F00576E4F /* ThirdpartypaymentindesignVc.h */,
+				80D232B11F9B363F00576E4F /* ThirdpartypaymentindesignVc.m */,
+			);
+			path = "设计的第三方支付";
+			sourceTree = "<group>";
+		};
+		80D232B31F9B364A00576E4F /* head */ = {
+			isa = PBXGroup;
+			children = (
+				80D232B81F9B367200576E4F /* ThirdpartypaymentindesignHead.h */,
+				80D232B91F9B367200576E4F /* ThirdpartypaymentindesignHead.m */,
+			);
+			path = head;
+			sourceTree = "<group>";
+		};
+		80D232B41F9B365500576E4F /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				80D232B51F9B366700576E4F /* ThirdpartypaymentindesignDesCell.h */,
+				80D232B61F9B366700576E4F /* ThirdpartypaymentindesignDesCell.m */,
+				80D232BB1F9B3AC000576E4F /* ThirdpartypaymentindesignTypeCell.h */,
+				80D232BC1F9B3AC000576E4F /* ThirdpartypaymentindesignTypeCell.m */,
+			);
+			path = cell;
+			sourceTree = "<group>";
+		};
+		80D2B4FA1F9622E8006F6B4D /* 评价app */ = {
+			isa = PBXGroup;
+			children = (
+				80D2B4FC1F9622ED006F6B4D /* LBToAppStore.h */,
+				80D2B4FB1F9622ED006F6B4D /* LBToAppStore.m */,
+			);
+			path = "评价app";
+			sourceTree = "<group>";
+		};
+		80DBC316201B10DD006869C8 /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				80DBC31B201B1167006869C8 /* BaoturnIn.h */,
+				80DBC31C201B1167006869C8 /* BaoturnIn.m */,
+				3D5A1B3420FF1EBA008FBD93 /* topCell.h */,
+				3D5A1B3520FF1EBA008FBD93 /* topCell.m */,
+			);
+			path = cell;
+			sourceTree = "<group>";
+		};
+		80DBC317201B1109006869C8 /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				80DBC318201B1134006869C8 /* turnOutType.h */,
+				80DBC319201B1134006869C8 /* turnOutType.m */,
+			);
+			path = cell;
+			sourceTree = "<group>";
+		};
+		80DBC31E201B2232006869C8 /* 转入转出成功 */ = {
+			isa = PBXGroup;
+			children = (
+				80DBC325201B2385006869C8 /* head */,
+				80DBC31F201B226A006869C8 /* turnIntoSuccessVc.h */,
+				80DBC320201B226A006869C8 /* turnIntoSuccessVc.m */,
+				80DBC322201B2289006869C8 /* turnOutSuccessVc.h */,
+				80DBC323201B2289006869C8 /* turnOutSuccessVc.m */,
+			);
+			path = "转入转出成功";
+			sourceTree = "<group>";
+		};
+		80DBC325201B2385006869C8 /* head */ = {
+			isa = PBXGroup;
+			children = (
+				80DBC326201B239F006869C8 /* OutcashwithdrawalSuccessHead.h */,
+				80DBC327201B239F006869C8 /* OutcashwithdrawalSuccessHead.m */,
+				80DBC329201B23AA006869C8 /* IncashwithdrawalSuccessHead.h */,
+				80DBC32A201B23AA006869C8 /* IncashwithdrawalSuccessHead.m */,
+			);
+			path = head;
+			sourceTree = "<group>";
+		};
+		80DBC32F201F3F60006869C8 /* 借款成功 */ = {
+			isa = PBXGroup;
+			children = (
+				80DBC334201F3FDC006869C8 /* ApplySuccessVc.h */,
+				80DBC335201F3FDC006869C8 /* ApplySuccessVc.m */,
+			);
+			path = "借款成功";
+			sourceTree = "<group>";
+		};
+		80DBC330201F3F61006869C8 /* 还款成功 */ = {
+			isa = PBXGroup;
+			children = (
+				80DBC331201F3FCB006869C8 /* RepaymentSuccess.h */,
+				80DBC332201F3FCB006869C8 /* RepaymentSuccess.m */,
+			);
+			path = "还款成功";
+			sourceTree = "<group>";
+		};
+		80DBC337201F42C5006869C8 /* tabviewHead */ = {
+			isa = PBXGroup;
+			children = (
+				80DBC338201F42D5006869C8 /* EmployeeLoanHead.h */,
+				80DBC339201F42D5006869C8 /* EmployeeLoanHead.m */,
+			);
+			path = tabviewHead;
+			sourceTree = "<group>";
+		};
+		80E453561FA0234400CE9754 /* 我的理财 */ = {
+			isa = PBXGroup;
+			children = (
+				80E453571FA0239700CE9754 /* Myfinancialmanagement.h */,
+				80E453581FA0239700CE9754 /* Myfinancialmanagement.m */,
+			);
+			path = "我的理财";
+			sourceTree = "<group>";
+		};
+		80E4535A1FA05D7D00CE9754 /* 教学页面 */ = {
+			isa = PBXGroup;
+			children = (
+				80E4535B1FA05D7D00CE9754 /* teachingPage.h */,
+				80E4535C1FA05D7D00CE9754 /* teachingPage.m */,
+			);
+			path = "教学页面";
+			sourceTree = "<group>";
+		};
+		80F9535B1F98DC4000F92502 /* 充值提现成功页面 */ = {
+			isa = PBXGroup;
+			children = (
+				80D232A31F9B2E0100576E4F /* 充值成功 */,
+				80D232A41F9B2E0100576E4F /* 提现成功 */,
+				80F9535C1F98DC5A00F92502 /* RechargeandcashwithdrawalSuccessVc.h */,
+				80F9535D1F98DC5A00F92502 /* RechargeandcashwithdrawalSuccessVc.m */,
+			);
+			path = "充值提现成功页面";
+			sourceTree = "<group>";
+		};
+		80FE8EA11F7B4AA80045C988 /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				801DADD12015BB5B0073982A /* 借款CELl */,
+				80FE8EA21F7B4AC30045C988 /* mineVcCell.h */,
+				80FE8EA31F7B4AC30045C988 /* mineVcCell.m */,
+				80FE8EA51F7B4BF50045C988 /* headMineCell.h */,
+				80FE8EA61F7B4BF50045C988 /* headMineCell.m */,
+			);
+			path = cell;
+			sourceTree = "<group>";
+		};
+		80FE8EA81F7B77850045C988 /* 消息 */ = {
+			isa = PBXGroup;
+			children = (
+				80FE8EAA1F7B77B40045C988 /* newsListVc.h */,
+				80FE8EAB1F7B77B40045C988 /* newsListVc.m */,
+				80FE8EA91F7B77850045C988 /* cell */,
+			);
+			path = "消息";
+			sourceTree = "<group>";
+		};
+		80FE8EA91F7B77850045C988 /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				80FE8EAD1F7B77CB0045C988 /* newsListCell.h */,
+				80FE8EAE1F7B77CB0045C988 /* newsListCell.m */,
+			);
+			path = cell;
+			sourceTree = "<group>";
+		};
+		80FE8EB01F7B85600045C988 /* 基本资料 */ = {
+			isa = PBXGroup;
+			children = (
+				80FE8EB81F7B89D10045C988 /* 修改昵称 */,
+				80FE8EB21F7B85B00045C988 /* BasicInfoVc.h */,
+				80FE8EB31F7B85B00045C988 /* BasicInfoVc.m */,
+				80FE8EB11F7B859B0045C988 /* cell */,
+			);
+			path = "基本资料";
+			sourceTree = "<group>";
+		};
+		80FE8EB11F7B859B0045C988 /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				80FE8EB51F7B86070045C988 /* infoCell.h */,
+				80FE8EB61F7B86070045C988 /* infoCell.m */,
+			);
+			path = cell;
+			sourceTree = "<group>";
+		};
+		80FE8EB81F7B89D10045C988 /* 修改昵称 */ = {
+			isa = PBXGroup;
+			children = (
+				80FE8EB91F7B89F40045C988 /* editNikeNameVc.h */,
+				80FE8EBA1F7B89F40045C988 /* editNikeNameVc.m */,
+			);
+			path = "修改昵称";
+			sourceTree = "<group>";
+		};
+		80FE8EBF1F7B90540045C988 /* 实名认证 */ = {
+			isa = PBXGroup;
+			children = (
+				80CCC6071F8B7D8500070CB0 /* cell */,
+				80CCC5FF1F8B6FC900070CB0 /* head */,
+				80CCC6001F8B6FC900070CB0 /* foot */,
+				80FE8EC01F7B90760045C988 /* RealNameVc.h */,
+				80FE8EC11F7B90760045C988 /* RealNameVc.m */,
+			);
+			path = "实名认证";
+			sourceTree = "<group>";
+		};
+		DA834C96B0739B14DC7A3981 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1DEACF670DA6735801701ED8 /* Pods-portal.debug.xcconfig */,
+				50AF83B2CC40BD8186610D4B /* Pods-portal.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		802AAB4B1F563FB600139CD7 /* portal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 802AAB791F563FB700139CD7 /* Build configuration list for PBXNativeTarget "portal" */;
+			buildPhases = (
+				7817F3D44C4C299F62A25C5C /* [CP] Check Pods Manifest.lock */,
+				802AAB481F563FB600139CD7 /* Sources */,
+				802AAB491F563FB600139CD7 /* Frameworks */,
+				802AAB4A1F563FB600139CD7 /* Resources */,
+				17F74AE551826535DD0D751E /* [CP] Embed Pods Frameworks */,
+				1BBB0C255628BF942356A2F6 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = portal;
+			productName = portal;
+			productReference = 802AAB4C1F563FB600139CD7 /* portal.app */;
+			productType = "com.apple.product-type.application";
+		};
+		802AAB641F563FB700139CD7 /* portalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 802AAB7C1F563FB700139CD7 /* Build configuration list for PBXNativeTarget "portalTests" */;
+			buildPhases = (
+				802AAB611F563FB700139CD7 /* Sources */,
+				802AAB621F563FB700139CD7 /* Frameworks */,
+				802AAB631F563FB700139CD7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				802AAB671F563FB700139CD7 /* PBXTargetDependency */,
+			);
+			name = portalTests;
+			productName = portalTests;
+			productReference = 802AAB651F563FB700139CD7 /* portalTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		802AAB6F1F563FB700139CD7 /* portalUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 802AAB7F1F563FB700139CD7 /* Build configuration list for PBXNativeTarget "portalUITests" */;
+			buildPhases = (
+				802AAB6C1F563FB700139CD7 /* Sources */,
+				802AAB6D1F563FB700139CD7 /* Frameworks */,
+				802AAB6E1F563FB700139CD7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				802AAB721F563FB700139CD7 /* PBXTargetDependency */,
+			);
+			name = portalUITests;
+			productName = portalUITests;
+			productReference = 802AAB701F563FB700139CD7 /* portalUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		802AAB441F563FB600139CD7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "qxc122@126.com";
+				TargetAttributes = {
+					802AAB4B1F563FB600139CD7 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = HVHHKYW9Z7;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+					802AAB641F563FB700139CD7 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = HVHHKYW9Z7;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 802AAB4B1F563FB600139CD7;
+					};
+					802AAB6F1F563FB700139CD7 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = HVHHKYW9Z7;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 802AAB4B1F563FB600139CD7;
+					};
+				};
+			};
+			buildConfigurationList = 802AAB471F563FB600139CD7 /* Build configuration list for PBXProject "portal" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 802AAB431F563FB600139CD7;
+			productRefGroup = 802AAB4D1F563FB600139CD7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				802AAB4B1F563FB600139CD7 /* portal */,
+				802AAB641F563FB700139CD7 /* portalTests */,
+				802AAB6F1F563FB700139CD7 /* portalUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		802AAB4A1F563FB600139CD7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				802AAB5F1F563FB600139CD7 /* LaunchScreen.storyboard in Resources */,
+				806D4A3C202ADE71006AEA85 /* launch0.png in Resources */,
+				803921BE1F58EF9000433532 /* Localizable.strings in Resources */,
+				806D4A3E202ADE71006AEA85 /* launch2.png in Resources */,
+				802AAB5C1F563FB600139CD7 /* Assets.xcassets in Resources */,
+				802AAB5A1F563FB600139CD7 /* Main.storyboard in Resources */,
+				806D4A3B202ADE71006AEA85 /* launch1.png in Resources */,
+				806D4A3D202ADE71006AEA85 /* launch3.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		802AAB631F563FB700139CD7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		802AAB6E1F563FB700139CD7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		17F74AE551826535DD0D751E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-portal/Pods-portal-frameworks.sh",
+				"${PODS_ROOT}/HyphenateLite/iOS_IM_SDK_V3.3.9/HyphenateSDK/HyphenateLite.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HyphenateLite.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-portal/Pods-portal-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1BBB0C255628BF942356A2F6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-portal/Pods-portal-resources.sh",
+				"${PODS_ROOT}/DateTools/DateTools/DateTools/DateTools.bundle",
+				"${PODS_ROOT}/EaseUILite/EaseUI/resources/EaseUIResource.bundle",
+				"${PODS_ROOT}/IQKeyboardManager/IQKeyboardManager/Resources/IQKeyboardManager.bundle",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/MWPhotoBrowser/MWPhotoBrowser.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/DateTools.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/EaseUIResource.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/IQKeyboardManager.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MWPhotoBrowser.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-portal/Pods-portal-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7817F3D44C4C299F62A25C5C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-portal-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		802AAB481F563FB600139CD7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80F9535E1F98DC5A00F92502 /* RechargeandcashwithdrawalSuccessVc.m in Sources */,
+				802600A01F97460B005B9DA1 /* SelectBank.m in Sources */,
+				80D2B4FD1F962351006F6B4D /* LBToAppStore.m in Sources */,
+				801DADF12015EB0A0073982A /* AirListVc.m in Sources */,
+				808236B71F95D60500C1A2D3 /* Cryptor.m in Sources */,
+				803C71C020576C9E0037A2F1 /* MaldivesPaySuccessHead.m in Sources */,
+				807438811F91BBD000F3C273 /* ScansuccessVc.m in Sources */,
+				801DADEE2015EA810073982A /* CardCouponsVc.m in Sources */,
+				803408941F8EF75C00DA64EE /* YHGesturePasswordView.m in Sources */,
+				803408951F8EF75C00DA64EE /* YHCustomButton.m in Sources */,
+				803408801F8E18AA00DA64EE /* SYPasswordView.m in Sources */,
+				809C933020181DDD002897C9 /* applyAuthCodeVc.m in Sources */,
+				80834BF21FDA6027006E9ECE /* headRechargeandCell.m in Sources */,
+				80C8B26D1F8DF02F00FB06D4 /* ReaNameaddBankCardsmscell.m in Sources */,
+				3DBD538D2068995E00651051 /* SupportHotel.m in Sources */,
+				8004B8071FB137D70062A97F /* MOTPopConfig.m in Sources */,
+				803408C31F90534600DA64EE /* AirTiketView.m in Sources */,
+				8039218F1F56A1BE00433532 /* NSString+Add.m in Sources */,
+				803C0D181F78D607002E172C /* mainTableVc.m in Sources */,
+				803921891F569D0C00433532 /* NSDictionary+toData.m in Sources */,
+				80507D7D1FAC72B1008100E7 /* ChatViewController.m in Sources */,
+				80DBC32B201B23AA006869C8 /* IncashwithdrawalSuccessHead.m in Sources */,
+				803408C61F9054A300DA64EE /* BankViewShow.m in Sources */,
+				806BC6711F6008F400B1E7A1 /* UIButton+Add.m in Sources */,
+				8034086C1F8E02B400DA64EE /* AuthenticationVc.m in Sources */,
+				80D232B21F9B363F00576E4F /* ThirdpartypaymentindesignVc.m in Sources */,
+				803921B01F57E63500433532 /* PortalHelper.m in Sources */,
+				803408701F8E043000DA64EE /* AuthenticationCell.m in Sources */,
+				80E453591FA0239700CE9754 /* Myfinancialmanagement.m in Sources */,
+				801DADE72015DBC30073982A /* MyBorrowList.m in Sources */,
+				803408C01F90533300DA64EE /* BankView.m in Sources */,
+				802600A81F976DA9005B9DA1 /* HelpandfeedbackCoCell.m in Sources */,
+				80FE8EAF1F7B77CB0045C988 /* newsListCell.m in Sources */,
+				803408A31F8F4F7C00DA64EE /* WithdrawCashVc.m in Sources */,
+				80CCC5F31F8B513500070CB0 /* baseFillCell.m in Sources */,
+				80803AB720511AA300EB98B1 /* MaldivesPayVc.m in Sources */,
+				806BC6361F5F9AB900B1E7A1 /* SuAblumInfo.m in Sources */,
+				803C71BC20576B690037A2F1 /* MaldivesPaySuccessVc.m in Sources */,
+				803408DD1F90B2B000DA64EE /* ScancodepaymentVc.m in Sources */,
+				80D232BA1F9B367200576E4F /* ThirdpartypaymentindesignHead.m in Sources */,
+				80CCC5F81F8B5ACF00070CB0 /* addBankCarkHead.m in Sources */,
+				803921B61F57F4CC00433532 /* EachWkVc.m in Sources */,
+				80D232971F9B192800576E4F /* ScansuccessChangeTypeCell.m in Sources */,
+				80FE8EA71F7B4BF50045C988 /* headMineCell.m in Sources */,
+				803C71CF2057B8640037A2F1 /* FindPassWordFoot.m in Sources */,
+				80DBC32E201F1464006869C8 /* EmployeeLoanVc.m in Sources */,
+				80C8B2821F8DFE6900FB06D4 /* SignPicCell.m in Sources */,
+				80598B9A1F91E98A00968DCB /* Passwordpaymentbox.m in Sources */,
+				801DADE02015C28B0073982A /* BorrowingBillOverdue.m in Sources */,
+				803921B31F57F46400433532 /* baseWkVc.m in Sources */,
+				809C930E201733A3002897C9 /* UIScrollView+YLSpringHeader.m in Sources */,
+				80DBC33A201F42D5006869C8 /* EmployeeLoanHead.m in Sources */,
+				809C9315201735CD002897C9 /* homeTwoVcTwo.m in Sources */,
+				804F04E22019BA8500A9CE06 /* turnIntoVc.m in Sources */,
+				801DADF42015EB180073982A /* CouponsVc.m in Sources */,
+				80DBC328201B239F006869C8 /* OutcashwithdrawalSuccessHead.m in Sources */,
+				80CCC6191F8C9BAA00070CB0 /* BankCardDisplay.m in Sources */,
+				80FE8EB71F7B86070045C988 /* infoCell.m in Sources */,
+				8004B8081FB137D70062A97F /* MOTMutablePopView.m in Sources */,
+				808206531F594D6900AECD7A /* UIView+Add.m in Sources */,
+				80FE8EA41F7B4AC30045C988 /* mineVcCell.m in Sources */,
+				80D232A71F9B2E5300576E4F /* RechargeSuccessVc.m in Sources */,
+				803C71C4205778910037A2F1 /* typeCell.m in Sources */,
+				8039216B1F56998400433532 /* MBProgressHUD+MJ.m in Sources */,
+				80D232941F9B188900576E4F /* ScansuccessCell.m in Sources */,
+				8025677C1F9F0E4A00FA4D72 /* KTPageControl.m in Sources */,
+				809C933C201864F3002897C9 /* homeHead.m in Sources */,
+				803C0D2D1F78E4E6002E172C /* baseCell.m in Sources */,
+				803408D71F90A48700DA64EE /* consumptionVc.m in Sources */,
+				80FE8EAC1F7B77B40045C988 /* newsListVc.m in Sources */,
+				80DBC333201F3FCB006869C8 /* RepaymentSuccess.m in Sources */,
+				803C0D281F78E3F1002E172C /* SetUpVc.m in Sources */,
+				80FE8EC21F7B90760045C988 /* RealNameVc.m in Sources */,
+				80DBC31D201B1167006869C8 /* BaoturnIn.m in Sources */,
+				803408AD1F8F5CC600DA64EE /* RechargeandcashwithdrawalBankCell.m in Sources */,
+				803408B41F8F5DE600DA64EE /* WithdrawCashFoot.m in Sources */,
+				809C93002017303F002897C9 /* homeTwoVc.m in Sources */,
+				803921801F569BC800433532 /* ToolRequest+common.m in Sources */,
+				80DBC324201B2289006869C8 /* turnOutSuccessVc.m in Sources */,
+				803408A91F8F4FE900DA64EE /* RechargeandcashwithdrawalVc.m in Sources */,
+				8035896B202067E300A4BD43 /* Confirmationofrepayment.m in Sources */,
+				80358972202163C800A4BD43 /* ConfirmapayTypeSeleMoneyCell.m in Sources */,
+				803921C41F58FA6800433532 /* UIColor+Add.m in Sources */,
+				80459DD12011CA3600C3ADAE /* Tempusbaohome.m in Sources */,
+				80CCC6201F8DE9B900070CB0 /* addBankCardsmscell.m in Sources */,
+				80CCC60D1F8B7E2200070CB0 /* ReaNamebaseFillCell.m in Sources */,
+				3D5A1B3620FF1EBA008FBD93 /* topCell.m in Sources */,
+				809C932920173825002897C9 /* homeTwoVcFourHead.m in Sources */,
+				80D232AA1F9B2E6200576E4F /* cashwithdrawalSuccessVc.m in Sources */,
+				803C0D301F790273002E172C /* SetUpCell.m in Sources */,
+				80DBC315201B0862006869C8 /* RechargeandcashwithdrawalBankCellTwo.m in Sources */,
+				80C325EB1F6240E500866A2A /* Z_PopView.m in Sources */,
+				80C8B2701F8DF04A00FB06D4 /* ReaNameaddBankCardselectBankcell.m in Sources */,
+				8025677F1F9F2C7D00FA4D72 /* paymentVc.m in Sources */,
+				80CCC6031F8B6FDF00070CB0 /* RealNameHead.m in Sources */,
+				80FE8EBB1F7B89F40045C988 /* editNikeNameVc.m in Sources */,
+				80DBC31A201B1134006869C8 /* turnOutType.m in Sources */,
+				80507D771FAC70CA008100E7 /* AppDelegate+EaseMob.m in Sources */,
+				80CCC5EF1F8B509C00070CB0 /* AddBankCardVc.m in Sources */,
+				803C0D1E1F78D7DD002E172C /* homeVc.m in Sources */,
+				806BC6331F5F9A9600B1E7A1 /* SuPhotoManager.m in Sources */,
+				8035896F2021639600A4BD43 /* ConfirmapayTypeSeleBankCell.m in Sources */,
+				804F04EE2019DD2E00A9CE06 /* RealNameBaoVc.m in Sources */,
+				803408991F8F0DB900DA64EE /* GesturecipherCoCell.m in Sources */,
+				802AAB541F563FB600139CD7 /* AppDelegate.m in Sources */,
+				801DADDD2015C2800073982A /* BorrowingBillNotOverdue.m in Sources */,
+				3D5484CC20A42F31005EB608 /* payTypeSeleTicon.m in Sources */,
+				801DADE32015C2C40073982A /* BorrowingBillNot.m in Sources */,
+				80C8B2791F8DF4E300FB06D4 /* SignInFoot.m in Sources */,
+				80DBC321201B226A006869C8 /* turnIntoSuccessVc.m in Sources */,
+				803C71D72057C73A0037A2F1 /* MaldiVerificationCodeBox.m in Sources */,
+				80250BED1F8B11A300ED4E1C /* BankCardCell.m in Sources */,
+				80CCC6231F8DE9D900070CB0 /* addBankCardselectBankcell.m in Sources */,
+				80DBC336201F3FDC006869C8 /* ApplySuccessVc.m in Sources */,
+				80D232AE1F9B2FF700576E4F /* cashwithdrawalSuccessHead.m in Sources */,
+				803C71D32057BA440037A2F1 /* FindPassWordHEad.m in Sources */,
+				80C8B27C1F8DF59E00FB06D4 /* SignINbaseFillCell.m in Sources */,
+				804F04DF2019BA6D00A9CE06 /* turnOutVc.m in Sources */,
+				803921681F56997E00433532 /* XAlertView.m in Sources */,
+				809C92FD2016D511002897C9 /* AirListVcCell.m in Sources */,
+				801DADD42015BC260073982A /* BorrowingBill.m in Sources */,
+				80FE8EB41F7B85B00045C988 /* BasicInfoVc.m in Sources */,
+				8034089D1F8F401000DA64EE /* VenturecapitalRealNameVc.m in Sources */,
+				803408781F8E06A800DA64EE /* AuthenticationpasswordVc.m in Sources */,
+				803408B01F8F5CE100DA64EE /* RechargeandcashwithdrawalMoneyCell.m in Sources */,
+				803408B81F8F6C0200DA64EE /* homeTopCell.m in Sources */,
+				80FE8EBE1F7B8CD20045C988 /* UITextField+Add.m in Sources */,
+				806D4A362028585C006AEA85 /* LeadMoneyActivities.m in Sources */,
+				806BC5FD1F5E36F600B1E7A1 /* datePiker.m in Sources */,
+				809C93382018216E002897C9 /* oneHome.m in Sources */,
+				809C932C20173831002897C9 /* homeTwoVcFoot.m in Sources */,
+				80625A361F6FB29500BEF3A5 /* UIImage+Add.m in Sources */,
+				80CD4F8B1F7A33B500A5F151 /* UIView+backgroundColor.m in Sources */,
+				801DADD72015BF6A0073982A /* BorrowingBillNotOut.m in Sources */,
+				80598B9E1F91F0F600968DCB /* payTypeSele.m in Sources */,
+				803921861F569CDB00433532 /* NSUserDefaults+storage.m in Sources */,
+				803408BB1F8F6C1200DA64EE /* homeBottomCell.m in Sources */,
+				803408751F8E069200DA64EE /* AuthenticationSmsVc.m in Sources */,
+				803921921F56A7D600433532 /* NSDictionary+Add.m in Sources */,
+				80C8B27F1F8DF5BA00FB06D4 /* SignInaddBankCardsmscell.m in Sources */,
+				803C71C7205778AE0037A2F1 /* youhuiCell.m in Sources */,
+				809C9312201735B2002897C9 /* homeTwoVcOne.m in Sources */,
+				809C930F201733A3002897C9 /* YLSpringHeaderView.m in Sources */,
+				801DADDA2015C23D0073982A /* BorrowingBillPayOff.m in Sources */,
+				80C8B2731F8DF26000FB06D4 /* SignInVc.m in Sources */,
+				80598BA51F91F47400968DCB /* payTypeSeleMoneyCell.m in Sources */,
+				804F04EA2019D9F900A9CE06 /* RiskManagementVc.m in Sources */,
+				807438841F91BBEA00F3C273 /* ScanpaymentsuccessVc.m in Sources */,
+				80507D7A1FAC7226008100E7 /* ChatDemoHelper.m in Sources */,
+				805C10C11F6A12AE005A7099 /* LaunchIntroductionView.m in Sources */,
+				809C931E20173625002897C9 /* homeTwoVcFive.m in Sources */,
+				803408A61F8F4F9F00DA64EE /* RechargeVc.m in Sources */,
+				8039219A1F56C0F100433532 /* basicVc.m in Sources */,
+				803C0D211F78D857002E172C /* manageMoneyVc.m in Sources */,
+				8034088D1F8E273300DA64EE /* GesturecipherVc.m in Sources */,
+				803408DA1F90B27000DA64EE /* PaymentcodeVc.m in Sources */,
+				8074387C1F91B45700F3C273 /* OpenScancodepaymentVc.m in Sources */,
+				80250BF11F8B11E200ED4E1C /* myBankCardFoot.m in Sources */,
+				80D2329C1F9B241A00576E4F /* ScanpaymentsuccessCell.m in Sources */,
+				803C0D241F78D88B002E172C /* mineVc.m in Sources */,
+				803589682020673200A4BD43 /* payTypeSeleLoad.m in Sources */,
+				80CCC5FB1F8B5AD800070CB0 /* addBankCarkFoot.m in Sources */,
+				80CD4F881F7A298300A5F151 /* safetySetUpVc.m in Sources */,
+				3D5484CF20A44083005EB608 /* paySussessTicon.m in Sources */,
+				803408841F8E1B4000DA64EE /* SetpaymentpasswordVc.m in Sources */,
+				806BC5CA1F5CEF7000B1E7A1 /* WJItemsControlView.m in Sources */,
+				809C931B20173619002897C9 /* homeTwoVcFour.m in Sources */,
+				8039219B1F56C0F100433532 /* basicUiTableView.m in Sources */,
+				803408CF1F90653600DA64EE /* popSelecetView.m in Sources */,
+				3DAF987C207DFCF500E93C8B /* noneNetForH5.m in Sources */,
+				8052CA921FC55D3B003510FA /* VerificationCodeBox.m in Sources */,
+				80CCC61D1F8DA0AA00070CB0 /* AirTicketsAndBankCardsShow.m in Sources */,
+				803921831F569BF200433532 /* ToolModeldata.m in Sources */,
+				802AAB511F563FB600139CD7 /* main.m in Sources */,
+				809C93242017365B002897C9 /* homeTwoVcThreeNew.m in Sources */,
+				80250BEA1F8B118B00ED4E1C /* myBankCardVc.m in Sources */,
+				806BC6431F5FCF9600B1E7A1 /* NavigationBarDetais.m in Sources */,
+				804F04E62019D61400A9CE06 /* SmsVc.m in Sources */,
+				8039217F1F569BC800433532 /* ToolRequest.m in Sources */,
+				808236B31F95A6A600C1A2D3 /* UITextFieldAdd.m in Sources */,
+				803921AD1F57DD3200433532 /* UIImageView+Add.m in Sources */,
+				80598BA21F91F45600968DCB /* payTypeSeleBankCell.m in Sources */,
+				80E4535D1FA05D7E00CE9754 /* teachingPage.m in Sources */,
+				809C93212017362F002897C9 /* homeTwoVcSix.m in Sources */,
+				80D232A21F9B27B500576E4F /* ScanpaymentsuccessHasIconCell.m in Sources */,
+				8039216E1F56998C00433532 /* AppTools.m in Sources */,
+				809C9318201735F8002897C9 /* homeTwoVcThree.m in Sources */,
+				3D5484C520A3DD12005EB608 /* payTwoVc.m in Sources */,
+				80CCC6161F8C9B8700070CB0 /* TicketDisplay.m in Sources */,
+				80D232B71F9B366700576E4F /* ThirdpartypaymentindesignDesCell.m in Sources */,
+				802600A41F976A0C005B9DA1 /* HelpandfeedbackVc.m in Sources */,
+				8034087C1F8E0EC800DA64EE /* PasswordBox.m in Sources */,
+				803C71CB2057B5620037A2F1 /* FindPassWordVc.m in Sources */,
+				80CCC6061F8B6FEA00070CB0 /* RealNameFoot.m in Sources */,
+				3D5484C920A3E55F005EB608 /* ConfirmThePayment.m in Sources */,
+				3DD14283205F964600B0AF77 /* windosView.m in Sources */,
+				3D5A1B3A20FF260C008FBD93 /* NoticeView.m in Sources */,
+				80CD4F841F79E19A00A5F151 /* UILabel+UILabelTpay.m in Sources */,
+				80D2329F1F9B242600576E4F /* ScanpaymentsuccessHead.m in Sources */,
+				80D232BD1F9B3AC000576E4F /* ThirdpartypaymentindesignTypeCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		802AAB611F563FB700139CD7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				802AAB6A1F563FB700139CD7 /* portalTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		802AAB6C1F563FB700139CD7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				802AAB751F563FB700139CD7 /* portalUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		802AAB671F563FB700139CD7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 802AAB4B1F563FB600139CD7 /* portal */;
+			targetProxy = 802AAB661F563FB700139CD7 /* PBXContainerItemProxy */;
+		};
+		802AAB721F563FB700139CD7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 802AAB4B1F563FB600139CD7 /* portal */;
+			targetProxy = 802AAB711F563FB700139CD7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		802AAB581F563FB600139CD7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				802AAB591F563FB600139CD7 /* Base */,
+				803921BA1F58EE2C00433532 /* zh-Hans */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		802AAB5D1F563FB600139CD7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				802AAB5E1F563FB600139CD7 /* Base */,
+				803921BB1F58EE2C00433532 /* zh-Hans */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		803921C01F58EF9000433532 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				803921BF1F58EF9000433532 /* zh-Hans */,
+				803921C11F58EFA600433532 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		802AAB771F563FB700139CD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		802AAB781F563FB700139CD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		802AAB7A1F563FB700139CD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1DEACF670DA6735801701ED8 /* Pods-portal.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = portal/portal.entitlements;
+				DEVELOPMENT_TEAM = HVHHKYW9Z7;
+				INFOPLIST_FILE = portal/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/portal/3rd/UMessage_Sdk_1.5.0a",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tempus.wallet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		802AAB7B1F563FB700139CD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50AF83B2CC40BD8186610D4B /* Pods-portal.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = portal/portal.entitlements;
+				DEVELOPMENT_TEAM = HVHHKYW9Z7;
+				INFOPLIST_FILE = portal/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/portal/3rd/UMessage_Sdk_1.5.0a",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tempus.wallet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		802AAB7D1F563FB700139CD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = HVHHKYW9Z7;
+				INFOPLIST_FILE = portalTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tempus.portalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/portal.app/portal";
+			};
+			name = Debug;
+		};
+		802AAB7E1F563FB700139CD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = HVHHKYW9Z7;
+				INFOPLIST_FILE = portalTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tempus.portalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/portal.app/portal";
+			};
+			name = Release;
+		};
+		802AAB801F563FB700139CD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = HVHHKYW9Z7;
+				INFOPLIST_FILE = portalUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tempus.portalUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = portal;
+			};
+			name = Debug;
+		};
+		802AAB811F563FB700139CD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = HVHHKYW9Z7;
+				INFOPLIST_FILE = portalUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tempus.portalUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = portal;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		802AAB471F563FB600139CD7 /* Build configuration list for PBXProject "portal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				802AAB771F563FB700139CD7 /* Debug */,
+				802AAB781F563FB700139CD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		802AAB791F563FB700139CD7 /* Build configuration list for PBXNativeTarget "portal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				802AAB7A1F563FB700139CD7 /* Debug */,
+				802AAB7B1F563FB700139CD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		802AAB7C1F563FB700139CD7 /* Build configuration list for PBXNativeTarget "portalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				802AAB7D1F563FB700139CD7 /* Debug */,
+				802AAB7E1F563FB700139CD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		802AAB7F1F563FB700139CD7 /* Build configuration list for PBXNativeTarget "portalUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				802AAB801F563FB700139CD7 /* Debug */,
+				802AAB811F563FB700139CD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 802AAB441F563FB600139CD7 /* Project object */;
+}
